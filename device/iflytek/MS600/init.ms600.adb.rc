@@ -1,0 +1,19 @@
+# MS600-DEBUG(18.1): 强制早期开启 adb
+# ① 本机构建 APEX 为 flattened 模式，adbd 真身 = /system/apex/com.android.adbd/bin/adbd，
+#    init.usb.rc 原本写死的 /system/bin/adbd 并不存在（symlink 未生成）→ adbd 永远起不来。
+#    已在源码里把 init.usb.rc 的 service adbd 改为真身路径。
+# ② persist.* 属性在 /data 未挂载时读不到默认值，这里用 rc 显式 setprop 兜底。
+# ⚠️ ro.* 是只读属性，不能在 rc 里 setprop（host_init_verifier 会拒）；
+#    ctl.start 也不能和 start 重复。
+on early-init
+    setprop persist.sys.usb.config adb
+
+on post-fs-data
+    setprop persist.sys.usb.config adb
+    setprop sys.usb.config adb
+    start adbd
+
+on boot
+    setprop persist.sys.usb.config adb
+    setprop sys.usb.config adb
+    start adbd

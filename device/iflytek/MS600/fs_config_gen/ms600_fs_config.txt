@@ -1,0 +1,9 @@
+# MS600 v174：投屏 App 的 WFD IE 注入要靠 su 直接执行 priv-app 里的 libwfdctl.so。
+#   root 也不能执行没有 x 位的文件（实测：can't execute: Permission denied），
+#   而 PRODUCT_COPY_FILES 默认给 0644，所以在这里显式指定 0755。
+#   Android 11 起 Miracast 发现依赖它，缺了就只能靠 P2P service discovery，Windows 看不到本机。
+[/system/priv-app/MS600Cast/lib/arm64/libwfdctl.so]
+mode: 0755
+user: root
+group: root
+caps: 

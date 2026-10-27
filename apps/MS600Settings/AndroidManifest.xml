@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.iflytek.ms600.settings"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <!-- MS600 v137: 控制投屏接收端（signature 级，platform 签名可用） -->
+    <uses-permission android:name="com.iflytek.ms600.cast.permission.CONTROL" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.NETWORK_STACK" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_ROUTING" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- MS600 v149: USB OTG 开机恢复 + 弹出时关掉占用应用 -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.FORCE_STOP_PACKAGES" />
+    <!-- MS600 v153: 蓝牙设备页（系统里没有 AOSP 设置，蓝牙原先完全没有入口）
+         BLUETOOTH_PRIVILEGED 是 signature|privileged，必须同时进 privapp 白名单 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!-- MS600 v150: 三个 QS 磁贴（HDMI 安全移除 / USB 弹出 / 有线网卡）已取消。
+         设备支持热拔插，系统自己会检测；对应功能都在「设备设置」里。
+         Java 文件保留，想恢复只需把下面三段 service 加回来。 -->
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.DeviceDefault.Light">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:configChanges="orientation|screenSize|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+        <!-- MS600 v149: 开机后按 Settings.Global.ms600_usb_otg 恢复 USB 模式 -->
+        <receiver
+            android:name=".BootReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

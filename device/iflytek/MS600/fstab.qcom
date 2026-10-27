@@ -1,0 +1,14 @@
+# MS600 18.1 fstab v5 —— 只留 /system（诊断用）
+#
+# ★ 判定依据（2026-10-03）：记录仪在 early-init / post-fs-data / boot 三个阶段
+#   **一个文件都没写出来** ⇒ init 根本没走到 LoadBootScripts + trigger early-init。
+#   AOSP 11 second-stage init 的顺序是：
+#       MountPartitions()  ← 挂 fstab 里【全部】分区
+#       → LoadBootScripts() → trigger early-init
+#   所以 init 是卡在 MountPartitions 里（不是 wait 超时：砍掉 wait 后仍 100s）。
+#   最大嫌疑：/data 每次都 erase → 启动时现格式化 20GB ext4 + quota。
+#
+# ★ 本次只挂 /system，其余全部注释，用来验证：
+#   - 若回退时间大幅缩短 + 记录仪写出文件 ⇒ 确认卡在其它分区挂载
+#   - 若仍 ~100s ⇒ 100s 来自 kernel/init 更早处
+/dev/block/mmcblk0p24  /system  ext4  ro,barrier=1  wait,first_stage_mount

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">投屏接收</string>
+    <!-- 快捷设置磁贴（CastTileService）用的标签 -->
+    <string name="tile_cast_label">投屏接收</string>
+
+    <!-- 主界面（原生分栏样式） -->
+    <string name="main_title">投屏接收</string>
+    <string name="main_subtitle">接收手机 / 平板的画面与视频（Miracast · DLNA · AirPlay）</string>
+    <string name="section_receive">接收</string>
+    <string name="section_device">设备</string>
+    <string name="receiving_switch">接收投屏</string>
+    <string name="receiving_hint">打开后本机等待投屏连接。关闭即完全停止：不驻留服务、不显示通知、不占用系统资源。</string>
+    <string name="status_label">接收状态</string>
+    <string name="status_stopped">已停止</string>
+    <string name="status_waiting">等待投屏连接…</string>
+    <string name="status_connected">投屏中</string>
+    <string name="device_name_label">设备名称</string>
+    <string name="device_name_hint">手机 / 电脑在投屏列表里看到的名字</string>
+    <string name="wfd_res_label">投屏分辨率</string>
+    <string name="wfd_res_hint">向手机 / 电脑广播的分辨率：PC 选 1920×1200 可满屏，手机可选让源设备用自己的分辨率</string>
+    <string name="wfd_res_1080">1920×1080</string>
+    <string name="wfd_res_1200">1920×1200</string>
+    <string name="wfd_res_native">源设备原生</string>
+    <string name="wfd_res_dialog_title">选择广播分辨率</string>
+    <string name="wfd_res_changed">已改为 %1$s，重新投屏后生效</string>
+    <string name="wfd_res_unsupported">该分辨率可能不被手机支持，画面不出来就改回 1920×1080</string>
+    <string name="wfd_res_changed_warn">已改为 %1$s，重新投屏后生效。手机若不支持 VESA 分辨率会没有画面，改回 1920×1080 即可</string>
+    <string name="wfd_res_changed_native">已改为 %1$s，重新投屏后生效。手机会按自己的面板分辨率编码（如 3200×1440），分辨率过高可能卡顿或黑屏，卡就改回 1920×1080</string>
+    <string name="rename_dialog_title">修改设备名称</string>
+    <string name="rename_dialog_message">修改后需重新打开「接收投屏」才会生效。</string>
+    <string name="rename_empty_toast">名称不能为空</string>
+    <string name="rename_done_toast">设备名称已改为 %s</string>
+    <string name="how_to_connect">如何投屏</string>
+    <string name="connect_instruction">1. 手机与设备连到同一 Wi-Fi，用视频 App 的「投屏」按钮（DLNA）\n2. 或使用系统「投屏 / 无线显示」直接扫描本机（Miracast）\n3. 在设备列表中选择本机名称</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+
+    <!-- 投屏页：超级按钮与参数面板 -->
+    <string name="cast_panel_title">投屏信息</string>
+    <string name="cast_menu_title">投屏菜单</string>
+    <string name="cast_panel_type">类型</string>
+    <string name="cast_panel_nav_show">显示导航栏</string>
+    <string name="cast_panel_nav_hide">隐藏导航栏</string>
+    <string name="cast_panel_scale">画面缩放</string>
+    <string name="cast_panel_uibc_on">反向控制：开</string>
+    <string name="cast_panel_uibc_off">反向控制：关</string>
+    <string name="cast_panel_close">关闭面板</string>
+    <string name="scale_auto">自动裁切</string>
+    <string name="scale_fit">适应</string>
+    <string name="scale_fill">铺满</string>
+    <!-- v1.2.42：用户要求把「16:9」改名为「视频」（功能不变：按 16:9 框缩放并裁边） -->
+    <string name="scale_16_9">视频</string>
+    <string name="scale_stretch">拉伸</string>
+    <string name="cast_type_miracast">Miracast 镜像</string>
+    <string name="cast_type_airplay">AirPlay 镜像</string>
+
+    <!-- 通用 -->
+    <string name="device_name">智能电视</string>
+    <string name="waiting_connection">等待投屏连接...</string>
+    <string name="device_ip">设备 IP: %s</string>
+    <string name="device_info">设备信息</string>
+
+    <!-- 连接确认 -->
+    <string name="connect_request">投屏连接请求</string>
+    <string name="device_request">设备 %s 请求投屏</string>
+    <string name="allow">允许</string>
+    <string name="deny">拒绝</string>
+    <string name="remember_device">记住此设备</string>
+
+    <!-- 播放页面 -->
+    <string name="connected">已连接</string>
+    <string name="playing">正在播放</string>
+    <string name="disconnect">断开连接</string>
+    <string name="pause">暂停</string>
+    <string name="resume">继续</string>
+
+    <!-- 设置 -->
+    <string name="settings">设置</string>
+    <string name="device_name_setting">设备名称</string>
+    <string name="require_confirmation">需要连接确认</string>
+    <string name="enable_pin">启用 PIN 码</string>
+    <string name="max_resolution">最大分辨率</string>
+    <string name="max_framerate">最大帧率</string>
+    <string name="network_diagnostics">网络诊断</string>
+    <string name="export_logs">导出日志</string>
+
+    <!-- 错误消息 -->
+    <string name="error_network">网络错误</string>
+    <string name="error_connection_failed">连接失败</string>
+    <string name="error_playback">播放错误</string>
+    <string name="error_unknown">未知错误</string>
+</resources>

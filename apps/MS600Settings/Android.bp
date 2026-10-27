@@ -1,0 +1,13 @@
+// MS600 v115 — 「设备设置」系统应用（platform 签名，预置 priv-app）
+// 目前仅含「按键」页（F1/F2 自定义），后续可扩展充电 / 屏幕 / 外接显示等。
+android_app {
+    name: "MS600Settings",
+
+    srcs: ["src/**/*.java"],
+    resource_dirs: ["res"],
+    manifest: "AndroidManifest.xml",
+
+    platform_apis: true,
+    certificate: "platform",
+    privileged: true,
+}

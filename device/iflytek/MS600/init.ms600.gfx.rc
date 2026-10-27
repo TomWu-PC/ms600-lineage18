@@ -1,0 +1,31 @@
+# MS600 A11 (2026-10-03): 图形节点权限双保险（ueventd 规则之外的兜底）
+on early-init
+    # MS600 v127: 关闭 HWUI buffer age。本机 8.1 gralloc2.0 + A11 HWUI 下
+    # buffer age 增量重绘会算错 => 滚动后部分区域（如 B站「我的」页左侧菜单图标）
+    # 被当成"无需重绘"而保留空白旧帧。必须早于任何 App 进程启动。
+    setprop debug.hwui.use_buffer_age 0
+    chown system graphics /dev/kgsl-3d0
+    chmod 0666 /dev/kgsl-3d0
+    chown system graphics /dev/kgsl-2d0
+    chmod 0666 /dev/kgsl-2d0
+    chown system graphics /dev/ion
+    chmod 0666 /dev/ion
+    chmod 0666 /dev/graphics/fb0
+    chown system graphics /dev/mdss_rotator
+    chmod 0666 /dev/mdss_rotator
+
+on late-init
+    setprop debug.hwui.use_buffer_age 0
+    chmod 0666 /dev/kgsl-3d0
+    chmod 0666 /dev/ion
+    chmod 0666 /dev/graphics/fb0
+    chown system graphics /dev/mdss_rotator
+    chmod 0666 /dev/mdss_rotator
+
+# MS600 v160: 去掉 v127 的"钉住"逻辑。
+#   原逻辑是 on property:debug.hwui.use_buffer_age=1 → 立刻改回 0，
+#   本意是防其它组件把它改回 1；副作用是**这个开关彻底不可测**（setprop 1 立刻被改回）。
+#   开机默认仍然是 0（见上面 early-init / late-init 两处），所以日常行为完全不变；
+#   只是允许临时 setprop 1 做 A/B 对照（App 进程重启即生效）。
+#   ⚠️ 改成 1 会有已知副作用：B站「我的」页左侧菜单图标会空白（就是 N13，v127 修的）。
+

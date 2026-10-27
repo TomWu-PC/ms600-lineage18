@@ -1,0 +1,26 @@
+# MS600 v117 —— 旁路充电（充到 80% 停止充电）
+#
+# 两个候选节点的语义（2026-10-08 实机实测，30s battery/charge_counter 变化）：
+#
+#                                    usb/online   status        30s Δcc
+#   chg=1 bce=1  （基线，在充）            1      Charging      +6149 µAh
+#   chg=0 bce=1  （charging_enabled=0）    0      Discharging   -2396 µAh   <- 切断输入，靠电池
+#   chg=1 bce=0  （battery_charging_enabled=0） 1  Discharging    -10 µAh   <- 真旁路
+#
+# => 必须用 **battery_charging_enabled**：输入通路保持 online（由适配器供电），
+#    电池净电流≈0（不充也不放）。用 charging_enabled 会把 USB online 一起置 0。
+#    （status 仍显示 Discharging 是该驱动的表示习惯，实际以 charge_counter 为准。）
+#
+# 本 ROM 的 SELinux 是 permissive（只记日志不拦截）。
+
+on boot
+    chown system system /sys/class/power_supply/battery/battery_charging_enabled
+    chmod 0666 /sys/class/power_supply/battery/battery_charging_enabled
+    chown system system /sys/class/power_supply/battery/charging_enabled
+    chmod 0666 /sys/class/power_supply/battery/charging_enabled
+
+on property:sys.boot_completed=1
+    chown system system /sys/class/power_supply/battery/battery_charging_enabled
+    chmod 0666 /sys/class/power_supply/battery/battery_charging_enabled
+    chown system system /sys/class/power_supply/battery/charging_enabled
+    chmod 0666 /sys/class/power_supply/battery/charging_enabled

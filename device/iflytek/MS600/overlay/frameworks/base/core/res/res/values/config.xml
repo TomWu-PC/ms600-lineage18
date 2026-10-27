@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MS600: no usable cellular (no SIM detection / no RF); treat as wifi-only device.
+         This makes Settings.Utils.isWifiOnly() true, which hides mobile-network / SIM UI. -->
+    <bool name="config_voice_capable">false</bool>
+
+    <!-- MS600 v121: 本机内核（原厂 prebuilt，无源码）不注册 /sys/class/switch/h2w，
+         耳机插拔只在 input 设备上以 SW_HEADPHONE_INSERT(2) / SW_MICROPHONE_INSERT(4) /
+         SW_LINEOUT_INSERT(6) / SW_JACK_PHYSICAL_INSERT(7) 上报
+         （input 设备名 "msm8953-tasha-snd-card Headset Jack"，B: SW=43c0d4）。
+
+         AOSP 默认 false → 走老的 h2w uevent 框架 → 找不到 h2w 就报
+         "This kernel does not have wired headset support" → 框架永远不知道耳机插入
+         → AudioPolicy 一直选 speaker → 耳机孔无声。
+
+         设为 true 后：
+           · WiredAccessoryManager.onSystemReady() 开机时用 getSwitchState() 读一次；
+           · InputManagerService.notifySwitch() 在开关变化时直接回调
+             WiredAccessoryManager.notifyWiredAccessoryChanged()
+           ⇒ 开机识别 + 热插拔都正常。不需要改任何 framework Java 代码。 -->
+    <bool name="config_useDevInputEventForAudioJack">true</bool>
+
+    <!-- MS600 v140: 自研网络定位提供者。
+         本机无 GNSS 硬件（v118 已移除 GPS 相关 HAL/特性），而 AOSP 没有自带网络定位
+         提供者 ⇒ 设备上「一个定位源都没有」，任何 App 请求定位都拿不到位置。
+         MS600Nlp 提供 network 类型的 provider：固定坐标（设备设置里可改）+ 联网时 geo-IP。 -->
+    <string name="config_networkLocationProviderPackageName" translatable="false">com.iflytek.ms600.nlp</string>
+    <string-array name="config_locationProviderPackageNames" translatable="false">
+        <item>com.android.location.fused</item>
+        <item>com.iflytek.ms600.nlp</item>
+    </string-array>
+</resources>

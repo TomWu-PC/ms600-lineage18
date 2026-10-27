@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MS600: 设置界面采用系统原生观感（材质调色板 = DeviceDefault.Light）。
+         去掉了自定义蓝色 primary 与绿色 accent，状态栏为浅色+深色图标。 -->
+    <style name="Theme.MS600Cast" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/text_title</item>
+        <item name="colorSecondary">@color/switch_accent</item>
+        <item name="colorSecondaryVariant">@color/switch_accent</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <!-- 让平台控件（android.widget.*）也用上同一个原生 accent -->
+        <item name="colorAccent">@color/switch_accent</item>
+        <item name="android:colorAccent">@color/switch_accent</item>
+        <!-- 状态栏/导航栏：浅色 + 深色图标，符合原生浅色主题 -->
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/primary</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:windowBackground">@color/list_bg</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.MS600Cast.Fullscreen" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowBackground">#000000</item>
+        <item name="android:statusBarColor">#000000</item>
+        <item name="android:navigationBarColor">#000000</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+
+    <style name="Theme.MS600Cast.Dialog" parent="Theme.MaterialComponents.DayNight.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+</resources>

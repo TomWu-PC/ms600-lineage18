@@ -1,0 +1,6 @@
+id=ms600camfix
+name=MS600 Camera Feature Fix
+version=v1
+versionCode=1
+author=xiaowu
+description=Drop phantom android.hardware.camera.front feature (device has no front camera) so CameraX-based third-party camera apps can init.

@@ -1,0 +1,12 @@
+# MS600 A11 (2026-10-03): 图形设备节点权限
+# 原厂 8.1 的 ueventd.qcom.rc 未随 porting 带过来, 导致 /dev/kgsl-3d0 与 /dev/ion
+# 保持内核默认的 0600 root:root —— SurfaceFlinger(system) 打不开 GPU, EGL 初始化必失败。
+# A11 ueventd 会解析: /system/etc/ueventd.rc  /vendor/ueventd.rc  /odm/ueventd.rc  /ueventd.<ro.hardware>.rc
+
+/dev/kgsl-3d0           0666   system   graphics
+/dev/kgsl-2d0           0666   system   graphics
+/dev/kgsl-2d1           0666   system   graphics
+/dev/kgsl-3d0           0666   system   graphics
+/dev/ion                0666   system   graphics
+/dev/dri/*              0666   system   graphics
+/dev/graphics/*         0666   system   graphics

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  MS600 v121: 「设备设置」App（com.iflytek.ms600.settings）是 priv-app，申请了
+  signature|privileged 权限。LineageOS 默认 ro.control_privapp_permissions=enforce，
+  特权应用若不在白名单里，PackageManagerService 会直接停机 -> bootloop（BUG-315）。
+
+  · WRITE_SECURE_SETTINGS : 写 Settings.Global（旁路充电 / 双击唤醒 / F1F2 映射）
+  · NETWORK_STACK         : EthernetManager.setConfiguration() 静态 IP / DHCP
+  · MODIFY_AUDIO_ROUTING  : AudioManager.setPreferredDeviceForStrategy() 音频输出切换
+-->
+<permissions>
+    <privapp-permissions package="com.iflytek.ms600.settings">
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="android.permission.NETWORK_STACK"/>
+        <permission name="android.permission.MODIFY_AUDIO_ROUTING"/>
+        <permission name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+        <!-- MS600 v149: 弹出设备时关掉占用它的前台 App（signature|privileged，必须白名单） -->
+        <permission name="android.permission.FORCE_STOP_PACKAGES"/>
+        <!-- MS600 v153: 蓝牙设备页（配对/连接/读连接状态）。signature|privileged，不写白名单会 bootloop -->
+        <permission name="android.permission.BLUETOOTH_PRIVILEGED"/>
+    </privapp-permissions>
+
+    <!-- MS600 v137: 投屏接收端（com.iflytek.ms600.cast）
+         · WRITE_SECURE_SETTINGS : 写 Settings.Global（接收开关 / 状态）
+         · LOCATION_HARDWARE     : 部分扫描路径要求（signature|privileged）
+         NETWORK_SETTINGS / CONFIGURE_WIFI_DISPLAY 是纯 signature 级，签名匹配即得，无需白名单。 -->
+    <privapp-permissions package="com.iflytek.ms600.cast">
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="android.permission.LOCATION_HARDWARE"/>
+    </privapp-permissions>
+
+    <!-- MS600 v140: 网络定位提供者（com.iflytek.ms600.nlp）
+         · LOCATION_HARDWARE : signature|privileged，上报位置用（signature 声明不豁免，必须白名单） -->
+    <privapp-permissions package="com.iflytek.ms600.nlp">
+        <permission name="android.permission.LOCATION_HARDWARE"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+</permissions>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  MS600 v149: 标准 USB 三叉戟图标（Trident logo）
+    · 底端实心圆 —— USB 的「根集线器」端
+    · 竖直主干 + 顶端箭头
+    · 左分支末端「圆」、右分支末端「方块」（这两个形状是 USB 标志的识别点，
+      旧版把两个分支都画成三角，所以看起来像鬼画符）
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- 主干 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="1.6"
+        android:strokeLineCap="round"
+        android:pathData="M12,19.2 L12,4.9" />
+
+    <!-- 顶端箭头 -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M12,2.2 L15.1,6.4 L8.9,6.4 Z" />
+
+    <!-- 底端实心圆 -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M12,20.9 m-1.7,0 a1.7,1.7 0 1,0 3.4,0 a1.7,1.7 0 1,0 -3.4,0 Z" />
+
+    <!-- 左分支：斜线 + 末端实心圆 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="1.6"
+        android:strokeLineCap="round"
+        android:pathData="M12,12.4 L8.6,10" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M6.8,10 m-1.8,0 a1.8,1.8 0 1,0 3.6,0 a1.8,1.8 0 1,0 -3.6,0 Z" />
+
+    <!-- 右分支：斜线 + 末端方块 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="1.6"
+        android:strokeLineCap="round"
+        android:pathData="M12,16.4 L15.4,13.8" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M16.3,12.1 L20,12.1 L20,15.5 L16.3,15.5 Z" />
+</vector>

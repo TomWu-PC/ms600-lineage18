@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">设备设置</string>
+
+    <string name="header">点开下面任一分类，查看并调整对应设置。</string>
+    <string name="header_note" formatted="false">有线网络：可开关网卡、选择自动获取（DHCP）或静态 IP。音频输出：在已连接的扬声器 / 耳机 / HDMI / 蓝牙之间切换。旁路充电：电量充到 80% 即停止充电，低于 80% 自动恢复。双击唤醒：仅在接着电源时生效。按键选「默认」则不拦截。</string>
+
+    <string name="sec_net">网络（有线）</string>
+    <string name="sec_audio">音频输出</string>
+    <string name="sec_charge">充电</string>
+    <string name="sec_screen">屏幕</string>
+    <string name="sec_key">按键</string>
+
+    <!-- 音频输出 -->
+    <string name="audio_current_title">当前输出</string>
+    <string name="audio_cur_fixed">已指定：%1$s</string>
+    <string name="audio_cur_auto">自动（跟随系统）</string>
+    <string name="audio_cur_auto_fmt">自动（当前：%1$s）</string>
+    <string name="audio_cur_missing">已指定（该设备当前未连接）</string>
+    <string name="audio_auto">自动（跟随系统）</string>
+    <string name="audio_speaker">扬声器</string>
+    <string name="audio_earpiece">听筒</string>
+    <string name="audio_headset">耳机（带麦克风）</string>
+    <string name="audio_headphone">耳机</string>
+    <string name="audio_hdmi">HDMI</string>
+    <string name="audio_bt">蓝牙</string>
+    <string name="audio_usb">USB 音频</string>
+    <string name="audio_other">其他输出设备</string>
+    <string name="audio_note" formatted="false">这里决定「媒体声音」走哪个设备（音乐、视频、游戏等）。选「自动」则按系统默认优先级：插入耳机后会自动切到耳机，接上 HDMI 会切到 HDMI。列表里的设备是当前实际连接的；想强制某一路（例如插着耳机仍用扬声器），直接点选即可。</string>
+    <string name="audio_set_ok">已切换音频输出</string>
+    <string name="audio_auto_set">已恢复为自动切换</string>
+    <string name="audio_failed">切换失败</string>
+    <string name="audio_unsupported">本机不支持音频输出切换</string>
+
+    <!-- 有线网络 -->
+    <string name="eth_enable_title">有线网络</string>
+    <string name="eth_enable_on">已开启</string>
+    <string name="eth_enable_off">已关闭</string>
+    <string name="eth_toast_on">已开启有线网络</string>
+    <string name="eth_toast_off">已关闭有线网络</string>
+    <string name="eth_failed">操作失败（framework 未响应）</string>
+
+    <string name="eth_status_title">连接状态</string>
+    <string name="eth_status_connected">已连接</string>
+    <string name="eth_status_connecting">获取地址中…</string>
+    <string name="eth_status_nocable">未插入网线</string>
+    <string name="eth_status_off">已关闭</string>
+
+    <string name="eth_mode_title">IP 获取方式</string>
+    <string name="eth_mode_dhcp">自动获取（DHCP）</string>
+    <string name="eth_mode_static">静态 IP</string>
+
+    <string name="eth_static_ip">IP 地址</string>
+    <string name="eth_static_prefix">子网前缀</string>
+    <string name="eth_static_gw">网关</string>
+    <string name="eth_static_dns">DNS</string>
+    <string name="eth_static_dlg_title">静态 IP 设置</string>
+    <string name="eth_static_bad">请输入有效的 IPv4 地址</string>
+    <string name="eth_static_applied">已应用静态 IP</string>
+    <string name="eth_dhcp_applied">已切换为自动获取（DHCP）</string>
+
+    <string name="eth_addr_title">IPv4 地址</string>
+    <string name="eth_gw_title">网关</string>
+    <string name="eth_dns_title">DNS</string>
+    <string name="eth_mac_title">MAC 地址</string>
+
+    <string name="eth_speed_title">链路速率</string>
+    <string name="eth_speed_value" formatted="false">100 Mbps（硬件上限） · 实测约 3 Mbps</string>
+    <string name="eth_speed_note_title">为何实测只有约 3 Mbps</string>
+    <string name="eth_speed_note" formatted="false">本机有线网卡是 WIZnet W5500，一颗 SPI 接口的以太网控制器。它的 PHY 支持 10/100 Mbps，但受 SPI 事务与驱动每包约 5 毫秒的处理耗时限制，实测吞吐上限约 3 Mbps（≈375 KB/s），收发对称。这是硬件接口的固有限制，无法通过系统设置或驱动参数改善；需要高速传输时请使用 Wi-Fi。</string>
+
+    <string name="eth_na">--</string>
+    <string name="eth_unsupported">本机不支持以太网设置（EthernetManager 不可用）</string>
+
+    <!-- 充电 -->
+    <string name="bypass_title">旁路充电</string>
+    <string name="bypass_on" formatted="false">已开启 · 充到 80% 停止，低于 80% 恢复</string>
+    <string name="bypass_off" formatted="false">已关闭 · 正常充到 100%</string>
+    <string name="bypass_toast_on">已开启旁路充电</string>
+    <string name="bypass_toast_off">已关闭旁路充电</string>
+
+    <!-- 屏幕 -->
+    <string name="dt2w_title">双击唤醒</string>
+    <string name="dt2w_on">已开启 · 接电源时关屏后双击屏幕点亮</string>
+    <string name="dt2w_off">已关闭 · 关屏后按电源键唤醒</string>
+    <string name="dt2w_toast_on">已开启双击唤醒（仅接电源时生效）</string>
+    <string name="dt2w_toast_off">已关闭双击唤醒</string>
+
+    <!-- 外接屏（HDMI） -->
+    <string name="sec_display">外接屏（HDMI）</string>
+    <string name="hdmi_status_title">外接屏状态</string>
+    <string name="hdmi_connected">已连接 · %1$d × %2$d</string>
+    <string name="hdmi_disconnected">未连接</string>
+    <string name="hdmi_mirror_title">镜像铺满</string>
+    <string name="hdmi_mirror_on">已开启 · 内屏按外接屏比例输出，投屏不变形</string>
+    <string name="hdmi_mirror_off">已关闭 · 保持内屏原始比例（投屏可能有黑边）</string>
+    <string name="hdmi_mirror_toast_on">已开启镜像铺满（内屏逻辑 %1$d × %2$d）</string>
+    <string name="hdmi_mirror_toast_off">已恢复内屏原始比例</string>
+    <string name="hdmi_mirror_fail">切换失败</string>
+    <string name="hdmi_out_title">HDMI 输出</string>
+    <string name="hdmi_out_on">已开启 · 正在输出画面</string>
+    <string name="hdmi_out_off">已停止输出 · 现在可以安全拔线</string>
+    <string name="hdmi_out_toast_on">已恢复 HDMI 输出</string>
+    <string name="hdmi_out_toast_off">已停止 HDMI 输出，可以安全拔出</string>
+    <string name="hdmi_note" formatted="false">镜像铺满：开启后内屏内容按外接屏比例输出，保证外接屏满屏且不变形（代价是内屏上下留少量黑边）。若有应用自己启用了「第二屏」（Presentation），两块屏仍可各自显示不同内容。停止输出后，重新插拔 HDMI 会自动恢复。</string>
+
+    <!-- 快捷设置磁贴 -->
+    <string name="tile_hdmi_name">HDMI</string>
+    <string name="tile_hdmi_on">HDMI 输出</string>
+    <string name="tile_hdmi_off">已停止输出</string>
+    <string name="tile_usb_name">移除 USB</string>
+    <string name="tile_usb_present">U 盘已挂载，点按可安全移除</string>
+    <string name="tile_usb_none">没有可移除的 USB 存储设备</string>
+    <string name="tile_usb_removed">已安全移除，可以拔下 U 盘</string>
+    <string name="tile_usb_fail">移除失败</string>
+    <string name="tile_eth_name">有线网卡</string>
+    <string name="tile_eth_on">有线网卡已开启</string>
+    <string name="tile_eth_off">有线网卡已关闭</string>
+
+    <!-- 按键 -->
+    <string name="key_f1">F1 键</string>
+    <string name="key_f2">F2 键</string>
+
+    <string name="act_default">默认（不修改）</string>
+    <string name="act_none">无动作</string>
+    <string name="act_home">主屏幕</string>
+    <string name="act_recents">最近任务</string>
+    <string name="act_sleep">息屏</string>
+    <string name="act_app_fmt">启动：%1$s</string>
+    <string name="act_broadcast_fmt">广播：%1$s</string>
+    <string name="act_web_fmt">打开网页：%1$s</string>
+    <string name="gamepad_game_title">游戏手柄模式</string>
+    <string name="gamepad_game_on">开（按键全给游戏 / 串流）</string>
+    <string name="gamepad_game_off">关（鼠标 + 方向键导航）</string>
+    <string name="gamepad_game_toast_on">已开启游戏手柄模式：摇杆和按键交还给游戏</string>
+    <string name="gamepad_game_toast_off">已关闭游戏手柄模式：恢复鼠标和导航</string>
+
+    <string-array name="action_labels">
+        <item>默认（不修改）</item>
+        <item>无动作</item>
+        <item>主屏幕</item>
+        <item>最近任务</item>
+        <item>息屏</item>
+        <item>启动应用…</item>
+        <item>发送广播…</item>
+        <item>打开网页…</item>
+    </string-array>
+
+    <string name="pick_app">选择应用</string>
+    <string name="no_apps">没有找到可启动的应用</string>
+    <string name="ask_broadcast">广播 Action</string>
+    <string name="ask_url">网页地址</string>
+    <string name="saved">已保存</string>
+    <string name="need_perm">缺少 WRITE_SECURE_SETTINGS 权限</string>
+    <string name="hdmi_panel_off_title">内屏自动关闭</string>
+    <string name="hdmi_panel_off_never">从不</string>
+    <string name="hdmi_panel_off_secs">%1$d 秒</string>
+    <string name="hdmi_panel_off_mins">%1$d 分钟</string>
+    <string name="hdmi_panel_off_idle">仅在外接屏接入时生效</string>
+    <string name="sec_cast">投屏接收</string>
+    <string name="cast_title">接收投屏</string>
+    <string name="cast_on">已开启</string>
+    <string name="cast_off">已关闭</string>
+    <string name="cast_state_title">接收状态</string>
+    <string name="cast_state_off">未接收</string>
+    <string name="cast_state_waiting">等待投屏连接…</string>
+    <string name="cast_state_playing">投屏中</string>
+    <string name="cast_open_title">打开投屏界面</string>
+    <string name="sec_nlp">定位</string>
+    <string name="nlp_title">网络定位设置</string>
+    <string name="nlp_unset">未设置（联网时自动）</string>
+    <string name="nlp_missing">找不到定位配置界面</string>
+    <!-- MS600 v149: USB OTG -->
+    <string name="sec_usb">USB</string>
+    <string name="usb_otg_title">USB OTG（主机模式）</string>
+    <string name="usb_otg_on">已开启（U 盘 / 网卡 / 手柄）</string>
+    <string name="usb_otg_off">已关闭（从设备，接电脑 adb）</string>
+    <string name="usb_otg_toast_on">OTG 已开启，可以识别 USB 设备</string>
+    <string name="usb_otg_toast_off">OTG 已关闭，端口切换到从设备模式</string>
+    <string name="usb_otg_no_perm">无法写入 USB 模式节点</string>
+    <string name="usb_otg_note">自动：插电脑自动切从机（可 adb），拔掉 3 秒后自动回主机（手柄 / U 盘 / 网卡即插即用）。点上面一行可改成立即强制某一侧。</string>
+    <string name="usb_dev_title">当前设备</string>
+    <string name="usb_dev_none">未接入</string>
+    <string name="usb_dev_otg_off">从机模式（未作为主机使用）</string>
+    <string name="usb_eject_title">弹出设备</string>
+    <string name="usb_eject_working">正在弹出…</string>
+    <string name="usb_eject_ok">已安全移除，可以拔下设备</string>
+    <string name="usb_eject_fail">弹出失败（卷仍被占用）</string>
+    <string name="usb_eject_app">已关闭占用该设备的应用，可以拔下</string>
+    <string name="tile_usb_otg_on">USB 主机模式已开启</string>
+    <string name="tile_usb_otg_off">USB 主机模式已关闭</string>
+    <string name="tile_usb_otg_fail">切换 USB 模式失败</string>
+    <string name="tile_usb_ejecting">正在弹出 %1$s…</string>
+    <string name="tile_usb_ejected_off">已弹出 %1$s（端口已断电）</string>
+    <string name="tile_usb_idle">USB OTG</string>
+    <!-- MS600 v151: USB 模式三选一 -->
+    <string name="usb_mode_title">USB 模式</string>
+    <string name="usb_mode_auto">自动（当前：%1$s）</string>
+    <string name="usb_mode_force_host">强制主机（U 盘 / 网卡 / 手柄）</string>
+    <string name="usb_mode_force_periph">强制从机（接电脑 adb / 充电）</string>
+    <string name="usb_mode_cur_host">主机</string>
+    <string name="usb_mode_cur_periph">从机</string>
+    <string name="usb_mode_cur_off">端口已断电</string>
+    <string name="usb_mode_toast_auto">已设为自动：插电脑自动切从机，拔掉自动回主机</string>
+    <string name="usb_mode_toast_host">已强制主机模式</string>
+    <string name="usb_mode_toast_periph">已强制从机模式，接电脑可直接 adb</string>
+    <!-- MS600 v153: 蓝牙 / 存储 / U 盘模式 -->
+    <string name="sec_bt">蓝牙</string>
+    <string name="bt_enable_title">蓝牙</string>
+    <string name="bt_on">已开启</string>
+    <string name="bt_off">已关闭</string>
+    <string name="bt_no_hw">本机没有蓝牙硬件</string>
+    <string name="bt_state_title">本机名称</string>
+    <string name="bt_scan_title">搜索附近设备</string>
+    <string name="bt_scanning">正在搜索…（点一下停止）</string>
+    <string name="bt_scan_hit">点一下开始搜索（已发现 %1$d 个）</string>
+    <string name="bt_need_on">请先打开蓝牙</string>
+    <string name="bt_scan_fail">无法开始搜索，请确认定位已开启</string>
+    <string name="bt_need_loc">搜索需要「位置」权限，请允许后重试</string>
+    <string name="bt_bonded_title">已配对设备</string>
+    <string name="bt_found_title">附近的设备</string>
+    <string name="bt_none_bonded">暂无已配对设备</string>
+    <string name="bt_none_found">点上面的「搜索附近设备」开始扫描</string>
+    <string name="bt_connected">已连接</string>
+    <string name="bt_bonded">已配对</string>
+    <string name="bt_bonding">配对中…</string>
+    <string name="bt_pair">配对</string>
+    <string name="bt_unpair">取消配对</string>
+    <string name="bt_connect">连接</string>
+    <string name="bt_disconnect">断开连接</string>
+    <string name="bt_connecting">正在连接…</string>
+    <string name="bt_disconnecting">正在断开…</string>
+    <string name="bt_unpairing">正在取消配对…</string>
+    <string name="bt_op_fail">操作失败</string>
+    <string name="sec_storage">存储</string>
+    <string name="storage_internal_title">内部存储</string>
+    <string name="storage_sd_title">SD 卡</string>
+    <string name="storage_used_of">已用 %1$s / 共 %2$s</string>
+    <string name="storage_sd_mounted">%1$s · 已用 %2$s / 共 %3$s</string>
+    <string name="storage_sd_absent">未插入或未挂载</string>
+    <string name="storage_na">读取失败</string>
+    <string name="usb_msc_title">U 盘模式（把 SD 卡给电脑）</string>
+    <string name="usb_msc_on">已开启：电脑上会多一个可移动磁盘</string>
+    <string name="usb_msc_off">已关闭（SD 卡供本机使用）</string>
+    <string name="usb_msc_need_pc">请先用数据线把设备连到电脑</string>
+    <string name="usb_msc_need_sd">没有检测到已挂载的 SD 卡</string>
+    <string name="usb_msc_on_toast">正在切换为 U 盘模式…</string>
+    <string name="usb_msc_off_toast">正在恢复 SD 卡…</string>
+    <string name="usb_msc_fail">写入设置失败</string>
+
+    <!-- MS600 v154: 双 VBUS 修复 -->
+    <string name="usb_heal_title">修复 USB 连接</string>
+    <string name="usb_heal_ok">端口状态正常</string>
+    <string name="usb_heal_bad">⚠ 检测到供电冲突，点击修复</string>
+    <string name="usb_heal_working">正在重置 USB 端口…</string>
+    <string name="usb_heal_done">USB 端口已重置</string>
+    <string name="usb_heal_fail">重置 USB 端口失败</string>
+
+    <!-- MS600 v155: 广告拦截 -->
+    <string name="sec_adblock">广告拦截</string>
+    <string name="adb_title">关键词拦截</string>
+    <string name="adb_on">已开启 \u00b7 已拦 %1$d 个请求（%2$d 条规则）</string>
+    <string name="adb_on_plain">已开启</string>
+    <string name="adb_off">已关闭</string>
+    <string name="adb_on_toast">广告拦截已开启</string>
+    <string name="adb_off_toast">广告拦截已关闭</string>
+    <string name="adb_fail">切换广告拦截失败</string>
+    <string name="adb_note">在内核层丢弃前 256 字节里含广告域名的 TCP 80/443 连接（HTTPS 的 SNI 加密前是明文，所以 HTTPS 也拦得住）。开机自动生效，重启不丢。</string>
+    <!-- v156: 主菜单分组入口 -->
+    <string name="grp_net">网络与连接</string>
+    <string name="grp_display">显示与投屏</string>
+    <string name="grp_audio">音频输出</string>
+    <string name="grp_usb">USB 与外设</string>
+    <string name="grp_bt">蓝牙</string>
+    <string name="grp_system">系统</string>
+    <string name="grp_hdmi_connected">HDMI %1$d×%2$d</string>
+    <string name="grp_hdmi_disconnected">HDMI 未连接</string>
+    <string name="grp_cast_prefix">投屏 </string>
+    <string name="grp_gamepad_prefix">手柄 </string>
+    <string name="grp_adblock_prefix">广告拦截 </string>
+    <string name="grp_storage_prefix">存储 </string>
+
+    <!-- v164: 分组摘要（投屏开关已移除，改用双击唤醒） -->
+    <string name="grp_dt2w_on">双击唤醒开</string>
+    <string name="grp_dt2w_off">双击唤醒关</string>
+    <string name="eth_no_link">未插入网线</string>
+    <string name="cast_open_summary">Miracast / DLNA / AirPlay</string>
+
+    <!-- v164: 广告拦截关键词自定义 -->
+    <string name="adb_rules_title">拦截规则</string>
+    <string name="adb_rules_sum_default">出厂默认 %1$d 个关键词</string>
+    <string name="adb_rules_sum_custom">自定义 %1$d 个关键词</string>
+    <string name="adb_rules_dlg_title">拦截关键词（%1$d 个）</string>
+    <string name="adb_rules_help">每行一个关键词，填域名片段就行（例如 doubleclick）。\n\n本机会在连接的前 256 字节里找这些词：HTTP 找 Host 头，HTTPS 找 TLS 握手里的服务器名（SNI 在加密前是明文），命中就直接丢弃这条连接。\n\n改完约 3 秒自动生效，不用重启。只接受字母、数字和点、横线、下划线。</string>
+    <string name="adb_rules_reset">恢复默认</string>
+    <string name="adb_rules_reset_done">已恢复出厂关键词</string>
+    <string name="adb_rules_saved">已保存 %1$d 个关键词，约 3 秒后生效</string>
+    <string name="adb_rules_saved_bad">已保存 %1$d 个关键词（%2$d 个含非法字符已忽略）</string>
+    <string name="adb_rules_empty">至少要保留一个关键词</string>
+    <string name="adb_rules_fail">保存失败</string>
+</resources>

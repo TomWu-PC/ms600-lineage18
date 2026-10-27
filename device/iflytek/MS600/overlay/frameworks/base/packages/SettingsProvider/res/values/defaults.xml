@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  MS600 设备 overlay —— SettingsProvider 默认值
+  设备屏幕物理竖装横用且【无 g-sensor】→ 自动旋转无意义，必须软锁 user_rotation=1
+  依据（15.1 BUG-011，已实机验证）：
+      Settings.System.USER_ROTATION = 1（横屏）
+      Settings.System.ACCELEROMETER_ROTATION = 0（关自动旋转）
+  Android 11 侧已确认存在对应 key：
+      defaults.xml:31  def_accelerometer_rotation
+      defaults.xml:114 def_user_rotation
+      DatabaseHelper.java:852 / :2272 loadIntegerSetting(USER_ROTATION, R.integer.def_user_rotation)
+-->
+<resources>
+    <bool name="def_accelerometer_rotation">false</bool>
+    <integer name="def_user_rotation">1</integer>
+</resources>

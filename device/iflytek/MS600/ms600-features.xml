@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  MS600 · 额外特性声明（App 兼容性测试用）
+
+  ⚠️ 这里绝对不能声明 android.software.leanback / android.hardware.type.television：
+     声明后 SystemUI 会走 TV 分支，KeyguardViewMediator.showLocked 直接 NPE，
+     开机会陷入启动循环（v157/v159 各踩过一次）。用户已决定不做 TV 特性测试。
+
+  只保留设备真的具备、系统原本没声明的能力：
+-->
+<permissions>
+    <feature name="android.hardware.gamepad" />
+    <feature name="android.hardware.ethernet" />
+</permissions>

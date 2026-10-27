@@ -1,0 +1,36 @@
+# 构建产物
+*.apk
+*.jar
+*.img
+*.bin
+*.zip
+*.tar.gz
+build/
+.gradle/
+out/
+*.class
+classes.dex
+
+# 本地配置（含个人路径）
+local.properties
+local_manifests/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# 厂商专有二进制（不纳入版本管理）
+device/iflytek/MS600/vendor-blobs/
+device/iflytek/MS600/vendor_files/
+device/iflytek/MS600/prebuilt/
+
+# 日志与临时文件
+*.log
+*.tmp
+*.bak
+*.orig
+_nul
+__pycache__/
+*.pyc

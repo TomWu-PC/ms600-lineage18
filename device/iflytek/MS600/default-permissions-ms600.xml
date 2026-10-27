@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  MS600 v174：投屏接收 App 的默认运行时权限。
+  Android 6+ 起 WiFi P2P（WifiP2pManager.discoverPeers / 广播接收）强制要求
+  ACCESS_FINE_LOCATION，缺了它 P2P 状态广播会被系统拦掉（实测日志：
+  Permission Denial: receiving THIS_DEVICE_CHANGED requires ACCESS_FINE_LOCATION）。
+  pm uninstall 重装会清掉用户手动授予的状态，所以做成系统默认授权：
+  出镜像/清数据后不用再手动点允许。
+-->
+<exceptions>
+    <exception package="com.iflytek.ms600.cast">
+        <permission name="android.permission.ACCESS_FINE_LOCATION" fixed="false" />
+        <permission name="android.permission.ACCESS_COARSE_LOCATION" fixed="false" />
+    </exception>
+</exceptions>

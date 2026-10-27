@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 深色主题：浅色状态栏图标改为浅色（bar 本身已由 values-night/colors.xml 变暗） -->
+    <style name="Theme.MS600Cast" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/text_title</item>
+        <item name="colorSecondary">@color/switch_accent</item>
+        <item name="colorSecondaryVariant">@color/switch_accent</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="colorAccent">@color/switch_accent</item>
+        <item name="android:colorAccent">@color/switch_accent</item>
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/primary</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowBackground">@color/list_bg</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

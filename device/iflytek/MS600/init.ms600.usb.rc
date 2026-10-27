@@ -1,0 +1,22 @@
+# MS600 v149: USB OTG
+#
+# 本机主机控制器是 msm-dwc3（/sys/devices/soc/7000000.ssusb），无 extcon，
+# mode 节点只有两个可用值：
+#   host        —— 主机模式（U 盘 / USB 网卡 / 手柄 / 键鼠）
+#   peripheral  —— 从设备模式（接电脑 adb / 充电）
+# 写任何其它值（例如 otg）内核都会落成 none —— 整个口断电，等价于"硬件弹出"。
+#
+# 节点默认 root:root 0644，App 写不了，这里放开到 0666 让「设备设置」和控制中心磁贴能切换。
+# 开机时的实际取值由 MS600Settings 的 BootReceiver 按 Settings.Global.ms600_usb_otg 恢复。
+
+on boot
+    chmod 0666 /sys/devices/soc/7000000.ssusb/mode
+    chmod 0755 /system/etc/ms600_usb_auto.sh
+
+# MS600 v151: USB 模式守护
+#   auto  —— 外部 5V 进来就切从机（电脑），拔掉 3 秒后回主机（手柄/U盘）
+#   host / peripheral —— 强制（用户选择由 App 写到 files/usb_mode）
+service ms600_usb_auto /system/bin/sh /system/etc/ms600_usb_auto.sh
+    class late_start
+    user root
+    group root system

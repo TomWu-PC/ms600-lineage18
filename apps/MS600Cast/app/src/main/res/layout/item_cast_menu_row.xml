@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 投屏菜单的一行：左标题 + 右当前值，整行可点（ripple 用原生的） -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center_vertical"
+    android:minHeight="46dp"
+    android:orientation="horizontal"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp">
+
+    <TextView
+        android:id="@+id/tv_menu_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:includeFontPadding="false"
+        android:textColor="@color/text_primary"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tv_menu_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:textColor="@color/accent"
+        android:textSize="14sp" />
+</LinearLayout>

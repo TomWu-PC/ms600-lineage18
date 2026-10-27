@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Device Settings</string>
+
+    <string name="header">Tap a category below to view and change its settings.</string>
+    <string name="header_note" formatted="false">Wired network: turn the adapter on/off and choose DHCP or a static IP. Audio output: switch between the connected speaker / headphones / HDMI / Bluetooth. Bypass charging stops charging at 80% and resumes below 80%. Double-tap to wake only applies while a charger is connected. Choosing \u201cDefault\u201d leaves a key untouched.</string>
+
+    <string name="sec_net">Wired network</string>
+    <string name="sec_audio">Audio output</string>
+    <string name="sec_charge">Charging</string>
+    <string name="sec_screen">Screen</string>
+    <string name="sec_key">Hardware keys</string>
+
+    <!-- Audio output -->
+    <string name="audio_current_title">Current output</string>
+    <string name="audio_cur_fixed">Pinned to: %1$s</string>
+    <string name="audio_cur_auto">Automatic (follow the system)</string>
+    <string name="audio_cur_auto_fmt">Automatic (now: %1$s)</string>
+    <string name="audio_cur_missing">Pinned (device not connected right now)</string>
+    <string name="audio_auto">Automatic (follow the system)</string>
+    <string name="audio_speaker">Speaker</string>
+    <string name="audio_earpiece">Earpiece</string>
+    <string name="audio_headset">Headset (with mic)</string>
+    <string name="audio_headphone">Headphones</string>
+    <string name="audio_hdmi">HDMI</string>
+    <string name="audio_bt">Bluetooth</string>
+    <string name="audio_usb">USB audio</string>
+    <string name="audio_other">Other output device</string>
+    <string name="audio_note" formatted="false">This chooses where media sound goes (music, video, games). \u201cAutomatic\u201d follows the system priority \u2014 plugging in headphones switches to them, attaching HDMI switches to HDMI. Only currently connected devices are listed; tap one to force it (for example keep using the speaker while headphones stay plugged in).</string>
+    <string name="audio_set_ok">Audio output switched</string>
+    <string name="audio_auto_set">Back to automatic switching</string>
+    <string name="audio_failed">Switch failed</string>
+    <string name="audio_unsupported">Audio output switching is not supported on this device</string>
+
+    <!-- Wired network -->
+    <string name="eth_enable_title">Wired network</string>
+    <string name="eth_enable_on">On</string>
+    <string name="eth_enable_off">Off</string>
+    <string name="eth_toast_on">Wired network enabled</string>
+    <string name="eth_toast_off">Wired network disabled</string>
+    <string name="eth_failed">Failed (framework did not respond)</string>
+
+    <string name="eth_status_title">Connection status</string>
+    <string name="eth_status_connected">Connected</string>
+    <string name="eth_status_connecting">Obtaining address\u2026</string>
+    <string name="eth_status_nocable">No cable</string>
+    <string name="eth_status_off">Off</string>
+
+    <string name="eth_mode_title">IP assignment</string>
+    <string name="eth_mode_dhcp">Automatic (DHCP)</string>
+    <string name="eth_mode_static">Static IP</string>
+
+    <string name="eth_static_ip">IP address</string>
+    <string name="eth_static_prefix">Prefix length</string>
+    <string name="eth_static_gw">Gateway</string>
+    <string name="eth_static_dns">DNS</string>
+    <string name="eth_static_dlg_title">Static IP settings</string>
+    <string name="eth_static_bad">Please enter a valid IPv4 address</string>
+    <string name="eth_static_applied">Static IP applied</string>
+    <string name="eth_dhcp_applied">Switched to automatic (DHCP)</string>
+
+    <string name="eth_addr_title">IPv4 address</string>
+    <string name="eth_gw_title">Gateway</string>
+    <string name="eth_dns_title">DNS</string>
+    <string name="eth_mac_title">MAC address</string>
+
+    <string name="eth_speed_title">Link speed</string>
+    <string name="eth_speed_value" formatted="false">100 Mbps negotiated \u00b7 about 3 Mbps measured</string>
+    <string name="eth_speed_note_title">Why only about 3 Mbps?</string>
+    <string name="eth_speed_note" formatted="false">The wired NIC is a WIZnet W5500, an SPI-attached Ethernet controller. Its PHY supports 10/100 Mbps, but SPI transactions plus driver overhead cost roughly 5 ms per packet, capping throughput at about 3 Mbps (\u2248375 KB/s) in both directions. This is a hardware limitation that no system setting can improve \u2014 use Wi-Fi when you need real speed.</string>
+
+    <string name="eth_na">--</string>
+    <string name="eth_unsupported">Ethernet settings are not available on this device (EthernetManager missing)</string>
+
+    <!-- Charging -->
+    <string name="bypass_title">Bypass charging</string>
+    <string name="bypass_on" formatted="false">On \u00b7 stops charging at 80%, resumes below 80%</string>
+    <string name="bypass_off" formatted="false">Off \u00b7 charges normally to 100%</string>
+    <string name="bypass_toast_on">Bypass charging enabled</string>
+    <string name="bypass_toast_off">Bypass charging disabled</string>
+
+    <!-- Screen -->
+    <string name="dt2w_title">Double-tap to wake</string>
+    <string name="dt2w_on" formatted="false">On \u00b7 double-tap the screen while charging</string>
+    <string name="dt2w_off" formatted="false">Off \u00b7 use the power button to wake</string>
+    <string name="dt2w_toast_on">Double-tap to wake enabled (charging only)</string>
+    <string name="dt2w_toast_off">Double-tap to wake disabled</string>
+
+    <!-- External display (HDMI) -->
+    <string name="sec_display">External display (HDMI)</string>
+    <string name="hdmi_status_title">External display</string>
+    <string name="hdmi_connected">Connected \u00b7 %1$d x %2$d</string>
+    <string name="hdmi_disconnected">Not connected</string>
+    <string name="hdmi_mirror_title">Fill mirror</string>
+    <string name="hdmi_mirror_on">On \u00b7 internal screen matches the external aspect, no distortion</string>
+    <string name="hdmi_mirror_off">Off \u00b7 internal screen keeps its native aspect (mirroring may letterbox)</string>
+    <string name="hdmi_mirror_toast_on">Fill mirror enabled (internal logical %1$d x %2$d)</string>
+    <string name="hdmi_mirror_toast_off">Internal screen back to native aspect</string>
+    <string name="hdmi_mirror_fail">Switch failed</string>
+    <string name="hdmi_out_title">HDMI output</string>
+    <string name="hdmi_out_on">On \u00b7 picture is being sent</string>
+    <string name="hdmi_out_off">Stopped \u00b7 safe to unplug the HDMI cable now</string>
+    <string name="hdmi_out_toast_on">HDMI output restored</string>
+    <string name="hdmi_out_toast_off">HDMI output stopped, safe to unplug</string>
+    <string name="hdmi_note" formatted="false">Fill mirror makes the internal screen render at the external display\u2019s aspect, so the external picture stays full-screen and undistorted (the internal screen shows small letterbox bars). Apps that open their own Presentation can still drive the two screens independently. After stopping the output, re-plugging HDMI restores it automatically.</string>
+
+    <!-- Quick settings tiles -->
+    <string name="tile_hdmi_name">HDMI</string>
+    <string name="tile_hdmi_on">HDMI output</string>
+    <string name="tile_hdmi_off">Output stopped</string>
+    <string name="tile_usb_name">Eject USB</string>
+    <string name="tile_usb_present">USB drive mounted, tap to eject safely</string>
+    <string name="tile_usb_none">No removable USB storage</string>
+    <string name="tile_usb_removed">Safely removed, you may unplug it</string>
+    <string name="tile_usb_fail">Eject failed</string>
+    <string name="tile_eth_name">Ethernet</string>
+    <string name="tile_eth_on">Ethernet adapter on</string>
+    <string name="tile_eth_off">Ethernet adapter off</string>
+
+    <!-- Keys -->
+    <string name="key_f1">F1 key</string>
+    <string name="key_f2">F2 key</string>
+
+    <string name="act_default">Default (untouched)</string>
+    <string name="act_none">No action</string>
+    <string name="act_home">Go to Home</string>
+    <string name="act_recents">Recent apps</string>
+    <string name="act_sleep">Turn screen off</string>
+    <string name="act_app_fmt">Launch: %1$s</string>
+    <string name="act_broadcast_fmt">Broadcast: %1$s</string>
+    <string name="act_web_fmt">Open page: %1$s</string>
+    <string name="gamepad_game_title">Gamepad mode</string>
+    <string name="gamepad_game_on">On (all keys to game / streaming)</string>
+    <string name="gamepad_game_off">Off (mouse + navigation)</string>
+    <string name="gamepad_game_toast_on">Gamepad mode on: sticks and buttons go to games</string>
+    <string name="gamepad_game_toast_off">Gamepad mode off: mouse + navigation restored</string>
+
+    <string-array name="action_labels">
+        <item>Default (untouched)</item>
+        <item>No action</item>
+        <item>Go to Home</item>
+        <item>Recent apps</item>
+        <item>Turn screen off</item>
+        <item>Launch an app\u2026</item>
+        <item>Send a broadcast\u2026</item>
+        <item>Open a web page\u2026</item>
+    </string-array>
+
+    <string name="pick_app">Choose an app</string>
+    <string name="no_apps">No launchable apps found</string>
+    <string name="ask_broadcast">Broadcast action</string>
+    <string name="ask_url">Web address</string>
+    <string name="saved">Saved</string>
+    <string name="need_perm">Missing WRITE_SECURE_SETTINGS permission</string>
+    <string name="hdmi_panel_off_title">Auto-off internal screen</string>
+    <string name="hdmi_panel_off_never">Never</string>
+    <string name="hdmi_panel_off_secs">%1$d seconds</string>
+    <string name="hdmi_panel_off_mins">%1$d min</string>
+    <string name="hdmi_panel_off_idle">Only while an external display is connected</string>
+    <string name="sec_cast">Cast receiver</string>
+    <string name="cast_title">Receive casts</string>
+    <string name="cast_on">On</string>
+    <string name="cast_off">Off</string>
+    <string name="cast_state_title">Status</string>
+    <string name="cast_state_off">Not receiving</string>
+    <string name="cast_state_waiting" formatted="false">Waiting for a cast\u2026</string>
+    <string name="cast_state_playing">Casting</string>
+    <string name="cast_open_title">Open cast UI</string>
+    <string name="sec_nlp">Location</string>
+    <string name="nlp_title">Network location</string>
+    <string name="nlp_unset">Not set (auto when online)</string>
+    <string name="nlp_missing">Location settings UI not found</string>
+    <!-- MS600 v149: USB OTG -->
+    <string name="sec_usb">USB</string>
+    <string name="usb_otg_title">USB OTG (host mode)</string>
+    <string name="usb_otg_on">On (drives / network / gamepad)</string>
+    <string name="usb_otg_off">Off (USB device mode, for PC adb)</string>
+    <string name="usb_otg_toast_on">OTG on: USB host enabled</string>
+    <string name="usb_otg_toast_off">OTG off: port switched to device mode</string>
+    <string name="usb_otg_no_perm">Cannot write usb mode node</string>
+    <string name="usb_otg_note">Turn this off when connecting to a PC for adb; keep it on for drives, USB NIC, gamepad or keyboard.</string>
+    <string name="usb_dev_title">Current device</string>
+    <string name="usb_dev_none">Nothing connected</string>
+    <string name="usb_dev_otg_off">Device mode (not acting as host)</string>
+    <string name="usb_eject_title">Eject device</string>
+    <string name="usb_eject_working">Ejecting…</string>
+    <string name="usb_eject_ok">Safely removed, you may unplug it</string>
+    <string name="usb_eject_fail">Eject failed (volume still in use)</string>
+    <string name="usb_eject_app">Stopped the app using it — you may unplug</string>
+    <string name="tile_usb_otg_on">USB host mode on</string>
+    <string name="tile_usb_otg_off">USB host mode off</string>
+    <string name="tile_usb_otg_fail">Failed to switch USB mode</string>
+    <string name="tile_usb_ejecting">Ejecting %1$s…</string>
+    <string name="tile_usb_ejected_off">%1$s ejected (port powered off)</string>
+    <string name="tile_usb_idle">USB OTG</string>
+    <!-- MS600 v151: USB mode (auto / force host / force peripheral) -->
+    <string name="usb_mode_title">USB mode</string>
+    <string name="usb_mode_auto">Auto (now: %1$s)</string>
+    <string name="usb_mode_force_host">Force host (drive / NIC / gamepad)</string>
+    <string name="usb_mode_force_periph">Force device (PC adb / charging)</string>
+    <string name="usb_mode_cur_host">host</string>
+    <string name="usb_mode_cur_periph">device</string>
+    <string name="usb_mode_cur_off">port powered off</string>
+    <string name="usb_mode_toast_auto">Auto: switches to device when a PC is plugged</string>
+    <string name="usb_mode_toast_host">Forced host mode</string>
+    <string name="usb_mode_toast_periph">Forced device mode, adb over USB available</string>
+    <!-- MS600 v153: Bluetooth / storage / USB mass storage -->
+    <string name="sec_bt">Bluetooth</string>
+    <string name="bt_enable_title">Bluetooth</string>
+    <string name="bt_on">On</string>
+    <string name="bt_off">Off</string>
+    <string name="bt_no_hw">No Bluetooth hardware</string>
+    <string name="bt_state_title">Device name</string>
+    <string name="bt_scan_title">Scan for devices</string>
+    <string name="bt_scanning">Scanning… (tap to stop)</string>
+    <string name="bt_scan_hit">Tap to scan (%1$d found)</string>
+    <string name="bt_need_on">Turn Bluetooth on first</string>
+    <string name="bt_scan_fail">Cannot start scan, check that location is on</string>
+    <string name="bt_need_loc">Scanning needs the Location permission</string>
+    <string name="bt_bonded_title">Paired devices</string>
+    <string name="bt_found_title">Nearby devices</string>
+    <string name="bt_none_bonded">No paired devices</string>
+    <string name="bt_none_found">Tap "Scan for devices" above</string>
+    <string name="bt_connected">Connected</string>
+    <string name="bt_bonded">Paired</string>
+    <string name="bt_bonding">Pairing…</string>
+    <string name="bt_pair">Pair</string>
+    <string name="bt_unpair">Unpair</string>
+    <string name="bt_connect">Connect</string>
+    <string name="bt_disconnect">Disconnect</string>
+    <string name="bt_connecting">Connecting…</string>
+    <string name="bt_disconnecting">Disconnecting…</string>
+    <string name="bt_unpairing">Unpairing…</string>
+    <string name="bt_op_fail">Operation failed</string>
+    <string name="sec_storage">Storage</string>
+    <string name="storage_internal_title">Internal storage</string>
+    <string name="storage_sd_title">SD card</string>
+    <string name="storage_used_of">%1$s used of %2$s</string>
+    <string name="storage_sd_mounted">%1$s · %2$s used of %3$s</string>
+    <string name="storage_sd_absent">Not inserted or not mounted</string>
+    <string name="storage_na">Unavailable</string>
+    <string name="usb_msc_title">USB drive mode (SD card to PC)</string>
+    <string name="usb_msc_on">On: the PC sees a removable disk</string>
+    <string name="usb_msc_off">Off (SD card stays on this device)</string>
+    <string name="usb_msc_need_pc">Connect to a PC with a USB cable first</string>
+    <string name="usb_msc_need_sd">No mounted SD card detected</string>
+    <string name="usb_msc_on_toast">Switching to USB drive mode…</string>
+    <string name="usb_msc_off_toast">Restoring SD card…</string>
+    <string name="usb_msc_fail">Failed to write setting</string>
+
+    <!-- MS600 v154: dual-VBUS repair -->
+    <string name="usb_heal_title">Fix USB connection</string>
+    <string name="usb_heal_ok">Port state normal</string>
+    <string name="usb_heal_bad">⚠ VBUS conflict, tap to fix</string>
+    <string name="usb_heal_working">Resetting USB port…</string>
+    <string name="usb_heal_done">USB port reset done</string>
+    <string name="usb_heal_fail">Failed to reset USB port</string>
+
+    <!-- MS600 v155: ad blocking -->
+    <string name="sec_adblock">Ad blocking</string>
+    <string name="adb_title">Keyword blocking</string>
+    <string name="adb_on">On \u00b7 blocked %1$d requests (%2$d rules)</string>
+    <string name="adb_on_plain">On</string>
+    <string name="adb_off">Off</string>
+    <string name="adb_on_toast">Ad blocking enabled</string>
+    <string name="adb_off_toast">Ad blocking disabled</string>
+    <string name="adb_fail">Failed to toggle ad blocking</string>
+    <string name="adb_note">Drops TCP 80/443 connections whose first 256 bytes contain a known ad-domain keyword \u2014 HTTPS SNI is still plaintext before encryption, so this works for HTTPS too. Runs in the kernel, applied at boot.</string>
+    <!-- v156: 主菜单分组入口 -->
+    <string name="grp_net">Network &amp; connection</string>
+    <string name="grp_display">Display &amp; casting</string>
+    <string name="grp_audio">Audio output</string>
+    <string name="grp_usb">USB &amp; peripherals</string>
+    <string name="grp_bt">Bluetooth</string>
+    <string name="grp_system">System</string>
+    <string name="grp_hdmi_connected">HDMI %1$d×%2$d</string>
+    <string name="grp_hdmi_disconnected">HDMI not connected</string>
+    <string name="grp_cast_prefix">Cast </string>
+    <string name="grp_gamepad_prefix">Gamepad </string>
+    <string name="grp_adblock_prefix">Ad block </string>
+    <string name="grp_storage_prefix">Storage </string>
+
+    <!-- v164: group summaries (cast switch removed, dt2w shown instead) -->
+    <string name="grp_dt2w_on">Double-tap to wake on</string>
+    <string name="grp_dt2w_off">Double-tap to wake off</string>
+    <string name="eth_no_link">No cable connected</string>
+    <string name="cast_open_summary">Miracast / DLNA / AirPlay</string>
+
+    <!-- v164: user editable ad-block keywords -->
+    <string name="adb_rules_title">Block rules</string>
+    <string name="adb_rules_sum_default">%1$d built-in keywords</string>
+    <string name="adb_rules_sum_custom">%1$d custom keywords</string>
+    <string name="adb_rules_dlg_title">Block keywords (%1$d)</string>
+    <string name="adb_rules_help">One keyword per line, a domain fragment is enough (e.g. doubleclick).\n\nThe first 256 bytes of every connection are scanned: HTTP uses the Host header, HTTPS uses the server name in the TLS handshake (SNI is plaintext before encryption). A match drops the connection.\n\nTakes effect in about 3 seconds, no reboot needed. Only letters, digits, dot, dash and underscore are accepted.</string>
+    <string name="adb_rules_reset">Reset</string>
+    <string name="adb_rules_reset_done">Built-in keywords restored</string>
+    <string name="adb_rules_saved">%1$d keywords saved, effective in ~3s</string>
+    <string name="adb_rules_saved_bad">%1$d keywords saved (%2$d with invalid characters ignored)</string>
+    <string name="adb_rules_empty">Keep at least one keyword</string>
+    <string name="adb_rules_fail">Save failed</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Miracast 图标前景：屏幕 + 自左下角发出的投屏波纹（经典无线显示符号）。
+  配色取自系统原生 accent（深青），与应用内的开关颜色一致。
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 屏幕 -->
+    <path
+        android:fillColor="#008577"
+        android:pathData="M30,30h48a6,6 0 0 1 6,6v36a6,6 0 0 1 -6,6h-48a6,6 0 0 1 -6,-6v-36a6,6 0 0 1 6,-6z" />
+
+    <!-- 投屏波纹（自左下角向外发出） -->
+    <path
+        android:pathData="M40,68 A6,6 0 0 0 34,62"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M47,68 A13,13 0 0 0 34,55"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M54,68 A20,20 0 0 0 34,48"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round" />
+
+    <!-- 播放三角 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M55,43 L55,59 L69,51 Z" />
+</vector>

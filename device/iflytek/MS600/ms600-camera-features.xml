@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MS600 v184: 本机唯一 sensor OV13855 已由 HAL 声明为 LENS_FACING_BACK
+     （vendor-blobs/etc/camera/camera_config.xml 的 <Position>BACK</Position>），
+     但原厂只提供了 android.hardware.camera.front.xml，
+     PackageManager 里缺 android.hardware.camera.back ⇒ 第三方相机
+     （Simple Camera / Open Camera / CameraX 系）hasSystemFeature 判定失败，
+     打开就报"访问相机出错"、预览全黑。这里补上后置相机 feature。 -->
+<permissions>
+    <feature name="android.hardware.camera.back" />
+</permissions>

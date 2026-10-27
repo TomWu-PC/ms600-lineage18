@@ -1,0 +1,7604 @@
+{
+ "app/CABLService/CABLService.apk": {
+  "mode": 420
+ },
+ "app/Perfdump/Perfdump.apk": {
+  "mode": 420
+ },
+ "app/PowerOffAlarm/PowerOffAlarm.apk": {
+  "mode": 420
+ },
+ "app/Qmmi/Qmmi.apk": {
+  "mode": 420
+ },
+ "app/SVIService/SVIService.apk": {
+  "mode": 420
+ },
+ "app/SnapdragonMusic/SnapdragonMusic.apk": {
+  "mode": 420
+ },
+ "app/TimeService/TimeService.apk": {
+  "mode": 420
+ },
+ "app/colorservice/colorservice.apk": {
+  "mode": 420
+ },
+ "app/qti-logkit/qti-logkit.apk": {
+  "mode": 420
+ },
+ "bin/ATFWD-daemon": {
+  "mode": 493
+ },
+ "bin/DR_AP_Service": {
+  "mode": 493
+ },
+ "bin/KmInstallKeybox": {
+  "mode": 493
+ },
+ "bin/LKCore": {
+  "mode": 493
+ },
+ "bin/PktRspTest": {
+  "mode": 493
+ },
+ "bin/SoterProvisioningTool": {
+  "mode": 493
+ },
+ "bin/StoreKeybox": {
+  "mode": 493
+ },
+ "bin/WifiLogger_app": {
+  "mode": 493
+ },
+ "bin/adsprpcd": {
+  "mode": 493
+ },
+ "bin/athdiag": {
+  "mode": 493
+ },
+ "bin/audioflacapp": {
+  "mode": 493
+ },
+ "bin/btnvtool": {
+  "mode": 493
+ },
+ "bin/cnd": {
+  "mode": 493
+ },
+ "bin/cnss-daemon": {
+  "mode": 493
+ },
+ "bin/cnss_diag": {
+  "mode": 493
+ },
+ "bin/cplay": {
+  "mode": 493
+ },
+ "bin/diag_callback_sample": {
+  "mode": 493
+ },
+ "bin/diag_dci_sample": {
+  "mode": 493
+ },
+ "bin/diag_klog": {
+  "mode": 493
+ },
+ "bin/diag_mdlog": {
+  "mode": 493
+ },
+ "bin/diag_socket_log": {
+  "mode": 493
+ },
+ "bin/diag_uart_log": {
+  "mode": 493
+ },
+ "bin/dpmQmiMgr": {
+  "mode": 493
+ },
+ "bin/e_loop": {
+  "mode": 493
+ },
+ "bin/energy-awareness": {
+  "mode": 493
+ },
+ "bin/fm_qsoc_patches": {
+  "mode": 493
+ },
+ "bin/ftmdaemon": {
+  "mode": 493
+ },
+ "bin/gamed": {
+  "mode": 493
+ },
+ "bin/garden_app": {
+  "mode": 493
+ },
+ "bin/grep": {
+  "mode": 493
+ },
+ "bin/hal_proxy_daemon": {
+  "mode": 493
+ },
+ "bin/hbtp_daemon": {
+  "mode": 493
+ },
+ "bin/hci_qcomm_init": {
+  "mode": 493
+ },
+ "bin/hostapd": {
+  "mode": 493
+ },
+ "bin/hostapd_cli": {
+  "mode": 493
+ },
+ "bin/hvdcp_opti": {
+  "mode": 493
+ },
+ "bin/hw/android.hardware.audio@2.0-service": {
+  "mode": 493
+ },
+ "bin/hw/android.hardware.bluetooth@1.0-service-qti": {
+  "mode": 493
+ },
+ "bin/hw/android.hardware.camera.provider@2.4-service": {
+  "mode": 493
+ },
+ "bin/hw/android.hardware.cas@1.0-service": {
+  "mode": 493
+ },
+ "bin/hw/android.hardware.configstore@1.0-service": {
+  "mode": 493
+ },
+ "bin/hw/android.hardware.drm@1.0-service": {
+  "mode": 493
+ },
+ "bin/hw/android.hardware.gatekeeper@1.0-service-qti": {
+  "mode": 493
+ },
+ "bin/hw/android.hardware.graphics.allocator@2.0-service": {
+  "mode": 493
+ },
+ "bin/hw/android.hardware.graphics.composer@2.1-service": {
+  "mode": 493
+ },
+ "bin/hw/android.hardware.health@1.0-service": {
+  "mode": 493
+ },
+ "bin/hw/android.hardware.keymaster@3.0-service-qti": {
+  "mode": 493
+ },
+ "bin/hw/android.hardware.light@2.0-service": {
+  "mode": 493
+ },
+ "bin/hw/android.hardware.media.omx@1.0-service": {
+  "mode": 493
+ },
+ "bin/hw/android.hardware.memtrack@1.0-service": {
+  "mode": 493
+ },
+ "bin/hw/android.hardware.power@1.0-service": {
+  "mode": 493
+ },
+ "bin/hw/android.hardware.sensors@1.0-service": {
+  "mode": 493
+ },
+ "bin/hw/android.hardware.thermal@1.0-service": {
+  "mode": 493
+ },
+ "bin/hw/android.hardware.vibrator@1.0-service": {
+  "mode": 493
+ },
+ "bin/hw/android.hardware.wifi@1.0-service": {
+  "mode": 493
+ },
+ "bin/hw/rild": {
+  "mode": 493
+ },
+ "bin/hw/vendor.display.color@1.0-service": {
+  "mode": 493
+ },
+ "bin/hw/vendor.qti.esepowermanager@1.0-service": {
+  "mode": 493
+ },
+ "bin/hw/vendor.qti.gnss@1.0-service": {
+  "mode": 493
+ },
+ "bin/hw/vendor.qti.hardware.alarm@1.0-service": {
+  "mode": 493
+ },
+ "bin/hw/vendor.qti.hardware.factory@1.0-service": {
+  "mode": 493
+ },
+ "bin/hw/vendor.qti.hardware.perf@1.0-service": {
+  "mode": 493
+ },
+ "bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti": {
+  "mode": 493
+ },
+ "bin/hw/vendor.qti.hardware.qteeconnector@1.0-service": {
+  "mode": 493
+ },
+ "bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti": {
+  "mode": 493
+ },
+ "bin/hw/wpa_supplicant": {
+  "mode": 493
+ },
+ "bin/icm": {
+  "mode": 493
+ },
+ "bin/ims_rtp_daemon": {
+  "mode": 493
+ },
+ "bin/imsdatadaemon": {
+  "mode": 493
+ },
+ "bin/imsqmidaemon": {
+  "mode": 493
+ },
+ "bin/imsrcsd": {
+  "mode": 493
+ },
+ "bin/init.class_main.sh": {
+  "mode": 493
+ },
+ "bin/init.crda.sh": {
+  "mode": 493
+ },
+ "bin/init.mdm.sh": {
+  "mode": 493
+ },
+ "bin/init.qcom.class_core.sh": {
+  "mode": 493
+ },
+ "bin/init.qcom.coex.sh": {
+  "mode": 493
+ },
+ "bin/init.qcom.crashdata.sh": {
+  "mode": 493
+ },
+ "bin/init.qcom.early_boot.sh": {
+  "mode": 493
+ },
+ "bin/init.qcom.efs.sync.sh": {
+  "mode": 493
+ },
+ "bin/init.qcom.post_boot.sh": {
+  "mode": 493
+ },
+ "bin/init.qcom.sdio.sh": {
+  "mode": 493
+ },
+ "bin/init.qcom.sensors.sh": {
+  "mode": 493
+ },
+ "bin/init.qcom.sh": {
+  "mode": 493
+ },
+ "bin/init.qcom.syspart_fixup.sh": {
+  "mode": 493
+ },
+ "bin/init.qcom.usb.sh": {
+  "mode": 493
+ },
+ "bin/init.qcom.wifi.sh": {
+  "mode": 493
+ },
+ "bin/init.qti.fm.sh": {
+  "mode": 493
+ },
+ "bin/init.qti.ims.sh": {
+  "mode": 493
+ },
+ "bin/init.qti.qseecomd.sh": {
+  "mode": 493
+ },
+ "bin/ipacm": {
+  "mode": 493
+ },
+ "bin/ipacm-diag": {
+  "mode": 493
+ },
+ "bin/irsc_util": {
+  "mode": 493
+ },
+ "bin/loc_launcher": {
+  "mode": 493
+ },
+ "bin/lowi-server": {
+  "mode": 493
+ },
+ "bin/mlid": {
+  "mode": 493
+ },
+ "bin/mm-audio-ftm": {
+  "mode": 493
+ },
+ "bin/mm-pp-dpps": {
+  "mode": 493
+ },
+ "bin/mm-qcamera-app": {
+  "mode": 493
+ },
+ "bin/mm-qcamera-daemon": {
+  "mode": 493
+ },
+ "bin/mm-qjpeg-dec-test": {
+  "mode": 493
+ },
+ "bin/mm-qjpeg-enc-test": {
+  "mode": 493
+ },
+ "bin/mm-qomx-idec-test": {
+  "mode": 493
+ },
+ "bin/mm-qomx-ienc-test": {
+  "mode": 493
+ },
+ "bin/mm-vidc-omx-test": {
+  "mode": 493
+ },
+ "bin/mmid": {
+  "mode": 493
+ },
+ "bin/msm_irqbalance": {
+  "mode": 493
+ },
+ "bin/netmgrd": {
+  "mode": 493
+ },
+ "bin/pm-proxy": {
+  "mode": 493
+ },
+ "bin/pm-service": {
+  "mode": 493
+ },
+ "bin/port-bridge": {
+  "mode": 493
+ },
+ "bin/power_off_alarm": {
+  "mode": 493
+ },
+ "bin/ptt_socket_app": {
+  "mode": 493
+ },
+ "bin/qca6234-service.sh": {
+  "mode": 493
+ },
+ "bin/qjpeg-dma-test": {
+  "mode": 493
+ },
+ "bin/qmi-framework-tests/qmi_test_mt_client_init_instance": {
+  "mode": 493
+ },
+ "bin/qmi_simple_ril_test": {
+  "mode": 493
+ },
+ "bin/qseecom_sample_client": {
+  "mode": 493
+ },
+ "bin/qseecomd": {
+  "mode": 493
+ },
+ "bin/qti": {
+  "mode": 493
+ },
+ "bin/rmt_storage": {
+  "mode": 493
+ },
+ "bin/secure_ui_sample_client": {
+  "mode": 493
+ },
+ "bin/sensors.qcom": {
+  "mode": 493
+ },
+ "bin/sh": {
+  "mode": 493
+ },
+ "bin/sigma_dut": {
+  "mode": 493
+ },
+ "bin/slim_daemon": {
+  "mode": 493
+ },
+ "bin/ssr_diag": {
+  "mode": 493
+ },
+ "bin/ssr_setup": {
+  "mode": 493
+ },
+ "bin/subsystem_ramdump": {
+  "mode": 493
+ },
+ "bin/tbaseLoader": {
+  "mode": 493
+ },
+ "bin/test_diag": {
+  "mode": 493
+ },
+ "bin/tftp_server": {
+  "mode": 493
+ },
+ "bin/thermal-engine": {
+  "mode": 493
+ },
+ "bin/time_daemon": {
+  "mode": 493
+ },
+ "bin/toolbox_vendor": {
+  "mode": 493
+ },
+ "bin/toybox_vendor": {
+  "mode": 493
+ },
+ "bin/vendor_cmd_tool": {
+  "mode": 493
+ },
+ "bin/vndservice": {
+  "mode": 493
+ },
+ "bin/vndservicemanager": {
+  "mode": 493
+ },
+ "bin/wcnss_filter": {
+  "mode": 493
+ },
+ "bin/wcnss_service": {
+  "mode": 493
+ },
+ "bin/wdsdaemon": {
+  "mode": 493
+ },
+ "bin/wifidisplayhalservice": {
+  "mode": 493
+ },
+ "bin/xtra-daemon": {
+  "mode": 493
+ },
+ "bin/xtwifi-client": {
+  "mode": 493
+ },
+ "bin/xtwifi-inet-agent": {
+  "mode": 493
+ },
+ "build.prop": {
+  "mode": 384
+ },
+ "compatibility_matrix.xml": {
+  "mode": 420
+ },
+ "default.prop": {
+  "mode": 384
+ },
+ "etc/IPACM_cfg.xml": {
+  "mode": 420
+ },
+ "etc/NOTICE.xml.gz": {
+  "mode": 420
+ },
+ "etc/a2dp_audio_policy_configuration.xml": {
+  "mode": 420
+ },
+ "etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb": {
+  "mode": 420
+ },
+ "etc/acdbdata/MTP/MTP_General_cal.acdb": {
+  "mode": 420
+ },
+ "etc/acdbdata/MTP/MTP_Global_cal.acdb": {
+  "mode": 420
+ },
+ "etc/acdbdata/MTP/MTP_Handset_cal.acdb": {
+  "mode": 420
+ },
+ "etc/acdbdata/MTP/MTP_Hdmi_cal.acdb": {
+  "mode": 420
+ },
+ "etc/acdbdata/MTP/MTP_Headset_cal.acdb": {
+  "mode": 420
+ },
+ "etc/acdbdata/MTP/MTP_Speaker_cal.acdb": {
+  "mode": 420
+ },
+ "etc/acdbdata/MTP/MTP_workspaceFile.qwsp": {
+  "mode": 420
+ },
+ "etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Bluetooth_cal.acdb": {
+  "mode": 420
+ },
+ "etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_General_cal.acdb": {
+  "mode": 420
+ },
+ "etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Global_cal.acdb": {
+  "mode": 420
+ },
+ "etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Handset_cal.acdb": {
+  "mode": 420
+ },
+ "etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Hdmi_cal.acdb": {
+  "mode": 420
+ },
+ "etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Headset_cal.acdb": {
+  "mode": 420
+ },
+ "etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Speaker_cal.acdb": {
+  "mode": 420
+ },
+ "etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_workspaceFile.qwsp": {
+  "mode": 420
+ },
+ "etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb": {
+  "mode": 420
+ },
+ "etc/acdbdata/QRD/QRD_General_cal.acdb": {
+  "mode": 420
+ },
+ "etc/acdbdata/QRD/QRD_Global_cal.acdb": {
+  "mode": 420
+ },
+ "etc/acdbdata/QRD/QRD_Handset_cal.acdb": {
+  "mode": 420
+ },
+ "etc/acdbdata/QRD/QRD_Hdmi_cal.acdb": {
+  "mode": 420
+ },
+ "etc/acdbdata/QRD/QRD_Headset_cal.acdb": {
+  "mode": 420
+ },
+ "etc/acdbdata/QRD/QRD_Speaker_cal.acdb": {
+  "mode": 420
+ },
+ "etc/acdbdata/QRD/QRD_workspaceFile.qwsp": {
+  "mode": 420
+ },
+ "etc/acdbdata/QRD/msm8953-sku4-snd-card/QRD_SKU4_Bluetooth_cal.acdb": {
+  "mode": 420
+ },
+ "etc/acdbdata/QRD/msm8953-sku4-snd-card/QRD_SKU4_General_cal.acdb": {
+  "mode": 420
+ },
+ "etc/acdbdata/QRD/msm8953-sku4-snd-card/QRD_SKU4_Global_cal.acdb": {
+  "mode": 420
+ },
+ "etc/acdbdata/QRD/msm8953-sku4-snd-card/QRD_SKU4_Handset_cal.acdb": {
+  "mode": 420
+ },
+ "etc/acdbdata/QRD/msm8953-sku4-snd-card/QRD_SKU4_Hdmi_cal.acdb": {
+  "mode": 420
+ },
+ "etc/acdbdata/QRD/msm8953-sku4-snd-card/QRD_SKU4_Headset_cal.acdb": {
+  "mode": 420
+ },
+ "etc/acdbdata/QRD/msm8953-sku4-snd-card/QRD_SKU4_Speaker_cal.acdb": {
+  "mode": 420
+ },
+ "etc/acdbdata/QRD/msm8953-sku4-snd-card/QRD_SKU4_workspaceFile.qwsp": {
+  "mode": 420
+ },
+ "etc/apdr.conf": {
+  "mode": 420
+ },
+ "etc/audio/audio_policy_configuration.xml": {
+  "mode": 420
+ },
+ "etc/audio_effects.conf": {
+  "mode": 420
+ },
+ "etc/audio_output_policy.conf": {
+  "mode": 420
+ },
+ "etc/audio_platform_info.xml": {
+  "mode": 420
+ },
+ "etc/audio_platform_info_extcodec.xml": {
+  "mode": 420
+ },
+ "etc/audio_policy.conf": {
+  "mode": 420
+ },
+ "etc/audio_policy_configuration.xml": {
+  "mode": 420
+ },
+ "etc/audio_policy_volumes.xml": {
+  "mode": 420
+ },
+ "etc/audio_tuning_mixer.txt": {
+  "mode": 420
+ },
+ "etc/cacert_location.pem": {
+  "mode": 420
+ },
+ "etc/camera/camera_config.xml": {
+  "mode": 420
+ },
+ "etc/camera/csidtg_camera.xml": {
+  "mode": 420
+ },
+ "etc/camera/csidtg_chromatix.xml": {
+  "mode": 420
+ },
+ "etc/camera/imx214_chromatix.xml": {
+  "mode": 420
+ },
+ "etc/camera/imx230_chromatix.xml": {
+  "mode": 420
+ },
+ "etc/camera/imx230_qc2002_chromatix.xml": {
+  "mode": 420
+ },
+ "etc/camera/imx230_qc2002_with_gyro_chromatix.xml": {
+  "mode": 420
+ },
+ "etc/camera/imx258_bear_chromatix.xml": {
+  "mode": 420
+ },
+ "etc/camera/imx258_chromatix.xml": {
+  "mode": 420
+ },
+ "etc/camera/imx258_mono_bear_chromatix.xml": {
+  "mode": 420
+ },
+ "etc/camera/imx258_mono_chromatix.xml": {
+  "mode": 420
+ },
+ "etc/camera/imx298_chromatix.xml": {
+  "mode": 420
+ },
+ "etc/camera/imx298_gt24c64_chromatix.xml": {
+  "mode": 420
+ },
+ "etc/camera/imx318_chromatix.xml": {
+  "mode": 420
+ },
+ "etc/camera/imx362_chromatix.xml": {
+  "mode": 420
+ },
+ "etc/camera/imx362_chromatix_bear.xml": {
+  "mode": 420
+ },
+ "etc/camera/imx378_chromatix.xml": {
+  "mode": 420
+ },
+ "etc/camera/ov13850_chromatix.xml": {
+  "mode": 420
+ },
+ "etc/camera/ov13850_q13v06k_chromatix.xml": {
+  "mode": 420
+ },
+ "etc/camera/ov13855_m24c64_chromatix.xml": {
+  "mode": 420
+ },
+ "etc/camera/ov2281_chromatix.xml": {
+  "mode": 420
+ },
+ "etc/camera/ov2680_chromatix.xml": {
+  "mode": 420
+ },
+ "etc/camera/ov4688_chromatix.xml": {
+  "mode": 420
+ },
+ "etc/camera/ov5670_chromatix.xml": {
+  "mode": 420
+ },
+ "etc/camera/ov5670_f5670bq_chromatix.xml": {
+  "mode": 420
+ },
+ "etc/camera/ov5695_chromatix.xml": {
+  "mode": 420
+ },
+ "etc/camera/ov7251_chromatix.xml": {
+  "mode": 420
+ },
+ "etc/camera/ov8856_chromatix.xml": {
+  "mode": 420
+ },
+ "etc/camera/ov8858_chromatix.xml": {
+  "mode": 420
+ },
+ "etc/camera/ov8865_chromatix.xml": {
+  "mode": 420
+ },
+ "etc/camera/s5k2l7_8953_chromatix.xml": {
+  "mode": 420
+ },
+ "etc/camera/s5k2l7_chromatix.xml": {
+  "mode": 420
+ },
+ "etc/camera/s5k3l8_chromatix.xml": {
+  "mode": 420
+ },
+ "etc/camera/s5k3l8_f3l8yam_chromatix.xml": {
+  "mode": 420
+ },
+ "etc/camera/s5k3l8_mono_chromatix.xml": {
+  "mode": 420
+ },
+ "etc/camera/s5k3m2xm_chromatix.xml": {
+  "mode": 420
+ },
+ "etc/camera/s5k3m2xm_chromatix_bear.xml": {
+  "mode": 420
+ },
+ "etc/camera/s5k3m2xx_chromatix.xml": {
+  "mode": 420
+ },
+ "etc/camera/s5k3p3sm_chromatix.xml": {
+  "mode": 420
+ },
+ "etc/camera/s5k3p8sp_chromatix.xml": {
+  "mode": 420
+ },
+ "etc/cne/wqeclient/ATT/ATT_profile1.xml": {
+  "mode": 420
+ },
+ "etc/cne/wqeclient/ATT/ATT_profile2.xml": {
+  "mode": 420
+ },
+ "etc/cne/wqeclient/ATT/ATT_profile3.xml": {
+  "mode": 420
+ },
+ "etc/cne/wqeclient/ATT/ATT_profile4.xml": {
+  "mode": 420
+ },
+ "etc/cne/wqeclient/ATT/ATT_profile5.xml": {
+  "mode": 420
+ },
+ "etc/cne/wqeclient/ATT/ATT_profile6.xml": {
+  "mode": 420
+ },
+ "etc/cne/wqeclient/ROW/ROW_profile1.xml": {
+  "mode": 420
+ },
+ "etc/cne/wqeclient/ROW/ROW_profile15.xml": {
+  "mode": 420
+ },
+ "etc/cne/wqeclient/ROW/ROW_profile16.xml": {
+  "mode": 420
+ },
+ "etc/cne/wqeclient/ROW/ROW_profile17.xml": {
+  "mode": 420
+ },
+ "etc/cne/wqeclient/ROW/ROW_profile18.xml": {
+  "mode": 420
+ },
+ "etc/cne/wqeclient/ROW/ROW_profile19.xml": {
+  "mode": 420
+ },
+ "etc/cne/wqeclient/ROW/ROW_profile2.xml": {
+  "mode": 420
+ },
+ "etc/cne/wqeclient/ROW/ROW_profile20.xml": {
+  "mode": 420
+ },
+ "etc/cne/wqeclient/ROW/ROW_profile21.xml": {
+  "mode": 420
+ },
+ "etc/cne/wqeclient/ROW/ROW_profile3.xml": {
+  "mode": 420
+ },
+ "etc/cne/wqeclient/ROW/ROW_profile32.xml": {
+  "mode": 420
+ },
+ "etc/cne/wqeclient/ROW/ROW_profile4.xml": {
+  "mode": 420
+ },
+ "etc/cne/wqeclient/ROW/ROW_profile5.xml": {
+  "mode": 420
+ },
+ "etc/cne/wqeclient/ROW/ROW_profile6.xml": {
+  "mode": 420
+ },
+ "etc/cne/wqeclient/ROW/ROW_profile7.xml": {
+  "mode": 420
+ },
+ "etc/cne/wqeclient/VZW/VZW_profile1.xml": {
+  "mode": 420
+ },
+ "etc/cne/wqeclient/VZW/VZW_profile2.xml": {
+  "mode": 420
+ },
+ "etc/cne/wqeclient/VZW/VZW_profile3.xml": {
+  "mode": 420
+ },
+ "etc/cne/wqeclient/VZW/VZW_profile4.xml": {
+  "mode": 420
+ },
+ "etc/cne/wqeclient/VZW/VZW_profile5.xml": {
+  "mode": 420
+ },
+ "etc/cne/wqeclient/VZW/VZW_profile6.xml": {
+  "mode": 420
+ },
+ "etc/data/dsi_config.xml": {
+  "mode": 420
+ },
+ "etc/data/netmgr_config.xml": {
+  "mode": 420
+ },
+ "etc/default_volume_tables.xml": {
+  "mode": 420
+ },
+ "etc/drc/drc_cfg_5.1.txt": {
+  "mode": 420
+ },
+ "etc/drc/drc_cfg_AZ.txt": {
+  "mode": 420
+ },
+ "etc/flp.conf": {
+  "mode": 420
+ },
+ "etc/fs_config_dirs": {
+  "mode": 292
+ },
+ "etc/fs_config_files": {
+  "mode": 292
+ },
+ "etc/fstab.qcom": {
+  "mode": 420
+ },
+ "etc/ftm_test_config": {
+  "mode": 420
+ },
+ "etc/ftm_test_config_msm8953-sku3-tasha-snd-card": {
+  "mode": 420
+ },
+ "etc/ftm_test_config_msm8953-sku4-snd-card": {
+  "mode": 420
+ },
+ "etc/ftm_test_config_mtp": {
+  "mode": 420
+ },
+ "etc/ftm_test_config_wcd9335": {
+  "mode": 420
+ },
+ "etc/gps.conf": {
+  "mode": 420
+ },
+ "etc/hbtp/hbtpcfg.dat": {
+  "mode": 420
+ },
+ "etc/hbtp/hbtpcfg2.dat": {
+  "mode": 420
+ },
+ "etc/hbtp/hbtpcfg_msm8953_800s_fhd.dat": {
+  "mode": 420
+ },
+ "etc/hbtp/qtc800h.bin": {
+  "mode": 420
+ },
+ "etc/hbtp/qtc800s_dsp.bin": {
+  "mode": 420
+ },
+ "etc/hbtp/qtc800s_msm8937.bin": {
+  "mode": 420
+ },
+ "etc/init/android.hardware.audio@2.0-service.rc": {
+  "mode": 420
+ },
+ "etc/init/android.hardware.bluetooth@1.0-service-qti.rc": {
+  "mode": 420
+ },
+ "etc/init/android.hardware.camera.provider@2.4-service.rc": {
+  "mode": 420
+ },
+ "etc/init/android.hardware.cas@1.0-service.rc": {
+  "mode": 420
+ },
+ "etc/init/android.hardware.configstore@1.0-service.rc": {
+  "mode": 420
+ },
+ "etc/init/android.hardware.drm@1.0-service.rc": {
+  "mode": 420
+ },
+ "etc/init/android.hardware.gatekeeper@1.0-service-qti.rc": {
+  "mode": 420
+ },
+ "etc/init/android.hardware.graphics.allocator@2.0-service.rc": {
+  "mode": 420
+ },
+ "etc/init/android.hardware.graphics.composer@2.1-service.rc": {
+  "mode": 420
+ },
+ "etc/init/android.hardware.health@1.0-service.rc": {
+  "mode": 420
+ },
+ "etc/init/android.hardware.keymaster@3.0-service-qti.rc": {
+  "mode": 420
+ },
+ "etc/init/android.hardware.light@2.0-service.rc": {
+  "mode": 420
+ },
+ "etc/init/android.hardware.media.omx@1.0-service.rc": {
+  "mode": 420
+ },
+ "etc/init/android.hardware.memtrack@1.0-service.rc": {
+  "mode": 420
+ },
+ "etc/init/android.hardware.power@1.0-service.rc": {
+  "mode": 420
+ },
+ "etc/init/android.hardware.sensors@1.0-service.rc": {
+  "mode": 420
+ },
+ "etc/init/android.hardware.thermal@1.0-service.rc": {
+  "mode": 420
+ },
+ "etc/init/android.hardware.vibrator@1.0-service.rc": {
+  "mode": 420
+ },
+ "etc/init/android.hardware.wifi@1.0-service.rc": {
+  "mode": 420
+ },
+ "etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc": {
+  "mode": 420
+ },
+ "etc/init/hostapd.android.rc": {
+  "mode": 420
+ },
+ "etc/init/hw/init.msm.usb.configfs.rc": {
+  "mode": 420
+ },
+ "etc/init/hw/init.qcom.factory.rc": {
+  "mode": 420
+ },
+ "etc/init/hw/init.qcom.rc": {
+  "mode": 420
+ },
+ "etc/init/hw/init.qcom.usb.rc": {
+  "mode": 420
+ },
+ "etc/init/hw/init.target.rc": {
+  "mode": 420
+ },
+ "etc/init/rild.rc": {
+  "mode": 420
+ },
+ "etc/init/vendor.display.color@1.0-service.rc": {
+  "mode": 420
+ },
+ "etc/init/vendor.qti.esepowermanager@1.0-service.rc": {
+  "mode": 420
+ },
+ "etc/init/vendor.qti.gnss@1.0-service.rc": {
+  "mode": 420
+ },
+ "etc/init/vendor.qti.hardware.alarm@1.0-service.rc": {
+  "mode": 420
+ },
+ "etc/init/vendor.qti.hardware.factory@1.0-service.rc": {
+  "mode": 420
+ },
+ "etc/init/vendor.qti.hardware.perf@1.0-service.rc": {
+  "mode": 420
+ },
+ "etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc": {
+  "mode": 420
+ },
+ "etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc": {
+  "mode": 420
+ },
+ "etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc": {
+  "mode": 420
+ },
+ "etc/init/vndservicemanager.rc": {
+  "mode": 420
+ },
+ "etc/izat.conf": {
+  "mode": 420
+ },
+ "etc/lowi.conf": {
+  "mode": 420
+ },
+ "etc/media_codecs.xml": {
+  "mode": 420
+ },
+ "etc/media_codecs_8953.xml": {
+  "mode": 420
+ },
+ "etc/media_codecs_8953_v1.xml": {
+  "mode": 420
+ },
+ "etc/media_codecs_google_audio.xml": {
+  "mode": 420
+ },
+ "etc/media_codecs_google_telephony.xml": {
+  "mode": 420
+ },
+ "etc/media_codecs_google_video.xml": {
+  "mode": 420
+ },
+ "etc/media_codecs_google_video_le.xml": {
+  "mode": 420
+ },
+ "etc/media_codecs_performance.xml": {
+  "mode": 420
+ },
+ "etc/media_codecs_performance_8953.xml": {
+  "mode": 420
+ },
+ "etc/media_codecs_performance_8953_v1.xml": {
+  "mode": 420
+ },
+ "etc/media_codecs_vendor_audio.xml": {
+  "mode": 420
+ },
+ "etc/media_profiles.xml": {
+  "mode": 420
+ },
+ "etc/media_profiles_8953_v1.xml": {
+  "mode": 420
+ },
+ "etc/media_profiles_V1_0.xml": {
+  "mode": 420
+ },
+ "etc/media_profiles_vendor.xml": {
+  "mode": 420
+ },
+ "etc/mixer_paths.xml": {
+  "mode": 420
+ },
+ "etc/mixer_paths_mtp.xml": {
+  "mode": 420
+ },
+ "etc/mixer_paths_qrd_sku3.xml": {
+  "mode": 420
+ },
+ "etc/mixer_paths_qrd_skuh.xml": {
+  "mode": 420
+ },
+ "etc/mixer_paths_qrd_skuhf.xml": {
+  "mode": 420
+ },
+ "etc/mixer_paths_qrd_skui.xml": {
+  "mode": 420
+ },
+ "etc/mixer_paths_qrd_skum.xml": {
+  "mode": 420
+ },
+ "etc/mixer_paths_qrd_skun.xml": {
+  "mode": 420
+ },
+ "etc/mixer_paths_skuk.xml": {
+  "mode": 420
+ },
+ "etc/mixer_paths_wcd9306.xml": {
+  "mode": 420
+ },
+ "etc/mixer_paths_wcd9326.xml": {
+  "mode": 420
+ },
+ "etc/mixer_paths_wcd9330.xml": {
+  "mode": 420
+ },
+ "etc/mixer_paths_wcd9335.xml": {
+  "mode": 420
+ },
+ "etc/mkshrc": {
+  "mode": 420
+ },
+ "etc/msm_irqbalance.conf": {
+  "mode": 420
+ },
+ "etc/msm_irqbalance_little_big.conf": {
+  "mode": 420
+ },
+ "etc/perf/gamedwhitelist.xml": {
+  "mode": 420
+ },
+ "etc/perf/perfboostsconfig.xml": {
+  "mode": 420
+ },
+ "etc/permissions/android.hardware.bluetooth.xml": {
+  "mode": 420
+ },
+ "etc/permissions/android.hardware.bluetooth_le.xml": {
+  "mode": 420
+ },
+ "etc/permissions/android.hardware.camera.flash-autofocus.xml": {
+  "mode": 420
+ },
+ "etc/permissions/android.hardware.camera.front.xml": {
+  "mode": 420
+ },
+ "etc/permissions/android.hardware.camera.full.xml": {
+  "mode": 420
+ },
+ "etc/permissions/android.hardware.camera.raw.xml": {
+  "mode": 420
+ },
+ "etc/permissions/android.hardware.light.xml": {
+  "mode": 420
+ },
+ "etc/permissions/android.hardware.location.gps.xml": {
+  "mode": 420
+ },
+ "etc/permissions/android.hardware.opengles.aep.xml": {
+  "mode": 420
+ },
+ "etc/permissions/android.hardware.sensor.accelerometer.xml": {
+  "mode": 420
+ },
+ "etc/permissions/android.hardware.sensor.barometer.xml": {
+  "mode": 420
+ },
+ "etc/permissions/android.hardware.sensor.compass.xml": {
+  "mode": 420
+ },
+ "etc/permissions/android.hardware.sensor.gyroscope.xml": {
+  "mode": 420
+ },
+ "etc/permissions/android.hardware.sensor.light.xml": {
+  "mode": 420
+ },
+ "etc/permissions/android.hardware.sensor.proximity.xml": {
+  "mode": 420
+ },
+ "etc/permissions/android.hardware.sensor.stepcounter.xml": {
+  "mode": 420
+ },
+ "etc/permissions/android.hardware.sensor.stepdetector.xml": {
+  "mode": 420
+ },
+ "etc/permissions/android.hardware.telephony.cdma.xml": {
+  "mode": 420
+ },
+ "etc/permissions/android.hardware.telephony.gsm.xml": {
+  "mode": 420
+ },
+ "etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml": {
+  "mode": 420
+ },
+ "etc/permissions/android.hardware.usb.accessory.xml": {
+  "mode": 420
+ },
+ "etc/permissions/android.hardware.usb.host.xml": {
+  "mode": 420
+ },
+ "etc/permissions/android.hardware.vulkan.compute-0.xml": {
+  "mode": 420
+ },
+ "etc/permissions/android.hardware.vulkan.level-0.xml": {
+  "mode": 420
+ },
+ "etc/permissions/android.hardware.vulkan.version-1_0_3.xml": {
+  "mode": 420
+ },
+ "etc/permissions/android.hardware.wifi.direct.xml": {
+  "mode": 420
+ },
+ "etc/permissions/android.hardware.wifi.xml": {
+  "mode": 420
+ },
+ "etc/permissions/android.software.midi.xml": {
+  "mode": 420
+ },
+ "etc/permissions/android.software.sip.voip.xml": {
+  "mode": 420
+ },
+ "etc/permissions/handheld_core_hardware.xml": {
+  "mode": 420
+ },
+ "etc/permissions/vendor.qti.hardware.factory.xml": {
+  "mode": 420
+ },
+ "etc/public.libraries.txt": {
+  "mode": 420
+ },
+ "etc/qti-logkit/IMS.dmc": {
+  "mode": 420
+ },
+ "etc/qti-logkit/audiobasic.dmc": {
+  "mode": 420
+ },
+ "etc/qti-logkit/gnsslocationlogging.dmc": {
+  "mode": 420
+ },
+ "etc/qti-logkit/goldenlogmask.dmc": {
+  "mode": 420
+ },
+ "etc/qti-logkit/qti_logkit_command.xml": {
+  "mode": 420
+ },
+ "etc/qti-logkit/qti_logkit_config.xml": {
+  "mode": 420
+ },
+ "etc/qti-logkit/scenarios/IMS.png": {
+  "mode": 420
+ },
+ "etc/qti-logkit/scenarios/bluetooth.png": {
+  "mode": 420
+ },
+ "etc/qti-logkit/scenarios/default.png": {
+  "mode": 420
+ },
+ "etc/qvr/ov7251_640x480_cam_config.xml": {
+  "mode": 420
+ },
+ "etc/qvr/ov9282_stereo_1280x400_cam_config.xml": {
+  "mode": 420
+ },
+ "etc/qvr/ov9282_stereo_2560x800_cam_config.xml": {
+  "mode": 420
+ },
+ "etc/qvr/qvrservice_6dof_config.xml": {
+  "mode": 420
+ },
+ "etc/qvr/qvrservice_6dof_config_stereo.xml": {
+  "mode": 420
+ },
+ "etc/qvr/qvrservice_config.txt": {
+  "mode": 420
+ },
+ "etc/r_submix_audio_policy_configuration.xml": {
+  "mode": 420
+ },
+ "etc/sap.conf": {
+  "mode": 420
+ },
+ "etc/sec_config": {
+  "mode": 420
+ },
+ "etc/seccomp_policy/configstore@1.0.policy": {
+  "mode": 420
+ },
+ "etc/seccomp_policy/mediacodec.policy": {
+  "mode": 420
+ },
+ "etc/seccomp_policy/mediaextractor.policy": {
+  "mode": 420
+ },
+ "etc/selinux/nonplat_file_contexts": {
+  "mode": 420
+ },
+ "etc/selinux/nonplat_hwservice_contexts": {
+  "mode": 420
+ },
+ "etc/selinux/nonplat_mac_permissions.xml": {
+  "mode": 420
+ },
+ "etc/selinux/nonplat_property_contexts": {
+  "mode": 420
+ },
+ "etc/selinux/nonplat_seapp_contexts": {
+  "mode": 420
+ },
+ "etc/selinux/nonplat_sepolicy.cil": {
+  "mode": 420
+ },
+ "etc/selinux/nonplat_service_contexts": {
+  "mode": 420
+ },
+ "etc/selinux/plat_sepolicy_vers.txt": {
+  "mode": 420
+ },
+ "etc/selinux/precompiled_sepolicy": {
+  "mode": 420
+ },
+ "etc/selinux/precompiled_sepolicy.plat_and_mapping.sha256": {
+  "mode": 420
+ },
+ "etc/selinux/vndservice_contexts": {
+  "mode": 420
+ },
+ "etc/sensors/hals.conf": {
+  "mode": 420
+ },
+ "etc/sensors/sensor_def_qcomdev.conf": {
+  "mode": 420
+ },
+ "etc/sound_trigger_mixer_paths.xml": {
+  "mode": 420
+ },
+ "etc/sound_trigger_mixer_paths_wcd9306.xml": {
+  "mode": 420
+ },
+ "etc/sound_trigger_mixer_paths_wcd9330.xml": {
+  "mode": 420
+ },
+ "etc/sound_trigger_mixer_paths_wcd9335.xml": {
+  "mode": 420
+ },
+ "etc/sound_trigger_platform_info.xml": {
+  "mode": 420
+ },
+ "etc/surround_sound_3mic/surround_sound_rec_5.1.cfg": {
+  "mode": 420
+ },
+ "etc/surround_sound_3mic/surround_sound_rec_AZ.cfg": {
+  "mode": 420
+ },
+ "etc/thermal-engine.conf": {
+  "mode": 420
+ },
+ "etc/usb_audio_policy_configuration.xml": {
+  "mode": 420
+ },
+ "etc/wifi/WCNSS_qcom_cfg.ini": {
+  "mode": 420
+ },
+ "etc/wifi/p2p_supplicant_overlay.conf": {
+  "mode": 420
+ },
+ "etc/wifi/wpa_supplicant.conf": {
+  "mode": 420
+ },
+ "etc/wifi/wpa_supplicant_overlay.conf": {
+  "mode": 420
+ },
+ "etc/xtra_root_cert.pem": {
+  "mode": 420
+ },
+ "etc/xtwifi.conf": {
+  "mode": 420
+ },
+ "firmware/a225_pfp.fw": {
+  "mode": 420
+ },
+ "firmware/a225_pm4.fw": {
+  "mode": 420
+ },
+ "firmware/a225p5_pm4.fw": {
+  "mode": 420
+ },
+ "firmware/a300_pfp.fw": {
+  "mode": 420
+ },
+ "firmware/a300_pm4.fw": {
+  "mode": 420
+ },
+ "firmware/a330_pfp.fw": {
+  "mode": 420
+ },
+ "firmware/a330_pm4.fw": {
+  "mode": 420
+ },
+ "firmware/a420_pfp.fw": {
+  "mode": 420
+ },
+ "firmware/a420_pm4.fw": {
+  "mode": 420
+ },
+ "firmware/a506_zap.b00": {
+  "mode": 420
+ },
+ "firmware/a506_zap.b01": {
+  "mode": 420
+ },
+ "firmware/a506_zap.b02": {
+  "mode": 420
+ },
+ "firmware/a506_zap.elf": {
+  "mode": 420
+ },
+ "firmware/a506_zap.mdt": {
+  "mode": 420
+ },
+ "firmware/a530_gpmu.fw2": {
+  "mode": 420
+ },
+ "firmware/a530_pfp.fw": {
+  "mode": 420
+ },
+ "firmware/a530_pm4.fw": {
+  "mode": 420
+ },
+ "firmware/a530v1_pfp.fw": {
+  "mode": 420
+ },
+ "firmware/a530v1_pm4.fw": {
+  "mode": 420
+ },
+ "firmware/a530v2_seq.fw2": {
+  "mode": 420
+ },
+ "firmware/a530v3_gpmu.fw2": {
+  "mode": 420
+ },
+ "firmware/a530v3_seq.fw2": {
+  "mode": 420
+ },
+ "firmware/a540_gpmu.fw2": {
+  "mode": 420
+ },
+ "firmware/cpp_firmware_v1_10_0.fw": {
+  "mode": 420
+ },
+ "firmware/cpp_firmware_v1_12_0.fw": {
+  "mode": 420
+ },
+ "firmware/cpp_firmware_v1_1_1.fw": {
+  "mode": 420
+ },
+ "firmware/cpp_firmware_v1_1_6.fw": {
+  "mode": 420
+ },
+ "firmware/cpp_firmware_v1_2_0.fw": {
+  "mode": 420
+ },
+ "firmware/cpp_firmware_v1_4_0.fw": {
+  "mode": 420
+ },
+ "firmware/cpp_firmware_v1_5_0.fw": {
+  "mode": 420
+ },
+ "firmware/cpp_firmware_v1_5_1.fw": {
+  "mode": 420
+ },
+ "firmware/cpp_firmware_v1_5_2.fw": {
+  "mode": 420
+ },
+ "firmware/cpp_firmware_v1_6_0.fw": {
+  "mode": 420
+ },
+ "firmware/cpp_firmware_v1_8_0.fw": {
+  "mode": 420
+ },
+ "firmware/leia_pfp_470.fw": {
+  "mode": 420
+ },
+ "firmware/leia_pm4_470.fw": {
+  "mode": 420
+ },
+ "framework/qti-vzw-ims-internal.jar": {
+  "mode": 420
+ },
+ "framework/vendor.qti.hardware.alarm-V1.0-java.jar": {
+  "mode": 420
+ },
+ "framework/vendor.qti.hardware.factory-V1.0-java.jar": {
+  "mode": 420
+ },
+ "framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar": {
+  "mode": 420
+ },
+ "lib/android.hidl.base@1.0.so": {
+  "mode": 420
+ },
+ "lib/camera.device@1.0-impl.so": {
+  "mode": 420
+ },
+ "lib/camera.device@3.2-impl.so": {
+  "mode": 420
+ },
+ "lib/camera.device@3.3-impl.so": {
+  "mode": 420
+ },
+ "lib/com.qualcomm.qti.ant@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib/com.qualcomm.qti.dpm.api@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib/com.qualcomm.qti.imscmservice@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib/com.qualcomm.qti.imscmservice@1.1_vendor.so": {
+  "mode": 420
+ },
+ "lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so": {
+  "mode": 420
+ },
+ "lib/com.qualcomm.qti.wifidisplayhal@1.0-impl.so": {
+  "mode": 420
+ },
+ "lib/com.qualcomm.qti.wifidisplayhal@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib/com.quicinc.cne.api@1.0.so": {
+  "mode": 420
+ },
+ "lib/com.quicinc.cne.constants@1.0.so": {
+  "mode": 420
+ },
+ "lib/com.quicinc.cne.constants@2.0.so": {
+  "mode": 420
+ },
+ "lib/com.quicinc.cne.server@1.0.so": {
+  "mode": 420
+ },
+ "lib/com.quicinc.cne.server@2.0.so": {
+  "mode": 420
+ },
+ "lib/egl/eglSubDriverAndroid.so": {
+  "mode": 420
+ },
+ "lib/egl/libEGL_adreno.so": {
+  "mode": 420
+ },
+ "lib/egl/libGLESv1_CM_adreno.so": {
+  "mode": 420
+ },
+ "lib/egl/libGLESv2_adreno.so": {
+  "mode": 420
+ },
+ "lib/egl/libQTapGLES.so": {
+  "mode": 420
+ },
+ "lib/egl/libq3dtools_adreno.so": {
+  "mode": 420
+ },
+ "lib/egl/libq3dtools_esx.so": {
+  "mode": 420
+ },
+ "lib/hw/activity_recognition.msm8953.so": {
+  "mode": 420
+ },
+ "lib/hw/android.hardware.audio.effect@2.0-impl.so": {
+  "mode": 420
+ },
+ "lib/hw/android.hardware.audio@2.0-impl.so": {
+  "mode": 420
+ },
+ "lib/hw/android.hardware.bluetooth@1.0-impl-qti.so": {
+  "mode": 420
+ },
+ "lib/hw/android.hardware.camera.provider@2.4-impl.so": {
+  "mode": 420
+ },
+ "lib/hw/android.hardware.drm@1.0-impl.so": {
+  "mode": 420
+ },
+ "lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so": {
+  "mode": 420
+ },
+ "lib/hw/android.hardware.gnss@1.0-impl-qti.so": {
+  "mode": 420
+ },
+ "lib/hw/android.hardware.graphics.allocator@2.0-impl.so": {
+  "mode": 420
+ },
+ "lib/hw/android.hardware.graphics.composer@2.1-impl.so": {
+  "mode": 420
+ },
+ "lib/hw/android.hardware.graphics.mapper@2.0-impl.so": {
+  "mode": 420
+ },
+ "lib/hw/android.hardware.health@1.0-impl.so": {
+  "mode": 420
+ },
+ "lib/hw/android.hardware.keymaster@3.0-impl-qti.so": {
+  "mode": 420
+ },
+ "lib/hw/android.hardware.light@2.0-impl.so": {
+  "mode": 420
+ },
+ "lib/hw/android.hardware.memtrack@1.0-impl.so": {
+  "mode": 420
+ },
+ "lib/hw/android.hardware.power@1.0-impl.so": {
+  "mode": 420
+ },
+ "lib/hw/android.hardware.renderscript@1.0-impl.so": {
+  "mode": 420
+ },
+ "lib/hw/android.hardware.sensors@1.0-impl.so": {
+  "mode": 420
+ },
+ "lib/hw/android.hardware.soundtrigger@2.0-impl.so": {
+  "mode": 420
+ },
+ "lib/hw/android.hardware.thermal@1.0-impl.so": {
+  "mode": 420
+ },
+ "lib/hw/android.hardware.vibrator@1.0-impl.so": {
+  "mode": 420
+ },
+ "lib/hw/audio.primary.default.so": {
+  "mode": 420
+ },
+ "lib/hw/audio.primary.msm8953.so": {
+  "mode": 420
+ },
+ "lib/hw/audio.r_submix.default.so": {
+  "mode": 420
+ },
+ "lib/hw/audio.usb.default.so": {
+  "mode": 420
+ },
+ "lib/hw/camera.msm8953.so": {
+  "mode": 420
+ },
+ "lib/hw/com.qualcomm.qti.ant@1.0-impl.so": {
+  "mode": 420
+ },
+ "lib/hw/gatekeeper.msm8953.so": {
+  "mode": 420
+ },
+ "lib/hw/gralloc.default.so": {
+  "mode": 420
+ },
+ "lib/hw/gralloc.msm8953.so": {
+  "mode": 420
+ },
+ "lib/hw/hwcomposer.msm8953.so": {
+  "mode": 420
+ },
+ "lib/hw/keystore.msm8953.so": {
+  "mode": 420
+ },
+ "lib/hw/lights.msm8953.so": {
+  "mode": 420
+ },
+ "lib/hw/local_time.default.so": {
+  "mode": 420
+ },
+ "lib/hw/memtrack.msm8953.so": {
+  "mode": 420
+ },
+ "lib/hw/power.default.so": {
+  "mode": 420
+ },
+ "lib/hw/power.qcom.so": {
+  "mode": 420
+ },
+ "lib/hw/sound_trigger.primary.msm8953.so": {
+  "mode": 420
+ },
+ "lib/hw/thermal.msm8953.so": {
+  "mode": 420
+ },
+ "lib/hw/vendor.qti.esepowermanager@1.0-impl.so": {
+  "mode": 420
+ },
+ "lib/hw/vendor.qti.gnss@1.0-impl.so": {
+  "mode": 420
+ },
+ "lib/hw/vendor.qti.hardware.alarm@1.0-impl.so": {
+  "mode": 420
+ },
+ "lib/hw/vendor.qti.hardware.factory@1.0-impl.so": {
+  "mode": 420
+ },
+ "lib/hw/vendor.qti.hardware.fm@1.0-impl.so": {
+  "mode": 420
+ },
+ "lib/hw/vendor.qti.hardware.iop@1.0-impl.so": {
+  "mode": 420
+ },
+ "lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so": {
+  "mode": 420
+ },
+ "lib/hw/vibrator.default.so": {
+  "mode": 420
+ },
+ "lib/hw/vulkan.msm8953.so": {
+  "mode": 420
+ },
+ "lib/lib-dplmedia.so": {
+  "mode": 420
+ },
+ "lib/lib-imsSDP.so": {
+  "mode": 420
+ },
+ "lib/lib-imscmservice.so": {
+  "mode": 420
+ },
+ "lib/lib-imsdpl.so": {
+  "mode": 420
+ },
+ "lib/lib-imsqimf.so": {
+  "mode": 420
+ },
+ "lib/lib-imsrcs-v2.so": {
+  "mode": 420
+ },
+ "lib/lib-imsxml.so": {
+  "mode": 420
+ },
+ "lib/lib-rtpcommon.so": {
+  "mode": 420
+ },
+ "lib/lib-rtpcore.so": {
+  "mode": 420
+ },
+ "lib/lib-rtpdaemoninterface.so": {
+  "mode": 420
+ },
+ "lib/lib-rtpsl.so": {
+  "mode": 420
+ },
+ "lib/lib-siputility.so": {
+  "mode": 420
+ },
+ "lib/lib-uceservice.so": {
+  "mode": 420
+ },
+ "lib/libAlacSwDec.so": {
+  "mode": 420
+ },
+ "lib/libApeSwDec.so": {
+  "mode": 420
+ },
+ "lib/libC2D2.so": {
+  "mode": 420
+ },
+ "lib/libCB.so": {
+  "mode": 420
+ },
+ "lib/libDRPlugin.so": {
+  "mode": 420
+ },
+ "lib/libFIDOKeyProvisioning.so": {
+  "mode": 420
+ },
+ "lib/libFidoCrypto_vendor.so": {
+  "mode": 420
+ },
+ "lib/libFlacSwDec.so": {
+  "mode": 420
+ },
+ "lib/libGPTEE_vendor.so": {
+  "mode": 420
+ },
+ "lib/libGPreqcancel.so": {
+  "mode": 420
+ },
+ "lib/libGPreqcancel_svc.so": {
+  "mode": 420
+ },
+ "lib/libI420colorconvert.so": {
+  "mode": 420
+ },
+ "lib/libOmxAacDec.so": {
+  "mode": 420
+ },
+ "lib/libOmxAacEnc.so": {
+  "mode": 420
+ },
+ "lib/libOmxAlacDec.so": {
+  "mode": 420
+ },
+ "lib/libOmxAlacDecSw.so": {
+  "mode": 420
+ },
+ "lib/libOmxAmrDec.so": {
+  "mode": 420
+ },
+ "lib/libOmxAmrEnc.so": {
+  "mode": 420
+ },
+ "lib/libOmxAmrwbplusDec.so": {
+  "mode": 420
+ },
+ "lib/libOmxApeDec.so": {
+  "mode": 420
+ },
+ "lib/libOmxApeDecSw.so": {
+  "mode": 420
+ },
+ "lib/libOmxCore.so": {
+  "mode": 420
+ },
+ "lib/libOmxDsdDec.so": {
+  "mode": 420
+ },
+ "lib/libOmxEvrcDec.so": {
+  "mode": 420
+ },
+ "lib/libOmxEvrcEnc.so": {
+  "mode": 420
+ },
+ "lib/libOmxG711Dec.so": {
+  "mode": 420
+ },
+ "lib/libOmxG711Enc.so": {
+  "mode": 420
+ },
+ "lib/libOmxQcelp13Dec.so": {
+  "mode": 420
+ },
+ "lib/libOmxQcelp13Enc.so": {
+  "mode": 420
+ },
+ "lib/libOmxVdec.so": {
+  "mode": 420
+ },
+ "lib/libOmxVenc.so": {
+  "mode": 420
+ },
+ "lib/libOmxVideoDSMode.so": {
+  "mode": 420
+ },
+ "lib/libOmxVpp.so": {
+  "mode": 420
+ },
+ "lib/libOmxWmaDec.so": {
+  "mode": 420
+ },
+ "lib/libOpenCL.so": {
+  "mode": 420
+ },
+ "lib/libQSEEComAPI.so": {
+  "mode": 420
+ },
+ "lib/libQTEEConnector_vendor.so": {
+  "mode": 420
+ },
+ "lib/libRSDriver_adreno.so": {
+  "mode": 420
+ },
+ "lib/libSecureUILib.so": {
+  "mode": 420
+ },
+ "lib/libStDrvInt.so": {
+  "mode": 420
+ },
+ "lib/libSubSystemShutdown.so": {
+  "mode": 420
+ },
+ "lib/libUBWC.so": {
+  "mode": 420
+ },
+ "lib/libUserAgent.so": {
+  "mode": 420
+ },
+ "lib/lib_drplugin_server.so": {
+  "mode": 420
+ },
+ "lib/lib_remote_simlock.so": {
+  "mode": 420
+ },
+ "lib/libacdb-fts.so": {
+  "mode": 420
+ },
+ "lib/libacdbloader.so": {
+  "mode": 420
+ },
+ "lib/libacdbmapper.so": {
+  "mode": 420
+ },
+ "lib/libacdbrtac.so": {
+  "mode": 420
+ },
+ "lib/libactuator_ad5816g.so": {
+  "mode": 420
+ },
+ "lib/libactuator_ad5823.so": {
+  "mode": 420
+ },
+ "lib/libactuator_ak7345.so": {
+  "mode": 420
+ },
+ "lib/libactuator_ak7371.so": {
+  "mode": 420
+ },
+ "lib/libactuator_bu64244gwz.so": {
+  "mode": 420
+ },
+ "lib/libactuator_bu64297.so": {
+  "mode": 420
+ },
+ "lib/libactuator_dw9714.so": {
+  "mode": 420
+ },
+ "lib/libactuator_dw9714v_m24c64.so": {
+  "mode": 420
+ },
+ "lib/libactuator_dw9716.so": {
+  "mode": 420
+ },
+ "lib/libactuator_dw9761b.so": {
+  "mode": 420
+ },
+ "lib/libactuator_dw9763.so": {
+  "mode": 420
+ },
+ "lib/libactuator_lc898122.so": {
+  "mode": 420
+ },
+ "lib/libactuator_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libactuator_lc898212xd_qc2002.so": {
+  "mode": 420
+ },
+ "lib/libactuator_lc898217xc.so": {
+  "mode": 420
+ },
+ "lib/libactuator_pseudo.so": {
+  "mode": 420
+ },
+ "lib/libactuator_rohm_bu64243gwz.so": {
+  "mode": 420
+ },
+ "lib/libadiertac.so": {
+  "mode": 420
+ },
+ "lib/libadm.so": {
+  "mode": 420
+ },
+ "lib/libadpcmdec.so": {
+  "mode": 420
+ },
+ "lib/libadreno_utils.so": {
+  "mode": 420
+ },
+ "lib/libadsp_default_listener.so": {
+  "mode": 420
+ },
+ "lib/libadsprpc.so": {
+  "mode": 420
+ },
+ "lib/libalarmservice_jni.so": {
+  "mode": 420
+ },
+ "lib/libalsautils.so": {
+  "mode": 420
+ },
+ "lib/libaudcal.so": {
+  "mode": 420
+ },
+ "lib/libaudio_log_utils.so": {
+  "mode": 420
+ },
+ "lib/libaudioalsa.so": {
+  "mode": 420
+ },
+ "lib/libaudioparsers.so": {
+  "mode": 420
+ },
+ "lib/libavservices_minijail_vendor.so": {
+  "mode": 420
+ },
+ "lib/libbase64.so": {
+  "mode": 420
+ },
+ "lib/libbccQTI.so": {
+  "mode": 420
+ },
+ "lib/libbt-hidlclient.so": {
+  "mode": 420
+ },
+ "lib/libbt-vendor.so": {
+  "mode": 420
+ },
+ "lib/libbthost_if.so": {
+  "mode": 420
+ },
+ "lib/libbtnv.so": {
+  "mode": 420
+ },
+ "lib/libc2d30-a3xx.so": {
+  "mode": 420
+ },
+ "lib/libc2d30-a4xx.so": {
+  "mode": 420
+ },
+ "lib/libc2d30-a5xx.so": {
+  "mode": 420
+ },
+ "lib/libc2d30_bltlib.so": {
+  "mode": 420
+ },
+ "lib/libc2dcolorconvert.so": {
+  "mode": 420
+ },
+ "lib/libcdsprpc.so": {
+  "mode": 420
+ },
+ "lib/libchromaflash.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_csidtg_common.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_csidtg_cpp_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_csidtg_postproc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_csidtg_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_csidtg_zsl_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx214_4k_preview_lc898122.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx214_4k_video_lc898122.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx214_common.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx214_cpp_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx214_cpp_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx214_cpp_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx214_cpp_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx214_cpp_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx214_cpp_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx214_cpp_snapshot_hdr.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx214_cpp_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx214_cpp_video_hdr.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx214_default_preview_lc898122.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx214_default_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx214_default_video_lc898122.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx214_hdr_snapshot_lc898122.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx214_hdr_video_lc898122.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx214_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx214_hfr_120_lc898122.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx214_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx214_hfr_60_lc898122.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx214_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx214_hfr_90_lc898122.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx214_postproc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx214_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx214_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx214_snapshot_hdr.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx214_video_hdr.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx214_zsl_preview_lc898122.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx214_zsl_video_lc898122.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_1080p_preview_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_1080p_video_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_4k_preview_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_4k_video_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_common.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_cpp_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_cpp_hfr_240.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_cpp_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_cpp_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_cpp_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_cpp_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_cpp_raw_hdr.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_cpp_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_cpp_snapshot_downscale.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_cpp_snapshot_hdr.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_cpp_snapshot_upscale.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_cpp_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_cpp_video_4k.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_cpp_video_hdr.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_default_preview_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_default_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_default_video_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_hdr_snapshot_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_hdr_video_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_hfr_120_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_hfr_240.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_hfr_240_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_hfr_60_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_hfr_90_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_postproc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_1080p_preview_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_1080p_video_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_4k_preview_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_4k_video_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_common.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_cpp_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_cpp_hfr_240.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_cpp_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_cpp_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_cpp_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_cpp_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_cpp_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_cpp_snapshot_hdr.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_cpp_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_cpp_video_4k.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_cpp_video_hdr.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_default_preview_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_default_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_default_video_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_hdr_snapshot_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_hdr_video_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_hfr_120_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_hfr_240.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_hfr_240_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_hfr_60_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_hfr_90_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_postproc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_snapshot_hdr.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_video_16M_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_video_4k.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_video_hdr.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_with_gyro_1080p_preview_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_with_gyro_1080p_video_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_with_gyro_4k_preview_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_with_gyro_4k_video_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_with_gyro_common.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_with_gyro_cpp_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_with_gyro_cpp_hfr_240.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_with_gyro_cpp_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_with_gyro_cpp_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_with_gyro_cpp_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_with_gyro_cpp_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_with_gyro_cpp_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_with_gyro_cpp_snapshot_hdr.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_with_gyro_cpp_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_with_gyro_cpp_video_4k.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_with_gyro_cpp_video_hdr.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_with_gyro_default_preview_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_with_gyro_default_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_with_gyro_default_video_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_with_gyro_hdr_snapshot_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_with_gyro_hdr_video_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_with_gyro_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_with_gyro_hfr_120_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_with_gyro_hfr_240.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_with_gyro_hfr_240_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_with_gyro_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_with_gyro_hfr_60_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_with_gyro_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_with_gyro_hfr_90_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_with_gyro_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_with_gyro_postproc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_with_gyro_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_with_gyro_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_with_gyro_snapshot_hdr.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_with_gyro_video_16M_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_with_gyro_video_4k.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_with_gyro_video_hdr.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_with_gyro_zsl_preview_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_with_gyro_zsl_video_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_zsl_preview_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_qc2002_zsl_video_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_raw_hdr.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_raw_hdr_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_snapshot_hdr.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_video_16M_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_video_4k.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_video_hdr.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_zsl_preview_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx230_zsl_video_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_4k_preview_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_4k_video_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_bear_4k_preview_lc898217xc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_bear_4k_video_lc898217xc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_bear_common.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_bear_cpp_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_bear_cpp_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_bear_cpp_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_bear_cpp_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_bear_cpp_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_bear_cpp_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_bear_cpp_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_bear_cpp_video_4k.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_bear_default_preview_lc898217xc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_bear_default_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_bear_default_video_lc898217xc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_bear_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_bear_hfr_120_lc898217xc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_bear_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_bear_hfr_60_lc898217xc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_bear_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_bear_hfr_90_lc898217xc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_bear_postproc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_bear_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_bear_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_bear_video_4k.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_bear_zsl_preview_lc898217xc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_bear_zsl_video_lc898217xc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_common.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_cpp_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_cpp_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_cpp_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_cpp_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_cpp_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_cpp_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_cpp_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_cpp_video_4k.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_default_preview_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_default_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_default_video_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_hfr_120_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_hfr_60_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_hfr_90_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_4k_preview_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_4k_video_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_bear_4k_preview_lc898217xc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_bear_4k_video_lc898217xc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_bear_common.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_bear_cpp_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_bear_cpp_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_bear_cpp_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_bear_cpp_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_bear_cpp_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_bear_cpp_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_bear_cpp_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_bear_cpp_video_4k.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_bear_default_preview_lc898217xc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_bear_default_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_bear_default_video_lc898217xc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_bear_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_bear_hfr_120_lc898217xc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_bear_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_bear_hfr_60_lc898217xc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_bear_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_bear_hfr_90_lc898217xc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_bear_postproc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_bear_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_bear_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_bear_video_4k.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_bear_zsl_preview_lc898217xc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_bear_zsl_video_lc898217xc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_common.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_cpp_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_cpp_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_cpp_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_cpp_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_cpp_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_cpp_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_cpp_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_cpp_video_4k.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_default_preview_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_default_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_default_video_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_hfr_120_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_hfr_60_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_hfr_90_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_postproc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_video_4k.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_zsl_preview_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_mono_zsl_video_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_postproc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_video_4k.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_zsl_preview_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx258_zsl_video_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_4K_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_4K_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_common.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_cpp_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_cpp_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_cpp_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_cpp_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_cpp_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_cpp_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_cpp_snapshot_hdr.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_cpp_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_cpp_video_hdr.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_default_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_default_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_gt24c64_4K_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_gt24c64_4K_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_gt24c64_common.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_gt24c64_cpp_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_gt24c64_cpp_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_gt24c64_cpp_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_gt24c64_cpp_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_gt24c64_cpp_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_gt24c64_cpp_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_gt24c64_cpp_snapshot_hdr.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_gt24c64_cpp_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_gt24c64_cpp_video_hdr.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_gt24c64_default_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_gt24c64_default_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_gt24c64_hdr_snapshot_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_gt24c64_hdr_video_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_gt24c64_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_gt24c64_hfr_120_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_gt24c64_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_gt24c64_hfr_60_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_gt24c64_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_gt24c64_hfr_90_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_gt24c64_postproc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_gt24c64_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_gt24c64_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_gt24c64_snapshot_hdr.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_gt24c64_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_gt24c64_video_hdr.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_gt24c64_zsl_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_gt24c64_zsl_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_hdr_snapshot_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_hdr_video_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_hfr_120_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_hfr_60_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_hfr_90_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_postproc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_snapshot_hdr.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_video_hdr.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_zsl_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx298_zsl_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx318_1080p_preview_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx318_1080p_video_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx318_4k_preview_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx318_4k_video_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx318_common.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx318_cpp_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx318_cpp_hfr_240.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx318_cpp_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx318_cpp_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx318_cpp_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx318_cpp_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx318_cpp_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx318_cpp_video_4k.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx318_default_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx318_fullsize_preview_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx318_fullsize_video_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx318_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx318_hfr_120_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx318_hfr_240.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx318_hfr_240_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx318_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx318_hfr_60_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx318_postproc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx318_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx318_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx318_video_4k.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_1080p_preview_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_1080p_preview_3a_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_1080p_video_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_1080p_video_3a_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_4k_preview_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_4k_preview_3a_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_4k_video_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_4k_video_3a_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_common.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_common_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_cpp_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_cpp_hfr_120_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_cpp_hfr_240.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_cpp_hfr_240_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_cpp_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_cpp_hfr_60_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_cpp_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_cpp_liveshot_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_cpp_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_cpp_preview_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_cpp_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_cpp_snapshot_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_cpp_snapshot_downscale_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_cpp_snapshot_hdr.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_cpp_snapshot_hdr_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_cpp_snapshot_upscale_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_cpp_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_cpp_video_4k.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_cpp_video_4k_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_cpp_video_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_cpp_video_hdr.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_cpp_video_hdr_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_default_preview_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_default_preview_3a_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_default_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_default_video_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_default_video_3a_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_default_video_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_fullsize_preview_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_fullsize_preview_3a_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_fullsize_video_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_fullsize_video_3a_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_hdr_snapshot_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_hdr_snapshot_3a_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_hdr_video_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_hdr_video_3a_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_hfr_120_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_hfr_120_3a_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_hfr_120_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_hfr_240.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_hfr_240_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_hfr_240_3a_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_hfr_240_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_hfr_60_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_hfr_60_3a_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_hfr_60_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_postproc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_postproc_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_preview_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_snapshot_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_snapshot_hdr.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_snapshot_hdr_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_video_4k.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_video_4k_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_video_hdr.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx362_video_hdr_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx378_4K_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx378_4K_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx378_common.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx378_cpp_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx378_cpp_hfr_240.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx378_cpp_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx378_cpp_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx378_cpp_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx378_cpp_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx378_cpp_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx378_cpp_snapshot_hdr.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx378_cpp_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx378_cpp_video_hdr.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx378_default_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx378_default_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx378_hdr_snapshot_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx378_hdr_video_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx378_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx378_hfr_120_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx378_hfr_240.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx378_hfr_240_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx378_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx378_hfr_60_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx378_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx378_hfr_90_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx378_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx378_postproc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx378_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx378_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx378_snapshot_hdr.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx378_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx378_video_hdr.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx378_zsl_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_imx378_zsl_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_common.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_cpp_ds_chromatix.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_cpp_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_cpp_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_cpp_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_cpp_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_cpp_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_cpp_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_cpp_us_chromatix.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_cpp_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_cpp_video_full.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_default_preview_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_default_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_default_video_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_hfr_120_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_hfr_60_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_hfr_90_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_postproc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_q13v06k_common.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_q13v06k_cpp_ds_chromatix.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_q13v06k_cpp_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_q13v06k_cpp_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_q13v06k_cpp_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_q13v06k_cpp_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_q13v06k_cpp_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_q13v06k_cpp_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_q13v06k_cpp_us_chromatix.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_q13v06k_cpp_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_q13v06k_cpp_video_full.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_q13v06k_default_preview_bu64297.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_q13v06k_default_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_q13v06k_default_video_bu64297.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_q13v06k_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_q13v06k_hfr_120_bu64297.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_q13v06k_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_q13v06k_hfr_60_bu64297.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_q13v06k_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_q13v06k_hfr_90_bu64297.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_q13v06k_postproc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_q13v06k_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_q13v06k_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_q13v06k_video_full.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_q13v06k_zsl_preview_bu64297.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_q13v06k_zsl_video_bu64297.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_video_full.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_zsl_preview_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13850_zsl_video_lc898212xd.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13855_m24c64_common.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13855_m24c64_cpp_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13855_m24c64_cpp_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13855_m24c64_cpp_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13855_m24c64_cpp_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13855_m24c64_cpp_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13855_m24c64_cpp_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13855_m24c64_cpp_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13855_m24c64_default_preview_bu64297.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13855_m24c64_default_video_bu64297.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13855_m24c64_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13855_m24c64_hfr_120_bu64297.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13855_m24c64_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13855_m24c64_hfr_60_bu64297.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13855_m24c64_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13855_m24c64_hfr_90_bu64297.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13855_m24c64_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13855_m24c64_postproc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13855_m24c64_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13855_m24c64_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13855_m24c64_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13855_m24c64_zsl_preview_bu64297.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov13855_m24c64_zsl_video_bu64297.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov2281_a3_default_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov2281_a3_default_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov2281_common.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov2281_cpp_ds_chromatix.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov2281_cpp_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov2281_cpp_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov2281_cpp_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov2281_cpp_us_chromatix.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov2281_cpp_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov2281_default_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov2281_postproc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov2281_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov2281_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov2281_zsl_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov2281_zsl_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov2680_a3_default_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov2680_a3_default_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov2680_a3_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov2680_common.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov2680_cpp_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov2680_cpp_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov2680_cpp_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov2680_cpp_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov2680_cpp_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov2680_default_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov2680_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov2680_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov2680_postproc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov2680_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov2680_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov2680_zsl_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov4688_common.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov4688_cpp_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov4688_cpp_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov4688_cpp_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov4688_cpp_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov4688_cpp_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov4688_cpp_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov4688_cpp_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov4688_default_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov4688_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov4688_hfr_120_ad5823.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov4688_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov4688_hfr_60_ad5823.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov4688_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov4688_hfr_90_ad5823.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov4688_postproc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov4688_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov4688_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov4688_zsl_preview_ad5823.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov4688_zsl_video_ad5823.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_a3_default_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_a3_default_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_a3_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_a3_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_a3_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_common.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_cpp_ds_chromatix.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_cpp_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_cpp_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_cpp_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_cpp_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_cpp_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_cpp_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_cpp_us_chromatix.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_cpp_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_cpp_video_full.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_default_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_f5670bq_a3_default_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_f5670bq_a3_default_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_f5670bq_a3_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_f5670bq_a3_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_f5670bq_a3_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_f5670bq_common.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_f5670bq_cpp_ds_chromatix.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_f5670bq_cpp_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_f5670bq_cpp_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_f5670bq_cpp_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_f5670bq_cpp_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_f5670bq_cpp_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_f5670bq_cpp_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_f5670bq_cpp_us_chromatix.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_f5670bq_cpp_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_f5670bq_cpp_video_full.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_f5670bq_default_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_f5670bq_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_f5670bq_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_f5670bq_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_f5670bq_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_f5670bq_postproc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_f5670bq_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_f5670bq_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_f5670bq_video_full.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_f5670bq_zsl_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_f5670bq_zsl_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_postproc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_video_full.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_zsl_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5670_zsl_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5695_a3_default_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5695_a3_default_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5695_a3_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5695_a3_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5695_a3_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5695_common.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5695_cpp_ds_chromatix.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5695_cpp_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5695_cpp_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5695_cpp_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5695_cpp_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5695_cpp_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5695_cpp_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5695_cpp_us_chromatix.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5695_cpp_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5695_cpp_video_full.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5695_default_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5695_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5695_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5695_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5695_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5695_postproc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5695_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5695_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5695_video_full.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5695_zsl_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov5695_zsl_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov7251_cpp_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov7251_cpp_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov7251_cpp_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov7251_cpp_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov7251_default_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov7251_postproc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov7251_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov7251_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov7251_zsl_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov7251_zsl_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8856_a3_default_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8856_a3_default_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8856_a3_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8856_a3_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8856_a3_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8856_common.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8856_cpp_ds_chromatix.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8856_cpp_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8856_cpp_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8856_cpp_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8856_cpp_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8856_cpp_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8856_cpp_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8856_cpp_us_chromatix.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8856_cpp_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8856_default_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8856_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8856_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8856_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8856_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8856_postproc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8856_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8856_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8856_zsl_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8856_zsl_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8858_a3_default_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8858_a3_default_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8858_a3_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8858_a3_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8858_a3_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8858_common.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8858_cpp_ds_chromatix.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8858_cpp_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8858_cpp_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8858_cpp_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8858_cpp_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8858_cpp_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8858_cpp_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8858_cpp_us_chromatix.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8858_cpp_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8858_default_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8858_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8858_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8858_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8858_postproc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8858_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8858_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8858_zsl_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8858_zsl_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8865_common.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8865_cpp_ds_chromatix.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8865_cpp_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8865_cpp_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8865_cpp_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8865_cpp_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8865_cpp_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8865_cpp_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8865_cpp_us_chromatix.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8865_cpp_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8865_cpp_video_full.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8865_default_preview_dw9714.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8865_default_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8865_default_video_dw9714.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8865_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8865_hfr_120_dw9714.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8865_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8865_hfr_60_dw9714.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8865_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8865_hfr_90_dw9714.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8865_postproc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8865_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8865_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8865_video_full.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8865_zsl_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_ov8865_zsl_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_4k_preview_ak7371.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_4k_video_ak7371.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_8953_4k_preview_ak7371.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_8953_4k_video_ak7371.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_8953_common.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_8953_cpp_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_8953_cpp_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_8953_cpp_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_8953_cpp_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_8953_cpp_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_8953_cpp_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_8953_cpp_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_8953_cpp_video_4k.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_8953_default_preview_ak7371.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_8953_default_video_ak7371.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_8953_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_8953_hfr_120_ak7371.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_8953_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_8953_hfr_60_ak7371.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_8953_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_8953_hfr_90_ak7371.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_8953_postproc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_8953_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_8953_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_8953_video_4k.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_8953_zsl_preview_ak7371.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_8953_zsl_video_ak7371.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_common.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_cpp_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_cpp_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_cpp_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_cpp_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_cpp_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_cpp_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_cpp_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_cpp_video_4k.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_default_preview_ak7371.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_default_video_ak7371.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_hfr_120_ak7371.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_hfr_60_ak7371.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_hfr_90_ak7371.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_postproc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_video_4k.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_zsl_preview_ak7371.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k2l7_zsl_video_ak7371.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_common.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_cpp_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_cpp_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_cpp_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_cpp_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_cpp_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_cpp_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_cpp_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_default_preview_ak7345.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_default_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_default_video_ak7345.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_f3l8yam_common.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_f3l8yam_cpp_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_f3l8yam_cpp_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_f3l8yam_cpp_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_f3l8yam_cpp_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_f3l8yam_cpp_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_f3l8yam_cpp_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_f3l8yam_cpp_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_f3l8yam_default_preview_dw9763.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_f3l8yam_default_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_f3l8yam_default_video_dw9763.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_f3l8yam_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_f3l8yam_hfr_120_dw9763.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_f3l8yam_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_f3l8yam_hfr_60_dw9763.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_f3l8yam_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_f3l8yam_hfr_90_dw9763.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_f3l8yam_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_f3l8yam_postproc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_f3l8yam_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_f3l8yam_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_f3l8yam_zsl_preview_dw9763.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_f3l8yam_zsl_video_dw9763.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_hfr_120_ak7345.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_hfr_60_ak7345.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_hfr_90_ak7345.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_mono_common.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_mono_cpp_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_mono_cpp_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_mono_cpp_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_mono_cpp_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_mono_cpp_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_mono_cpp_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_mono_cpp_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_mono_default_preview_ak7345.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_mono_default_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_mono_default_video_ak7345.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_mono_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_mono_hfr_120_ak7345.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_mono_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_mono_hfr_60_ak7345.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_mono_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_mono_hfr_90_ak7345.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_mono_postproc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_mono_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_mono_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_mono_zsl_preview_ak7345.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_mono_zsl_video_ak7345.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_postproc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_zsl_preview_ak7345.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3l8_zsl_video_ak7345.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_common.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_common_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_cpp_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_cpp_hfr_120_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_cpp_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_cpp_hfr_60_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_cpp_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_cpp_hfr_90_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_cpp_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_cpp_liveshot_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_cpp_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_cpp_preview_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_cpp_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_cpp_snapshot_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_cpp_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_cpp_video_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_default_preview_dw9761b.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_default_preview_dw9761b_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_default_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_default_video_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_default_video_dw9761b.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_default_video_dw9761b_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_hfr_120_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_hfr_120_dw9761b.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_hfr_120_dw9761b_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_hfr_60_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_hfr_60_dw9761b.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_hfr_60_dw9761b_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_hfr_90_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_hfr_90_dw9761b.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_hfr_90_dw9761b_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_postproc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_postproc_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_preview_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_snapshot_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_zsl_preview_dw9761b.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_zsl_preview_dw9761b_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_zsl_video_dw9761b.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xm_zsl_video_dw9761b_bear.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xx_1080p_preview_ad5816g.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xx_1080p_video_ad5816g.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xx_4k_preview_ad5816g.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xx_4k_video_ad5816g.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xx_common.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xx_cpp_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xx_cpp_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xx_cpp_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xx_cpp_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xx_cpp_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xx_cpp_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xx_cpp_snapshot_downscale.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xx_cpp_snapshot_upscale.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xx_cpp_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xx_cpp_video_4k.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xx_default_preview_ad5816g.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xx_default_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xx_default_video_ad5816g.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xx_hfr_120.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xx_hfr_120_ad5816g.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xx_hfr_60.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xx_hfr_60_ad5816g.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xx_hfr_90.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xx_hfr_90_ad5816g.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xx_postproc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xx_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xx_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xx_video_4k.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xx_zsl_preview_ad5816g.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3m2xx_zsl_video_ad5816g.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3p3sm_common.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3p3sm_cpp_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3p3sm_cpp_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3p3sm_cpp_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3p3sm_cpp_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3p3sm_default_preview_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3p3sm_default_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3p3sm_default_video_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3p3sm_fullsize_preview_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3p3sm_fullsize_video_3a.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3p3sm_postproc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3p3sm_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3p3sm_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3p8sp_a3_default_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3p8sp_a3_default_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3p8sp_a3_zsl_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3p8sp_a3_zsl_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3p8sp_common.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3p8sp_cpp_liveshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3p8sp_cpp_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3p8sp_cpp_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3p8sp_cpp_video.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3p8sp_postproc.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3p8sp_preview.so": {
+  "mode": 420
+ },
+ "lib/libchromatix_s5k3p8sp_snapshot.so": {
+  "mode": 420
+ },
+ "lib/libcld80211.so": {
+  "mode": 420
+ },
+ "lib/libcne.so": {
+  "mode": 420
+ },
+ "lib/libcneapiclient.so": {
+  "mode": 420
+ },
+ "lib/libcneoplookup.so": {
+  "mode": 420
+ },
+ "lib/libcneqmiutils.so": {
+  "mode": 420
+ },
+ "lib/libconfigdb.so": {
+  "mode": 420
+ },
+ "lib/libcppf.so": {
+  "mode": 420
+ },
+ "lib/libdataitems.so": {
+  "mode": 420
+ },
+ "lib/libdiag.so": {
+  "mode": 420
+ },
+ "lib/libdiagjni.so": {
+  "mode": 420
+ },
+ "lib/libdisp-aba.so": {
+  "mode": 420
+ },
+ "lib/libdpmqmihal.so": {
+  "mode": 420
+ },
+ "lib/libdrc.so": {
+  "mode": 420
+ },
+ "lib/libdrm.so": {
+  "mode": 420
+ },
+ "lib/libdrmfs.so": {
+  "mode": 420
+ },
+ "lib/libdrmtime.so": {
+  "mode": 420
+ },
+ "lib/libdrmutils.so": {
+  "mode": 420
+ },
+ "lib/libdrplugin_client.so": {
+  "mode": 420
+ },
+ "lib/libdsd2pcm.so": {
+  "mode": 420
+ },
+ "lib/libdsi_netctrl.so": {
+  "mode": 420
+ },
+ "lib/libdsutils.so": {
+  "mode": 420
+ },
+ "lib/libeffects.so": {
+  "mode": 420
+ },
+ "lib/libevent_observer.so": {
+  "mode": 420
+ },
+ "lib/libfastcrc.so": {
+  "mode": 420
+ },
+ "lib/libfastcvadsp_stub.so": {
+  "mode": 420
+ },
+ "lib/libfastcvopt.so": {
+  "mode": 420
+ },
+ "lib/libfastrpc_utf_stub.so": {
+  "mode": 420
+ },
+ "lib/libfeedbackhandler.so": {
+  "mode": 420
+ },
+ "lib/libflash_pmic.so": {
+  "mode": 420
+ },
+ "lib/libflp.so": {
+  "mode": 420
+ },
+ "lib/libgcs-calwrapper.so": {
+  "mode": 420
+ },
+ "lib/libgcs-ipc.so": {
+  "mode": 420
+ },
+ "lib/libgcs-osal.so": {
+  "mode": 420
+ },
+ "lib/libgcs.so": {
+  "mode": 420
+ },
+ "lib/libgdtap.so": {
+  "mode": 420
+ },
+ "lib/libgeofence.so": {
+  "mode": 420
+ },
+ "lib/libgnss.so": {
+  "mode": 420
+ },
+ "lib/libgnsspps.so": {
+  "mode": 420
+ },
+ "lib/libgps.utils.so": {
+  "mode": 420
+ },
+ "lib/libgpu_tonemapper.so": {
+  "mode": 420
+ },
+ "lib/libgpustats.so": {
+  "mode": 420
+ },
+ "lib/libgrallocutils.so": {
+  "mode": 420
+ },
+ "lib/libgsl.so": {
+  "mode": 420
+ },
+ "lib/libhbtpclient.so": {
+  "mode": 420
+ },
+ "lib/libhbtpdsp.so": {
+  "mode": 420
+ },
+ "lib/libhbtpfrmwk.so": {
+  "mode": 420
+ },
+ "lib/libhdr_tm.so": {
+  "mode": 420
+ },
+ "lib/libhwc2on1adapter.so": {
+  "mode": 420
+ },
+ "lib/libhypv_intercept.so": {
+  "mode": 420
+ },
+ "lib/libidl.so": {
+  "mode": 420
+ },
+ "lib/libizat_client_api.so": {
+  "mode": 420
+ },
+ "lib/libizat_core.so": {
+  "mode": 420
+ },
+ "lib/libjpegdhw.so": {
+  "mode": 420
+ },
+ "lib/libjpegdmahw.so": {
+  "mode": 420
+ },
+ "lib/libjpegehw.so": {
+  "mode": 420
+ },
+ "lib/libjson.so": {
+  "mode": 420
+ },
+ "lib/libkeymasterdeviceutils.so": {
+  "mode": 420
+ },
+ "lib/libkeymasterprovision.so": {
+  "mode": 420
+ },
+ "lib/libkeymasterutils.so": {
+  "mode": 420
+ },
+ "lib/liblbs_core.so": {
+  "mode": 420
+ },
+ "lib/libllvm-glnext.so": {
+  "mode": 420
+ },
+ "lib/libllvm-qcom.so": {
+  "mode": 420
+ },
+ "lib/libllvm-qgl.so": {
+  "mode": 420
+ },
+ "lib/libloc_api_v02.so": {
+  "mode": 420
+ },
+ "lib/libloc_core.so": {
+  "mode": 420
+ },
+ "lib/libloc_ds_api.so": {
+  "mode": 420
+ },
+ "lib/libloc_externalDr.so": {
+  "mode": 420
+ },
+ "lib/libloc_pla.so": {
+  "mode": 420
+ },
+ "lib/libloc_stub.so": {
+  "mode": 420
+ },
+ "lib/liblocation_api.so": {
+  "mode": 420
+ },
+ "lib/liblocationservice.so": {
+  "mode": 420
+ },
+ "lib/liblocationservice_glue.so": {
+  "mode": 420
+ },
+ "lib/liblowi_client.so": {
+  "mode": 420
+ },
+ "lib/liblowi_wifihal.so": {
+  "mode": 420
+ },
+ "lib/liblqe.so": {
+  "mode": 420
+ },
+ "lib/libmdmdetect.so": {
+  "mode": 420
+ },
+ "lib/libmdsprpc.so": {
+  "mode": 420
+ },
+ "lib/libmediacodecservice.so": {
+  "mode": 420
+ },
+ "lib/libminijail_vendor.so": {
+  "mode": 420
+ },
+ "lib/libmm-color-convertor.so": {
+  "mode": 420
+ },
+ "lib/libmm-disp-apis.so": {
+  "mode": 420
+ },
+ "lib/libmm-hdcpmgr.so": {
+  "mode": 420
+ },
+ "lib/libmm-omxcore.so": {
+  "mode": 420
+ },
+ "lib/libmm-qcamera.so": {
+  "mode": 420
+ },
+ "lib/libmm-qdcm.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera2_c2d_module.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera2_cpp_module.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera2_dcrf.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera2_frame_algorithm.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera2_iface_modules.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera2_imglib_modules.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera2_is.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera2_isp_modules.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera2_mct.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera2_mct_shimlayer.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera2_pp_buf_mgr.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera2_pproc_modules.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera2_q3a_core.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera2_sensor_modules.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera2_stats_algorithm.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera2_stats_modules.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_atmel_at24c32e_eeprom.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_cac3_lib.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_chromaflash_lib.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_csidtg.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_dbg.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_dcrf_lib.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_dummyalgo.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_dw9761b_2d_eeprom.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_eebinparse.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_eeprom_util.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_eztune_module.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_facedetection_lib.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_faceproc.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_faceproc2.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_hdr_gb_lib.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_imglib.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_imx214.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_imx230.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_imx258.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_imx258_gt24c16_eeprom.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_imx258_gt24c32_eeprom.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_imx258_mono.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_imx258_mono_gt24c32_eeprom.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_imx298.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_imx318.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_imx362.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_imx378.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_interface.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_isp_abf40.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_isp_bcc40.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_isp_be_stats44.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_isp_bf_stats47.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_isp_bg_stats44.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_isp_bhist_stats44.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_isp_bpc40.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_isp_chroma_enhan40.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_isp_chroma_suppress40.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_isp_clamp_encoder40.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_isp_clamp_video40.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_isp_clamp_viewfinder40.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_isp_color_correct40.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_isp_color_xform_encoder40.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_isp_color_xform_viewfinder40.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_isp_cs_stats44.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_isp_demosaic40.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_isp_demux40.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_isp_fovcrop_encoder40.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_isp_fovcrop_viewfinder40.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_isp_gamma40.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_isp_ihist_stats44.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_isp_linearization40.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_isp_ltm44.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_isp_luma_adaptation40.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_isp_mce40.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_isp_mesh_rolloff40.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_isp_rs_stats44.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_isp_scaler_encoder44.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_isp_scaler_viewfinder44.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_isp_sce40.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_isp_sub_module.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_isp_template.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_isp_wb40.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_le2464c_eeprom.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_le2464c_master_eeprom.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_llvd.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_onsemi_cat24c16_eeprom.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_onsemi_cat24c32_eeprom.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_onsemi_cat24c32_imx362_eeprom.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_optizoom_lib.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_ov13850.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_ov13850_q13v06k.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_ov13855_m24c64.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_ov2281.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_ov2680.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_ov2685.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_ov2685_scv3b4035.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_ov4688.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_ov4688_eeprom.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_ov5645.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_ov5670.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_ov5695.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_ov7251.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_ov8856.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_ov8858.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_ov8865.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_paaf_lib.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_pdaf.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_pdafcamif.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_ppbase_module.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_qtech_f3l8yam_eeprom.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_qtech_f5670bq_eeprom.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_quadracfa.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_rohm_brcg064gwz_3_eeprom.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_s5k2l7.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_s5k3l8.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_s5k3l8_mono.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_s5k3m2xm.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_s5k3m2xx.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_s5k3p3sm.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_s5k3p8sp.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_sony_imx214_eeprom.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_sony_imx298_eeprom.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_sony_imx378_eeprom.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_sonyimx135_eeprom.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_stillmore_lib.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_sunny_8865_eeprom.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_sunny_gt24c64_imx298_eeprom.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_sunny_gt24c64_s5k2l7_eeprom.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_sunny_gt24c64a_imx362_eeprom.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_sunny_q13v06k_eeprom.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_sunny_q5v41b_eeprom.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_sw2d_lib.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_thread_services.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_tintless_algo.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_tintless_bg_pca_algo.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_trueportrait_lib.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_truly_cma481_eeprom.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_truly_cmb433_eeprom.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_truly_m24c64_eeprom.so": {
+  "mode": 420
+ },
+ "lib/libmmcamera_ubifocus_lib.so": {
+  "mode": 420
+ },
+ "lib/libmmi_jni.so": {
+  "mode": 420
+ },
+ "lib/libmmjpeg.so": {
+  "mode": 420
+ },
+ "lib/libmmjpeg_interface.so": {
+  "mode": 420
+ },
+ "lib/libmmosal_proprietary.so": {
+  "mode": 420
+ },
+ "lib/libmmqjpeg_codec.so": {
+  "mode": 420
+ },
+ "lib/libmmqjpegdma.so": {
+  "mode": 420
+ },
+ "lib/libnbaio_mono.so": {
+  "mode": 420
+ },
+ "lib/libnetmgr.so": {
+  "mode": 420
+ },
+ "lib/liboemaids_vendor.so": {
+  "mode": 420
+ },
+ "lib/liboemcrypto.so": {
+  "mode": 420
+ },
+ "lib/libois_lc898122.so": {
+  "mode": 420
+ },
+ "lib/liboptizoom.so": {
+  "mode": 420
+ },
+ "lib/libpdmapper.so": {
+  "mode": 420
+ },
+ "lib/libpdnotifier.so": {
+  "mode": 420
+ },
+ "lib/libperfgluelayer.so": {
+  "mode": 420
+ },
+ "lib/libperipheral_client.so": {
+  "mode": 420
+ },
+ "lib/libpvr.so": {
+  "mode": 420
+ },
+ "lib/libqcci_legacy.so": {
+  "mode": 420
+ },
+ "lib/libqcmaputils.so": {
+  "mode": 420
+ },
+ "lib/libqcrilFramework.so": {
+  "mode": 420
+ },
+ "lib/libqdMetaData.so": {
+  "mode": 420
+ },
+ "lib/libqdi.so": {
+  "mode": 420
+ },
+ "lib/libqdp.so": {
+  "mode": 420
+ },
+ "lib/libqdutils.so": {
+  "mode": 420
+ },
+ "lib/libqisl.so": {
+  "mode": 420
+ },
+ "lib/libqmi.so": {
+  "mode": 420
+ },
+ "lib/libqmi_cci.so": {
+  "mode": 420
+ },
+ "lib/libqmi_client_helper.so": {
+  "mode": 420
+ },
+ "lib/libqmi_client_qmux.so": {
+  "mode": 420
+ },
+ "lib/libqmi_common_so.so": {
+  "mode": 420
+ },
+ "lib/libqmi_csi.so": {
+  "mode": 420
+ },
+ "lib/libqmi_encdec.so": {
+  "mode": 420
+ },
+ "lib/libqmiservices.so": {
+  "mode": 420
+ },
+ "lib/libqomx_core.so": {
+  "mode": 420
+ },
+ "lib/libqomx_jpegdec.so": {
+  "mode": 420
+ },
+ "lib/libqomx_jpegenc.so": {
+  "mode": 420
+ },
+ "lib/libqomx_jpegenc_pipe.so": {
+  "mode": 420
+ },
+ "lib/libqservice.so": {
+  "mode": 420
+ },
+ "lib/libqti-gt-prop.so": {
+  "mode": 420
+ },
+ "lib/libqti-iopd-client.so": {
+  "mode": 420
+ },
+ "lib/libqti-perfd-client.so": {
+  "mode": 420
+ },
+ "lib/libqti-perfd.so": {
+  "mode": 420
+ },
+ "lib/libqti-util.so": {
+  "mode": 420
+ },
+ "lib/libqti-utils.so": {
+  "mode": 420
+ },
+ "lib/libqtigef.so": {
+  "mode": 420
+ },
+ "lib/libquipc_os_api.so": {
+  "mode": 420
+ },
+ "lib/librecovery_updater_msm.so": {
+  "mode": 420
+ },
+ "lib/libreference-ril.so": {
+  "mode": 420
+ },
+ "lib/libremosaic_daemon.so": {
+  "mode": 420
+ },
+ "lib/libril-qc-hal-qmi.so": {
+  "mode": 420
+ },
+ "lib/libril-qc-ltedirectdisc.so": {
+  "mode": 420
+ },
+ "lib/libril-qc-qmi-1.so": {
+  "mode": 420
+ },
+ "lib/libril-qc-radioconfig.so": {
+  "mode": 420
+ },
+ "lib/libril-qcril-hook-oem.so": {
+  "mode": 420
+ },
+ "lib/libril.so": {
+  "mode": 420
+ },
+ "lib/librilqmiservices.so": {
+  "mode": 420
+ },
+ "lib/librilutils.so": {
+  "mode": 420
+ },
+ "lib/librmnetctl.so": {
+  "mode": 420
+ },
+ "lib/librmp.so": {
+  "mode": 420
+ },
+ "lib/librpmb.so": {
+  "mode": 420
+ },
+ "lib/librs_adreno.so": {
+  "mode": 420
+ },
+ "lib/librs_adreno_sha1.so": {
+  "mode": 420
+ },
+ "lib/libscalar.so": {
+  "mode": 420
+ },
+ "lib/libscveBlobDescriptor.so": {
+  "mode": 420
+ },
+ "lib/libscveBlobDescriptor_stub.so": {
+  "mode": 420
+ },
+ "lib/libscveCommon.so": {
+  "mode": 420
+ },
+ "lib/libscveCommon_stub.so": {
+  "mode": 420
+ },
+ "lib/libscveImageCorrection.so": {
+  "mode": 420
+ },
+ "lib/libscveObjectSegmentation.so": {
+  "mode": 420
+ },
+ "lib/libscveObjectTracker.so": {
+  "mode": 420
+ },
+ "lib/libscveObjectTracker_stub.so": {
+  "mode": 420
+ },
+ "lib/libscvePanorama.so": {
+  "mode": 420
+ },
+ "lib/libscvePanorama_lite.so": {
+  "mode": 420
+ },
+ "lib/libsdedrm.so": {
+  "mode": 420
+ },
+ "lib/libsdm-color.so": {
+  "mode": 420
+ },
+ "lib/libsdm-diag.so": {
+  "mode": 420
+ },
+ "lib/libsdm-disp-vndapis.so": {
+  "mode": 420
+ },
+ "lib/libsdmcore.so": {
+  "mode": 420
+ },
+ "lib/libsdmextension.so": {
+  "mode": 420
+ },
+ "lib/libsdmutils.so": {
+  "mode": 420
+ },
+ "lib/libsdsprpc.so": {
+  "mode": 420
+ },
+ "lib/libsecureui.so": {
+  "mode": 420
+ },
+ "lib/libsecureui_svcsock.so": {
+  "mode": 420
+ },
+ "lib/libseemore.so": {
+  "mode": 420
+ },
+ "lib/libsensor1.so": {
+  "mode": 420
+ },
+ "lib/libsensor_reg.so": {
+  "mode": 420
+ },
+ "lib/libsettings.so": {
+  "mode": 420
+ },
+ "lib/libsi.so": {
+  "mode": 420
+ },
+ "lib/libslimclient.so": {
+  "mode": 420
+ },
+ "lib/libsmemlog.so": {
+  "mode": 420
+ },
+ "lib/libsmwrapper.so": {
+  "mode": 420
+ },
+ "lib/libssd.so": {
+  "mode": 420
+ },
+ "lib/libstagefrighthw.so": {
+  "mode": 420
+ },
+ "lib/libstreamparser.so": {
+  "mode": 420
+ },
+ "lib/libsubsystem_control.so": {
+  "mode": 420
+ },
+ "lib/libsurround_3mic_proc.so": {
+  "mode": 420
+ },
+ "lib/libsystem_health_mon.so": {
+  "mode": 420
+ },
+ "lib/libthermalclient.so": {
+  "mode": 420
+ },
+ "lib/libtime_genoff.so": {
+  "mode": 420
+ },
+ "lib/libtinycompress_vendor.so": {
+  "mode": 420
+ },
+ "lib/libtinyxml.so": {
+  "mode": 420
+ },
+ "lib/libtinyxml2_1.so": {
+  "mode": 420
+ },
+ "lib/libts_detected_face_hal.so": {
+  "mode": 420
+ },
+ "lib/libts_face_beautify_hal.so": {
+  "mode": 420
+ },
+ "lib/libtzdrmgenprov.so": {
+  "mode": 420
+ },
+ "lib/libubifocus.so": {
+  "mode": 420
+ },
+ "lib/libulp2.so": {
+  "mode": 420
+ },
+ "lib/libvideoutils.so": {
+  "mode": 420
+ },
+ "lib/libvpplibrary.so": {
+  "mode": 420
+ },
+ "lib/libvpptestutils.so": {
+  "mode": 420
+ },
+ "lib/libvqzip.so": {
+  "mode": 420
+ },
+ "lib/libvraudio_client.so": {
+  "mode": 420
+ },
+ "lib/libwebrtc_audio_preprocessing.so": {
+  "mode": 420
+ },
+ "lib/libwfdcommonutils_proprietary.so": {
+  "mode": 420
+ },
+ "lib/libwfdhaldsmanager.so": {
+  "mode": 420
+ },
+ "lib/libwfdhdcpcp.so": {
+  "mode": 420
+ },
+ "lib/libwfdmmservice.so": {
+  "mode": 420
+ },
+ "lib/libwfdmodulehdcpsession.so": {
+  "mode": 420
+ },
+ "lib/libwifi-hal-qcom.so": {
+  "mode": 420
+ },
+ "lib/libwms.so": {
+  "mode": 420
+ },
+ "lib/libwpa_client.so": {
+  "mode": 420
+ },
+ "lib/libwqe.so": {
+  "mode": 420
+ },
+ "lib/libxml.so": {
+  "mode": 420
+ },
+ "lib/libxtadapter.so": {
+  "mode": 420
+ },
+ "lib/libxtwifi_ulp_adaptor.so": {
+  "mode": 420
+ },
+ "lib/mediacas/libclearkeycasplugin.so": {
+  "mode": 420
+ },
+ "lib/mediadrm/libdrmclearkeyplugin.so": {
+  "mode": 420
+ },
+ "lib/modules/pronto/pronto_wlan.ko": {
+  "mode": 420
+ },
+ "lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so": {
+  "mode": 420
+ },
+ "lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so": {
+  "mode": 420
+ },
+ "lib/qcdrm/playready/lib/libtzplayready_customer.so": {
+  "mode": 420
+ },
+ "lib/qcdrm/playready/lib/mediadrm/libprmediadrmdecrypt_customer.so": {
+  "mode": 420
+ },
+ "lib/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so": {
+  "mode": 420
+ },
+ "lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so": {
+  "mode": 420
+ },
+ "lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so": {
+  "mode": 420
+ },
+ "lib/rfsa/adsp/libapps_mem_heap.so": {
+  "mode": 420
+ },
+ "lib/rfsa/adsp/libdspCV_skel.so": {
+  "mode": 420
+ },
+ "lib/rfsa/adsp/libexternal_dog_skel.so": {
+  "mode": 420
+ },
+ "lib/rfsa/adsp/libfastcvadsp.so": {
+  "mode": 420
+ },
+ "lib/rfsa/adsp/libfastcvadsp_skel.so": {
+  "mode": 420
+ },
+ "lib/rfsa/adsp/libscveBlobDescriptor_skel.so": {
+  "mode": 420
+ },
+ "lib/rfsa/adsp/libscveT2T_skel.so": {
+  "mode": 420
+ },
+ "lib/sensor_calibrate.so": {
+  "mode": 420
+ },
+ "lib/sensors.ssc.so": {
+  "mode": 420
+ },
+ "lib/soundfx/libasphere.so": {
+  "mode": 420
+ },
+ "lib/soundfx/libaudiopreprocessing.so": {
+  "mode": 420
+ },
+ "lib/soundfx/libbundlewrapper.so": {
+  "mode": 420
+ },
+ "lib/soundfx/libdownmix.so": {
+  "mode": 420
+ },
+ "lib/soundfx/libeffectproxy.so": {
+  "mode": 420
+ },
+ "lib/soundfx/libldnhncr.so": {
+  "mode": 420
+ },
+ "lib/soundfx/libqcbassboost.so": {
+  "mode": 420
+ },
+ "lib/soundfx/libqcompostprocbundle.so": {
+  "mode": 420
+ },
+ "lib/soundfx/libqcomvisualizer.so": {
+  "mode": 420
+ },
+ "lib/soundfx/libqcomvoiceprocessing.so": {
+  "mode": 420
+ },
+ "lib/soundfx/libqcreverb.so": {
+  "mode": 420
+ },
+ "lib/soundfx/libqcvirt.so": {
+  "mode": 420
+ },
+ "lib/soundfx/libreverbwrapper.so": {
+  "mode": 420
+ },
+ "lib/soundfx/libshoebox.so": {
+  "mode": 420
+ },
+ "lib/soundfx/libvisualizer.so": {
+  "mode": 420
+ },
+ "lib/vendor.display.color@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib/vendor.display.config@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib/vendor.display.config@1.1_vendor.so": {
+  "mode": 420
+ },
+ "lib/vendor.display.postproc@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib/vendor.qti.esepowermanager@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib/vendor.qti.gnss@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib/vendor.qti.hardware.alarm@1.0.so": {
+  "mode": 420
+ },
+ "lib/vendor.qti.hardware.camera.device@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib/vendor.qti.hardware.data.latency@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib/vendor.qti.hardware.fingerprint@1.0.so": {
+  "mode": 420
+ },
+ "lib/vendor.qti.hardware.fm@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib/vendor.qti.hardware.improvetouch.blobmanager@1.0-service.so": {
+  "mode": 420
+ },
+ "lib/vendor.qti.hardware.improvetouch.blobmanager@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib/vendor.qti.hardware.improvetouch.gesturemanager@1.0-service.so": {
+  "mode": 420
+ },
+ "lib/vendor.qti.hardware.improvetouch.gesturemanager@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0-service.so": {
+  "mode": 420
+ },
+ "lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib/vendor.qti.hardware.iop@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib/vendor.qti.hardware.iop@2.0_vendor.so": {
+  "mode": 420
+ },
+ "lib/vendor.qti.hardware.limits@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib/vendor.qti.hardware.perf@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib/vendor.qti.hardware.qdutils_disp@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib/vendor.qti.hardware.qteeconnector@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib/vendor.qti.hardware.radio.am@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib/vendor.qti.hardware.radio.ims@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib/vendor.qti.hardware.radio.lpa@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib/vendor.qti.hardware.radio.qcrilhook@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib/vendor.qti.hardware.radio.qtiradio@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib/vendor.qti.hardware.radio.uim@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib/vendor.qti.hardware.radio.uim@1.1_vendor.so": {
+  "mode": 420
+ },
+ "lib/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib/vendor.qti.hardware.sensorscalibrate@1.0.so": {
+  "mode": 420
+ },
+ "lib/vendor.qti.hardware.tui_comm@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib/vendor.qti.hardware.vpp@1.1_vendor.so": {
+  "mode": 420
+ },
+ "lib/vendor.qti.hardware.wipower@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib/vendor.qti.imsrtpservice@1.0-service-Impl.so": {
+  "mode": 420
+ },
+ "lib/vendor.qti.imsrtpservice@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib/vendor.qti.voiceprint@1.0.so": {
+  "mode": 420
+ },
+ "lib64/android.hidl.base@1.0.so": {
+  "mode": 420
+ },
+ "lib64/camera.device@1.0-impl.so": {
+  "mode": 420
+ },
+ "lib64/camera.device@3.2-impl.so": {
+  "mode": 420
+ },
+ "lib64/camera.device@3.3-impl.so": {
+  "mode": 420
+ },
+ "lib64/com.qualcomm.qti.ant@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib64/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib64/com.qualcomm.qti.imscmservice@1.1_vendor.so": {
+  "mode": 420
+ },
+ "lib64/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so": {
+  "mode": 420
+ },
+ "lib64/com.qualcomm.qti.wifidisplayhal@1.0-impl.so": {
+  "mode": 420
+ },
+ "lib64/com.qualcomm.qti.wifidisplayhal@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib64/com.quicinc.cne.api@1.0.so": {
+  "mode": 420
+ },
+ "lib64/com.quicinc.cne.constants@1.0.so": {
+  "mode": 420
+ },
+ "lib64/com.quicinc.cne.constants@2.0.so": {
+  "mode": 420
+ },
+ "lib64/com.quicinc.cne.server@1.0.so": {
+  "mode": 420
+ },
+ "lib64/com.quicinc.cne.server@2.0.so": {
+  "mode": 420
+ },
+ "lib64/egl/eglSubDriverAndroid.so": {
+  "mode": 420
+ },
+ "lib64/egl/libEGL_adreno.so": {
+  "mode": 420
+ },
+ "lib64/egl/libGLESv1_CM_adreno.so": {
+  "mode": 420
+ },
+ "lib64/egl/libGLESv2_adreno.so": {
+  "mode": 420
+ },
+ "lib64/egl/libQTapGLES.so": {
+  "mode": 420
+ },
+ "lib64/egl/libq3dtools_adreno.so": {
+  "mode": 420
+ },
+ "lib64/egl/libq3dtools_esx.so": {
+  "mode": 420
+ },
+ "lib64/hw/activity_recognition.msm8953.so": {
+  "mode": 420
+ },
+ "lib64/hw/android.hardware.audio.effect@2.0-impl.so": {
+  "mode": 420
+ },
+ "lib64/hw/android.hardware.audio@2.0-impl.so": {
+  "mode": 420
+ },
+ "lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so": {
+  "mode": 420
+ },
+ "lib64/hw/android.hardware.camera.provider@2.4-impl.so": {
+  "mode": 420
+ },
+ "lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so": {
+  "mode": 420
+ },
+ "lib64/hw/android.hardware.gnss@1.0-impl-qti.so": {
+  "mode": 420
+ },
+ "lib64/hw/android.hardware.graphics.allocator@2.0-impl.so": {
+  "mode": 420
+ },
+ "lib64/hw/android.hardware.graphics.composer@2.1-impl.so": {
+  "mode": 420
+ },
+ "lib64/hw/android.hardware.graphics.mapper@2.0-impl.so": {
+  "mode": 420
+ },
+ "lib64/hw/android.hardware.health@1.0-impl.so": {
+  "mode": 420
+ },
+ "lib64/hw/android.hardware.keymaster@3.0-impl-qti.so": {
+  "mode": 420
+ },
+ "lib64/hw/android.hardware.light@2.0-impl.so": {
+  "mode": 420
+ },
+ "lib64/hw/android.hardware.memtrack@1.0-impl.so": {
+  "mode": 420
+ },
+ "lib64/hw/android.hardware.power@1.0-impl.so": {
+  "mode": 420
+ },
+ "lib64/hw/android.hardware.renderscript@1.0-impl.so": {
+  "mode": 420
+ },
+ "lib64/hw/android.hardware.sensors@1.0-impl.so": {
+  "mode": 420
+ },
+ "lib64/hw/android.hardware.thermal@1.0-impl.so": {
+  "mode": 420
+ },
+ "lib64/hw/android.hardware.vibrator@1.0-impl.so": {
+  "mode": 420
+ },
+ "lib64/hw/audio.primary.default.so": {
+  "mode": 420
+ },
+ "lib64/hw/audio.primary.msm8953.so": {
+  "mode": 420
+ },
+ "lib64/hw/audio.r_submix.default.so": {
+  "mode": 420
+ },
+ "lib64/hw/audio.usb.default.so": {
+  "mode": 420
+ },
+ "lib64/hw/com.qualcomm.qti.ant@1.0-impl.so": {
+  "mode": 420
+ },
+ "lib64/hw/gatekeeper.msm8953.so": {
+  "mode": 420
+ },
+ "lib64/hw/gralloc.default.so": {
+  "mode": 420
+ },
+ "lib64/hw/gralloc.msm8953.so": {
+  "mode": 420
+ },
+ "lib64/hw/hwcomposer.msm8953.so": {
+  "mode": 420
+ },
+ "lib64/hw/keystore.msm8953.so": {
+  "mode": 420
+ },
+ "lib64/hw/lights.msm8953.so": {
+  "mode": 420
+ },
+ "lib64/hw/local_time.default.so": {
+  "mode": 420
+ },
+ "lib64/hw/memtrack.msm8953.so": {
+  "mode": 420
+ },
+ "lib64/hw/power.default.so": {
+  "mode": 420
+ },
+ "lib64/hw/power.qcom.so": {
+  "mode": 420
+ },
+ "lib64/hw/sound_trigger.primary.msm8953.so": {
+  "mode": 420
+ },
+ "lib64/hw/thermal.msm8953.so": {
+  "mode": 420
+ },
+ "lib64/hw/vendor.qti.esepowermanager@1.0-impl.so": {
+  "mode": 420
+ },
+ "lib64/hw/vendor.qti.gnss@1.0-impl.so": {
+  "mode": 420
+ },
+ "lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so": {
+  "mode": 420
+ },
+ "lib64/hw/vendor.qti.hardware.factory@1.0-impl.so": {
+  "mode": 420
+ },
+ "lib64/hw/vendor.qti.hardware.fm@1.0-impl.so": {
+  "mode": 420
+ },
+ "lib64/hw/vendor.qti.hardware.iop@1.0-impl.so": {
+  "mode": 420
+ },
+ "lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so": {
+  "mode": 420
+ },
+ "lib64/hw/vibrator.default.so": {
+  "mode": 420
+ },
+ "lib64/hw/vulkan.msm8953.so": {
+  "mode": 420
+ },
+ "lib64/lib-dplmedia.so": {
+  "mode": 420
+ },
+ "lib64/lib-imsSDP.so": {
+  "mode": 420
+ },
+ "lib64/lib-imscmservice.so": {
+  "mode": 420
+ },
+ "lib64/lib-imsdpl.so": {
+  "mode": 420
+ },
+ "lib64/lib-imsqimf.so": {
+  "mode": 420
+ },
+ "lib64/lib-imsrcs-v2.so": {
+  "mode": 420
+ },
+ "lib64/lib-imsxml.so": {
+  "mode": 420
+ },
+ "lib64/lib-rtpcommon.so": {
+  "mode": 420
+ },
+ "lib64/lib-rtpcore.so": {
+  "mode": 420
+ },
+ "lib64/lib-rtpdaemoninterface.so": {
+  "mode": 420
+ },
+ "lib64/lib-rtpsl.so": {
+  "mode": 420
+ },
+ "lib64/lib-siputility.so": {
+  "mode": 420
+ },
+ "lib64/lib-uceservice.so": {
+  "mode": 420
+ },
+ "lib64/libAlacSwDec.so": {
+  "mode": 420
+ },
+ "lib64/libApeSwDec.so": {
+  "mode": 420
+ },
+ "lib64/libC2D2.so": {
+  "mode": 420
+ },
+ "lib64/libCB.so": {
+  "mode": 420
+ },
+ "lib64/libDRPlugin.so": {
+  "mode": 420
+ },
+ "lib64/libFIDOKeyProvisioning.so": {
+  "mode": 420
+ },
+ "lib64/libFidoCrypto_vendor.so": {
+  "mode": 420
+ },
+ "lib64/libFlacSwDec.so": {
+  "mode": 420
+ },
+ "lib64/libGPTEE_vendor.so": {
+  "mode": 420
+ },
+ "lib64/libGPreqcancel.so": {
+  "mode": 420
+ },
+ "lib64/libGPreqcancel_svc.so": {
+  "mode": 420
+ },
+ "lib64/libI420colorconvert.so": {
+  "mode": 420
+ },
+ "lib64/libOmxAacDec.so": {
+  "mode": 420
+ },
+ "lib64/libOmxAacEnc.so": {
+  "mode": 420
+ },
+ "lib64/libOmxAlacDec.so": {
+  "mode": 420
+ },
+ "lib64/libOmxAlacDecSw.so": {
+  "mode": 420
+ },
+ "lib64/libOmxAmrDec.so": {
+  "mode": 420
+ },
+ "lib64/libOmxAmrEnc.so": {
+  "mode": 420
+ },
+ "lib64/libOmxAmrwbplusDec.so": {
+  "mode": 420
+ },
+ "lib64/libOmxApeDec.so": {
+  "mode": 420
+ },
+ "lib64/libOmxApeDecSw.so": {
+  "mode": 420
+ },
+ "lib64/libOmxCore.so": {
+  "mode": 420
+ },
+ "lib64/libOmxEvrcDec.so": {
+  "mode": 420
+ },
+ "lib64/libOmxEvrcEnc.so": {
+  "mode": 420
+ },
+ "lib64/libOmxG711Dec.so": {
+  "mode": 420
+ },
+ "lib64/libOmxG711Enc.so": {
+  "mode": 420
+ },
+ "lib64/libOmxQcelp13Dec.so": {
+  "mode": 420
+ },
+ "lib64/libOmxQcelp13Enc.so": {
+  "mode": 420
+ },
+ "lib64/libOmxVdec.so": {
+  "mode": 420
+ },
+ "lib64/libOmxVenc.so": {
+  "mode": 420
+ },
+ "lib64/libOmxVpp.so": {
+  "mode": 420
+ },
+ "lib64/libOmxWmaDec.so": {
+  "mode": 420
+ },
+ "lib64/libOpenCL.so": {
+  "mode": 420
+ },
+ "lib64/libQSEEComAPI.so": {
+  "mode": 420
+ },
+ "lib64/libQTEEConnector_vendor.so": {
+  "mode": 420
+ },
+ "lib64/libRSDriver_adreno.so": {
+  "mode": 420
+ },
+ "lib64/libSecureUILib.so": {
+  "mode": 420
+ },
+ "lib64/libStDrvInt.so": {
+  "mode": 420
+ },
+ "lib64/libSubSystemShutdown.so": {
+  "mode": 420
+ },
+ "lib64/libUBWC.so": {
+  "mode": 420
+ },
+ "lib64/libUserAgent.so": {
+  "mode": 420
+ },
+ "lib64/lib_drplugin_server.so": {
+  "mode": 420
+ },
+ "lib64/lib_remote_simlock.so": {
+  "mode": 420
+ },
+ "lib64/libacdb-fts.so": {
+  "mode": 420
+ },
+ "lib64/libacdbloader.so": {
+  "mode": 420
+ },
+ "lib64/libacdbmapper.so": {
+  "mode": 420
+ },
+ "lib64/libacdbrtac.so": {
+  "mode": 420
+ },
+ "lib64/libadiertac.so": {
+  "mode": 420
+ },
+ "lib64/libadreno_utils.so": {
+  "mode": 420
+ },
+ "lib64/libadsp_default_listener.so": {
+  "mode": 420
+ },
+ "lib64/libadsprpc.so": {
+  "mode": 420
+ },
+ "lib64/libalarmservice_jni.so": {
+  "mode": 420
+ },
+ "lib64/libalsautils.so": {
+  "mode": 420
+ },
+ "lib64/libaudcal.so": {
+  "mode": 420
+ },
+ "lib64/libaudio_log_utils.so": {
+  "mode": 420
+ },
+ "lib64/libaudioalsa.so": {
+  "mode": 420
+ },
+ "lib64/libaudioparsers.so": {
+  "mode": 420
+ },
+ "lib64/libbase64.so": {
+  "mode": 420
+ },
+ "lib64/libbccQTI.so": {
+  "mode": 420
+ },
+ "lib64/libbt-hidlclient.so": {
+  "mode": 420
+ },
+ "lib64/libbt-vendor.so": {
+  "mode": 420
+ },
+ "lib64/libbthost_if.so": {
+  "mode": 420
+ },
+ "lib64/libbtnv.so": {
+  "mode": 420
+ },
+ "lib64/libc2d30-a3xx.so": {
+  "mode": 420
+ },
+ "lib64/libc2d30-a4xx.so": {
+  "mode": 420
+ },
+ "lib64/libc2d30-a5xx.so": {
+  "mode": 420
+ },
+ "lib64/libc2d30_bltlib.so": {
+  "mode": 420
+ },
+ "lib64/libc2dcolorconvert.so": {
+  "mode": 420
+ },
+ "lib64/libcdsprpc.so": {
+  "mode": 420
+ },
+ "lib64/libcld80211.so": {
+  "mode": 420
+ },
+ "lib64/libcne.so": {
+  "mode": 420
+ },
+ "lib64/libcneapiclient.so": {
+  "mode": 420
+ },
+ "lib64/libcneoplookup.so": {
+  "mode": 420
+ },
+ "lib64/libcneqmiutils.so": {
+  "mode": 420
+ },
+ "lib64/libconfigdb.so": {
+  "mode": 420
+ },
+ "lib64/libdataitems.so": {
+  "mode": 420
+ },
+ "lib64/libdiag.so": {
+  "mode": 420
+ },
+ "lib64/libdiagjni.so": {
+  "mode": 420
+ },
+ "lib64/libdisp-aba.so": {
+  "mode": 420
+ },
+ "lib64/libdpmqmihal.so": {
+  "mode": 420
+ },
+ "lib64/libdrm.so": {
+  "mode": 420
+ },
+ "lib64/libdrmfs.so": {
+  "mode": 420
+ },
+ "lib64/libdrmtime.so": {
+  "mode": 420
+ },
+ "lib64/libdrmutils.so": {
+  "mode": 420
+ },
+ "lib64/libdrplugin_client.so": {
+  "mode": 420
+ },
+ "lib64/libdsi_netctrl.so": {
+  "mode": 420
+ },
+ "lib64/libdsutils.so": {
+  "mode": 420
+ },
+ "lib64/libeffects.so": {
+  "mode": 420
+ },
+ "lib64/libevent_observer.so": {
+  "mode": 420
+ },
+ "lib64/libfastcrc.so": {
+  "mode": 420
+ },
+ "lib64/libfastcvadsp_stub.so": {
+  "mode": 420
+ },
+ "lib64/libfastcvopt.so": {
+  "mode": 420
+ },
+ "lib64/libfastrpc_utf_stub.so": {
+  "mode": 420
+ },
+ "lib64/libfeedbackhandler.so": {
+  "mode": 420
+ },
+ "lib64/libflp.so": {
+  "mode": 420
+ },
+ "lib64/libgcs-calwrapper.so": {
+  "mode": 420
+ },
+ "lib64/libgcs-ipc.so": {
+  "mode": 420
+ },
+ "lib64/libgcs-osal.so": {
+  "mode": 420
+ },
+ "lib64/libgcs.so": {
+  "mode": 420
+ },
+ "lib64/libgdtap.so": {
+  "mode": 420
+ },
+ "lib64/libgeofence.so": {
+  "mode": 420
+ },
+ "lib64/libgnss.so": {
+  "mode": 420
+ },
+ "lib64/libgnsspps.so": {
+  "mode": 420
+ },
+ "lib64/libgps.utils.so": {
+  "mode": 420
+ },
+ "lib64/libgpu_tonemapper.so": {
+  "mode": 420
+ },
+ "lib64/libgpustats.so": {
+  "mode": 420
+ },
+ "lib64/libgrallocutils.so": {
+  "mode": 420
+ },
+ "lib64/libgsl.so": {
+  "mode": 420
+ },
+ "lib64/libhbtpclient.so": {
+  "mode": 420
+ },
+ "lib64/libhbtpdsp.so": {
+  "mode": 420
+ },
+ "lib64/libhbtpfrmwk.so": {
+  "mode": 420
+ },
+ "lib64/libhdr_tm.so": {
+  "mode": 420
+ },
+ "lib64/libhwc2on1adapter.so": {
+  "mode": 420
+ },
+ "lib64/libhwminijail.so": {
+  "mode": 420
+ },
+ "lib64/libhypv_intercept.so": {
+  "mode": 420
+ },
+ "lib64/libidl.so": {
+  "mode": 420
+ },
+ "lib64/libipanat.so": {
+  "mode": 420
+ },
+ "lib64/libizat_client_api.so": {
+  "mode": 420
+ },
+ "lib64/libizat_core.so": {
+  "mode": 420
+ },
+ "lib64/libjson.so": {
+  "mode": 420
+ },
+ "lib64/libkeymasterdeviceutils.so": {
+  "mode": 420
+ },
+ "lib64/libkeymasterprovision.so": {
+  "mode": 420
+ },
+ "lib64/libkeymasterutils.so": {
+  "mode": 420
+ },
+ "lib64/libkeystore-engine-wifi-hidl.so": {
+  "mode": 420
+ },
+ "lib64/libkeystore-wifi-hidl.so": {
+  "mode": 420
+ },
+ "lib64/liblbs_core.so": {
+  "mode": 420
+ },
+ "lib64/libllvm-glnext.so": {
+  "mode": 420
+ },
+ "lib64/libllvm-qcom.so": {
+  "mode": 420
+ },
+ "lib64/libllvm-qgl.so": {
+  "mode": 420
+ },
+ "lib64/libloc_api_v02.so": {
+  "mode": 420
+ },
+ "lib64/libloc_core.so": {
+  "mode": 420
+ },
+ "lib64/libloc_ds_api.so": {
+  "mode": 420
+ },
+ "lib64/libloc_externalDr.so": {
+  "mode": 420
+ },
+ "lib64/libloc_pla.so": {
+  "mode": 420
+ },
+ "lib64/libloc_stub.so": {
+  "mode": 420
+ },
+ "lib64/liblocation_api.so": {
+  "mode": 420
+ },
+ "lib64/liblocationservice.so": {
+  "mode": 420
+ },
+ "lib64/liblocationservice_glue.so": {
+  "mode": 420
+ },
+ "lib64/liblowi_client.so": {
+  "mode": 420
+ },
+ "lib64/liblowi_wifihal.so": {
+  "mode": 420
+ },
+ "lib64/liblqe.so": {
+  "mode": 420
+ },
+ "lib64/libmdmdetect.so": {
+  "mode": 420
+ },
+ "lib64/libmdsprpc.so": {
+  "mode": 420
+ },
+ "lib64/libminijail_vendor.so": {
+  "mode": 420
+ },
+ "lib64/libmm-color-convertor.so": {
+  "mode": 420
+ },
+ "lib64/libmm-disp-apis.so": {
+  "mode": 420
+ },
+ "lib64/libmm-hdcpmgr.so": {
+  "mode": 420
+ },
+ "lib64/libmm-omxcore.so": {
+  "mode": 420
+ },
+ "lib64/libmm-qdcm.so": {
+  "mode": 420
+ },
+ "lib64/libmmcamera2_frame_algorithm.so": {
+  "mode": 420
+ },
+ "lib64/libmmcamera2_is.so": {
+  "mode": 420
+ },
+ "lib64/libmmcamera2_q3a_core.so": {
+  "mode": 420
+ },
+ "lib64/libmmcamera2_stats_algorithm.so": {
+  "mode": 420
+ },
+ "lib64/libmmcamera_cac3_lib.so": {
+  "mode": 420
+ },
+ "lib64/libmmcamera_dbg.so": {
+  "mode": 420
+ },
+ "lib64/libmmcamera_tintless_algo.so": {
+  "mode": 420
+ },
+ "lib64/libmmcamera_tintless_bg_pca_algo.so": {
+  "mode": 420
+ },
+ "lib64/libmmi_jni.so": {
+  "mode": 420
+ },
+ "lib64/libmmosal_proprietary.so": {
+  "mode": 420
+ },
+ "lib64/libnbaio_mono.so": {
+  "mode": 420
+ },
+ "lib64/libnetfilter_conntrack.so": {
+  "mode": 420
+ },
+ "lib64/libnetmgr.so": {
+  "mode": 420
+ },
+ "lib64/libnfnetlink.so": {
+  "mode": 420
+ },
+ "lib64/liboemaids_vendor.so": {
+  "mode": 420
+ },
+ "lib64/liboffloadhal.so": {
+  "mode": 420
+ },
+ "lib64/liboptizoom.so": {
+  "mode": 420
+ },
+ "lib64/libpdmapper.so": {
+  "mode": 420
+ },
+ "lib64/libpdnotifier.so": {
+  "mode": 420
+ },
+ "lib64/libperfgluelayer.so": {
+  "mode": 420
+ },
+ "lib64/libperipheral_client.so": {
+  "mode": 420
+ },
+ "lib64/libpvr.so": {
+  "mode": 420
+ },
+ "lib64/libqcci_legacy.so": {
+  "mode": 420
+ },
+ "lib64/libqcmaputils.so": {
+  "mode": 420
+ },
+ "lib64/libqcrilFramework.so": {
+  "mode": 420
+ },
+ "lib64/libqdMetaData.so": {
+  "mode": 420
+ },
+ "lib64/libqdi.so": {
+  "mode": 420
+ },
+ "lib64/libqdp.so": {
+  "mode": 420
+ },
+ "lib64/libqdutils.so": {
+  "mode": 420
+ },
+ "lib64/libqisl.so": {
+  "mode": 420
+ },
+ "lib64/libqmi.so": {
+  "mode": 420
+ },
+ "lib64/libqmi_cci.so": {
+  "mode": 420
+ },
+ "lib64/libqmi_client_helper.so": {
+  "mode": 420
+ },
+ "lib64/libqmi_client_qmux.so": {
+  "mode": 420
+ },
+ "lib64/libqmi_common_so.so": {
+  "mode": 420
+ },
+ "lib64/libqmi_csi.so": {
+  "mode": 420
+ },
+ "lib64/libqmi_encdec.so": {
+  "mode": 420
+ },
+ "lib64/libqmiservices.so": {
+  "mode": 420
+ },
+ "lib64/libqservice.so": {
+  "mode": 420
+ },
+ "lib64/libqti-gt-prop.so": {
+  "mode": 420
+ },
+ "lib64/libqti-iopd-client.so": {
+  "mode": 420
+ },
+ "lib64/libqti-perfd-client.so": {
+  "mode": 420
+ },
+ "lib64/libqti-perfd.so": {
+  "mode": 420
+ },
+ "lib64/libqti-util.so": {
+  "mode": 420
+ },
+ "lib64/libqti-utils.so": {
+  "mode": 420
+ },
+ "lib64/libqtigef.so": {
+  "mode": 420
+ },
+ "lib64/libquipc_os_api.so": {
+  "mode": 420
+ },
+ "lib64/librecovery_updater_msm.so": {
+  "mode": 420
+ },
+ "lib64/libreference-ril.so": {
+  "mode": 420
+ },
+ "lib64/libril-qc-hal-qmi.so": {
+  "mode": 420
+ },
+ "lib64/libril-qc-ltedirectdisc.so": {
+  "mode": 420
+ },
+ "lib64/libril-qc-qmi-1.so": {
+  "mode": 420
+ },
+ "lib64/libril-qc-radioconfig.so": {
+  "mode": 420
+ },
+ "lib64/libril-qcril-hook-oem.so": {
+  "mode": 420
+ },
+ "lib64/libril.so": {
+  "mode": 420
+ },
+ "lib64/librilqmiservices.so": {
+  "mode": 420
+ },
+ "lib64/librilutils.so": {
+  "mode": 420
+ },
+ "lib64/librmnetctl.so": {
+  "mode": 420
+ },
+ "lib64/librmp.so": {
+  "mode": 420
+ },
+ "lib64/librpmb.so": {
+  "mode": 420
+ },
+ "lib64/librs_adreno.so": {
+  "mode": 420
+ },
+ "lib64/librs_adreno_sha1.so": {
+  "mode": 420
+ },
+ "lib64/libscalar.so": {
+  "mode": 420
+ },
+ "lib64/libscveBlobDescriptor.so": {
+  "mode": 420
+ },
+ "lib64/libscveBlobDescriptor_stub.so": {
+  "mode": 420
+ },
+ "lib64/libscveCommon.so": {
+  "mode": 420
+ },
+ "lib64/libscveCommon_stub.so": {
+  "mode": 420
+ },
+ "lib64/libscveImageCorrection.so": {
+  "mode": 420
+ },
+ "lib64/libscveObjectSegmentation.so": {
+  "mode": 420
+ },
+ "lib64/libscveObjectTracker.so": {
+  "mode": 420
+ },
+ "lib64/libscveObjectTracker_stub.so": {
+  "mode": 420
+ },
+ "lib64/libscvePanorama.so": {
+  "mode": 420
+ },
+ "lib64/libscvePanorama_lite.so": {
+  "mode": 420
+ },
+ "lib64/libsdedrm.so": {
+  "mode": 420
+ },
+ "lib64/libsdm-color.so": {
+  "mode": 420
+ },
+ "lib64/libsdm-diag.so": {
+  "mode": 420
+ },
+ "lib64/libsdm-disp-vndapis.so": {
+  "mode": 420
+ },
+ "lib64/libsdmcore.so": {
+  "mode": 420
+ },
+ "lib64/libsdmextension.so": {
+  "mode": 420
+ },
+ "lib64/libsdmutils.so": {
+  "mode": 420
+ },
+ "lib64/libsdsprpc.so": {
+  "mode": 420
+ },
+ "lib64/libsecureui.so": {
+  "mode": 420
+ },
+ "lib64/libsecureui_svcsock.so": {
+  "mode": 420
+ },
+ "lib64/libseemore.so": {
+  "mode": 420
+ },
+ "lib64/libselinux_vendor.so": {
+  "mode": 420
+ },
+ "lib64/libsensor1.so": {
+  "mode": 420
+ },
+ "lib64/libsensor_reg.so": {
+  "mode": 420
+ },
+ "lib64/libsettings.so": {
+  "mode": 420
+ },
+ "lib64/libsi.so": {
+  "mode": 420
+ },
+ "lib64/libslimclient.so": {
+  "mode": 420
+ },
+ "lib64/libsmemlog.so": {
+  "mode": 420
+ },
+ "lib64/libssd.so": {
+  "mode": 420
+ },
+ "lib64/libstagefrighthw.so": {
+  "mode": 420
+ },
+ "lib64/libstreamparser.so": {
+  "mode": 420
+ },
+ "lib64/libsubsystem_control.so": {
+  "mode": 420
+ },
+ "lib64/libsystem_health_mon.so": {
+  "mode": 420
+ },
+ "lib64/libthermalclient.so": {
+  "mode": 420
+ },
+ "lib64/libthermalioctl.so": {
+  "mode": 420
+ },
+ "lib64/libtime_genoff.so": {
+  "mode": 420
+ },
+ "lib64/libtinycompress_vendor.so": {
+  "mode": 420
+ },
+ "lib64/libtinyxml.so": {
+  "mode": 420
+ },
+ "lib64/libtinyxml2_1.so": {
+  "mode": 420
+ },
+ "lib64/libts_detected_face_hal.so": {
+  "mode": 420
+ },
+ "lib64/libts_face_beautify_hal.so": {
+  "mode": 420
+ },
+ "lib64/libtzdrmgenprov.so": {
+  "mode": 420
+ },
+ "lib64/libubifocus.so": {
+  "mode": 420
+ },
+ "lib64/libulp2.so": {
+  "mode": 420
+ },
+ "lib64/libvideoutils.so": {
+  "mode": 420
+ },
+ "lib64/libvpplibrary.so": {
+  "mode": 420
+ },
+ "lib64/libvpptestutils.so": {
+  "mode": 420
+ },
+ "lib64/libvraudio_client.so": {
+  "mode": 420
+ },
+ "lib64/libwebrtc_audio_preprocessing.so": {
+  "mode": 420
+ },
+ "lib64/libwfdcommonutils_proprietary.so": {
+  "mode": 420
+ },
+ "lib64/libwfdhaldsmanager.so": {
+  "mode": 420
+ },
+ "lib64/libwfdhdcpcp.so": {
+  "mode": 420
+ },
+ "lib64/libwfdmmservice.so": {
+  "mode": 420
+ },
+ "lib64/libwfdmodulehdcpsession.so": {
+  "mode": 420
+ },
+ "lib64/libwifi-hal-qcom.so": {
+  "mode": 420
+ },
+ "lib64/libwifi-hal.so": {
+  "mode": 420
+ },
+ "lib64/libwms.so": {
+  "mode": 420
+ },
+ "lib64/libwpa_client.so": {
+  "mode": 420
+ },
+ "lib64/libwqe.so": {
+  "mode": 420
+ },
+ "lib64/libxml.so": {
+  "mode": 420
+ },
+ "lib64/libxtadapter.so": {
+  "mode": 420
+ },
+ "lib64/libxtwifi_ulp_adaptor.so": {
+  "mode": 420
+ },
+ "lib64/mediacas/libclearkeycasplugin.so": {
+  "mode": 420
+ },
+ "lib64/mediadrm/libdrmclearkeyplugin.so": {
+  "mode": 420
+ },
+ "lib64/sensor_calibrate.so": {
+  "mode": 420
+ },
+ "lib64/sensors.ssc.so": {
+  "mode": 420
+ },
+ "lib64/soundfx/libasphere.so": {
+  "mode": 420
+ },
+ "lib64/soundfx/libaudiopreprocessing.so": {
+  "mode": 420
+ },
+ "lib64/soundfx/libbundlewrapper.so": {
+  "mode": 420
+ },
+ "lib64/soundfx/libdownmix.so": {
+  "mode": 420
+ },
+ "lib64/soundfx/libeffectproxy.so": {
+  "mode": 420
+ },
+ "lib64/soundfx/libldnhncr.so": {
+  "mode": 420
+ },
+ "lib64/soundfx/libqcbassboost.so": {
+  "mode": 420
+ },
+ "lib64/soundfx/libqcompostprocbundle.so": {
+  "mode": 420
+ },
+ "lib64/soundfx/libqcomvisualizer.so": {
+  "mode": 420
+ },
+ "lib64/soundfx/libqcomvoiceprocessing.so": {
+  "mode": 420
+ },
+ "lib64/soundfx/libqcreverb.so": {
+  "mode": 420
+ },
+ "lib64/soundfx/libqcvirt.so": {
+  "mode": 420
+ },
+ "lib64/soundfx/libreverbwrapper.so": {
+  "mode": 420
+ },
+ "lib64/soundfx/libshoebox.so": {
+  "mode": 420
+ },
+ "lib64/soundfx/libvisualizer.so": {
+  "mode": 420
+ },
+ "lib64/vendor.display.color@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib64/vendor.display.config@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib64/vendor.display.config@1.1_vendor.so": {
+  "mode": 420
+ },
+ "lib64/vendor.display.postproc@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib64/vendor.qti.esepowermanager@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib64/vendor.qti.gnss@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib64/vendor.qti.hardware.alarm@1.0.so": {
+  "mode": 420
+ },
+ "lib64/vendor.qti.hardware.camera.device@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib64/vendor.qti.hardware.data.latency@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib64/vendor.qti.hardware.fingerprint@1.0.so": {
+  "mode": 420
+ },
+ "lib64/vendor.qti.hardware.fm@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib64/vendor.qti.hardware.improvetouch.blobmanager@1.0-service.so": {
+  "mode": 420
+ },
+ "lib64/vendor.qti.hardware.improvetouch.blobmanager@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib64/vendor.qti.hardware.improvetouch.gesturemanager@1.0-service.so": {
+  "mode": 420
+ },
+ "lib64/vendor.qti.hardware.improvetouch.gesturemanager@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0-service.so": {
+  "mode": 420
+ },
+ "lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib64/vendor.qti.hardware.iop@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib64/vendor.qti.hardware.iop@2.0_vendor.so": {
+  "mode": 420
+ },
+ "lib64/vendor.qti.hardware.limits@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib64/vendor.qti.hardware.perf@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib64/vendor.qti.hardware.qdutils_disp@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib64/vendor.qti.hardware.qteeconnector@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib64/vendor.qti.hardware.radio.am@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib64/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib64/vendor.qti.hardware.radio.ims@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib64/vendor.qti.hardware.radio.lpa@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib64/vendor.qti.hardware.radio.qcrilhook@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib64/vendor.qti.hardware.radio.qtiradio@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib64/vendor.qti.hardware.radio.uim@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib64/vendor.qti.hardware.radio.uim@1.1_vendor.so": {
+  "mode": 420
+ },
+ "lib64/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib64/vendor.qti.hardware.sensorscalibrate@1.0.so": {
+  "mode": 420
+ },
+ "lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib64/vendor.qti.hardware.vpp@1.1_vendor.so": {
+  "mode": 420
+ },
+ "lib64/vendor.qti.hardware.wifi.supplicant@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib64/vendor.qti.hardware.wifi.supplicant@1.1_vendor.so": {
+  "mode": 420
+ },
+ "lib64/vendor.qti.hardware.wipower@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so": {
+  "mode": 420
+ },
+ "lib64/vendor.qti.imsrtpservice@1.0_vendor.so": {
+  "mode": 420
+ },
+ "lib64/vendor.qti.voiceprint@1.0.so": {
+  "mode": 420
+ },
+ "manifest.xml": {
+  "mode": 420
+ },
+ "overlay/OptInAppOverlay/OptInAppOverlay.apk": {
+  "mode": 420
+ },
+ "overlay/SysuiDarkTheme/SysuiDarkThemeOverlay.apk": {
+  "mode": 420
+ },
+ "package/CTA/.preloadspec": {
+  "mode": 420
+ },
+ "package/CTA/system/vendor/overlay/CTAMmsRes/CTAMmsRes.apk": {
+  "mode": 420
+ },
+ "package/CTA/system/vendor/overlay/CTANetworkSettingRes/CTANetworkSettingRes.apk": {
+  "mode": 420
+ },
+ "package/CTA/system/vendor/overlay/CTASettingsProviderRes/CTASettingsProviderRes.apk": {
+  "mode": 420
+ },
+ "package/CTA/system/vendor/overlay/CTASystemUIRes/CTASystemUIRes.apk": {
+  "mode": 420
+ },
+ "package/CTA/system/vendor/vendor.prop": {
+  "mode": 420
+ },
+ "package/ChinaMobile/.preloadspec": {
+  "mode": 420
+ },
+ "package/ChinaMobile/exclude.list": {
+  "mode": 420
+ },
+ "package/ChinaMobile/system/app/Backup/Backup.apk": {
+  "mode": 420
+ },
+ "package/ChinaMobile/system/vendor/hosts": {
+  "mode": 420
+ },
+ "package/ChinaMobile/system/vendor/overlay/CmccMmsRes/CmccMmsRes.apk": {
+  "mode": 420
+ },
+ "package/ChinaMobile/system/vendor/overlay/CmccMusicRes/CmccMusicRes.apk": {
+  "mode": 420
+ },
+ "package/ChinaMobile/system/vendor/overlay/CmccSettingsProviderRes/CmccSettingsProviderRes.apk": {
+  "mode": 420
+ },
+ "package/ChinaMobile/system/vendor/overlay/CmccSettingsRes/CmccSettingsRes.apk": {
+  "mode": 420
+ },
+ "package/ChinaMobile/system/vendor/overlay/CmccSystemUIRes/CmccSystemUIRes.apk": {
+  "mode": 420
+ },
+ "package/ChinaMobile/system/vendor/vendor.prop": {
+  "mode": 420
+ },
+ "package/ChinaTelecom/.preloadspec": {
+  "mode": 420
+ },
+ "package/ChinaTelecom/exclude.list": {
+  "mode": 420
+ },
+ "package/ChinaTelecom/system/vendor/overlay/CtSettingsProviderRes/CtSettingsProviderRes.apk": {
+  "mode": 420
+ },
+ "package/ChinaTelecom/system/vendor/overlay/CtSystemUIRes/CtSystemUIRes.apk": {
+  "mode": 420
+ },
+ "package/ChinaTelecom/system/vendor/vendor.prop": {
+  "mode": 420
+ },
+ "package/ChinaUnicom/.preloadspec": {
+  "mode": 420
+ },
+ "package/ChinaUnicom/exclude.list": {
+  "mode": 420
+ },
+ "package/ChinaUnicom/system/vendor/overlay/CuSettingsProviderRes/CuSettingsProviderRes.apk": {
+  "mode": 420
+ },
+ "package/ChinaUnicom/system/vendor/overlay/CuSystemUIRes/CuSystemUIRes.apk": {
+  "mode": 420
+ },
+ "package/ChinaUnicom/system/vendor/vendor.prop": {
+  "mode": 420
+ },
+ "package/Default/.preloadspec": {
+  "mode": 420
+ },
+ "package/Default/system/build.prop": {
+  "mode": 420
+ },
+ "package/Default/system/vendor/default.prop": {
+  "mode": 420
+ },
+ "package/EUCommon/.preloadspec": {
+  "mode": 420
+ },
+ "package/EUCommon/system/vendor/overlay/EUCommonFrameworksRes/EUCommonFrameworksRes.apk": {
+  "mode": 420
+ },
+ "package/EUCommon/system/vendor/overlay/EUCommonPhoneFeaturesRes/EUCommonPhoneFeaturesRes.apk": {
+  "mode": 420
+ },
+ "package/EUCommon/system/vendor/overlay/EUCommonSettingsProviderRes/EUCommonSettingsProviderRes.apk": {
+  "mode": 420
+ },
+ "package/EUCommon/system/vendor/vendor.prop": {
+  "mode": 420
+ },
+ "package/TelefonicaGermany/.preloadspec": {
+  "mode": 420
+ },
+ "package/TelefonicaGermany/data/modem_config/msm8998/mcfg_sw.mbn": {
+  "mode": 420
+ },
+ "package/TelefonicaGermany/data/modem_row_config/msm8998/mcfg_sw.mbn": {
+  "mode": 420
+ },
+ "package/TelefonicaGermany/system/vendor/overlay/TelefonicaGermanyBrowserRes/TelefonicaGermanyBrowserRes.apk": {
+  "mode": 420
+ },
+ "package/TelefonicaGermany/system/vendor/overlay/TelefonicaGermanyContactsRes/TelefonicaGermanyContactsRes.apk": {
+  "mode": 420
+ },
+ "package/TelefonicaGermany/system/vendor/overlay/TelefonicaGermanyFrameworksRes/TelefonicaGermanyFrameworksRes.apk": {
+  "mode": 420
+ },
+ "package/TelefonicaGermany/system/vendor/overlay/TelefonicaGermanyKeyguardRes/TelefonicaGermanyKeyguardRes.apk": {
+  "mode": 420
+ },
+ "package/TelefonicaGermany/system/vendor/overlay/TelefonicaGermanyMmsRes/TelefonicaGermanyMmsRes.apk": {
+  "mode": 420
+ },
+ "package/TelefonicaGermany/system/vendor/overlay/TelefonicaGermanySettingsProviderRes/TelefonicaGermanySettingsProviderRes.apk": {
+  "mode": 420
+ },
+ "package/TelefonicaGermany/system/vendor/overlay/TelefonicaGermanySettingsRes/TelefonicaGermanySettingsRes.apk": {
+  "mode": 420
+ },
+ "package/TelefonicaGermany/system/vendor/overlay/TelefonicaGermanySimContactsRes/TelefonicaGermanySimContactsRes.apk": {
+  "mode": 420
+ },
+ "package/TelefonicaGermany/system/vendor/overlay/TelefonicaGermanyStkRes/TelefonicaGermanyStkRes.apk": {
+  "mode": 420
+ },
+ "package/TelefonicaGermany/system/vendor/overlay/TelefonicaGermanySystemUIRes/TelefonicaGermanySystemUIRes.apk": {
+  "mode": 420
+ },
+ "package/TelefonicaGermany/system/vendor/overlay/TelefonicaGermanyTeleServiceRes/TelefonicaGermanyTeleServiceRes.apk": {
+  "mode": 420
+ },
+ "package/TelefonicaGermany/system/vendor/vendor.prop": {
+  "mode": 420
+ },
+ "package/VodafoneGroup/.preloadspec": {
+  "mode": 420
+ },
+ "package/VodafoneGroup/system/vendor/overlay/VodafoneGroupFrameworksRes/VodafoneGroupFrameworksRes.apk": {
+  "mode": 420
+ },
+ "package/VodafoneGroup/system/vendor/overlay/VodafoneGroupNetworkSettingRes/VodafoneGroupNetworkSettingRes.apk": {
+  "mode": 420
+ },
+ "package/VodafoneGroup/system/vendor/overlay/VodafoneGroupTeleServiceRes/VodafoneGroupTeleServiceRes.apk": {
+  "mode": 420
+ },
+ "package/VodafoneGroup/system/vendor/vendor.prop": {
+  "mode": 420
+ },
+ "package/VodafoneUK/.preloadspec": {
+  "mode": 420
+ },
+ "package/VodafoneUK/data/modem_row_config/msm8998/mcfg_sw.mbn": {
+  "mode": 420
+ },
+ "package/VodafoneUK/system/vendor/overlay/VodafoneUKBrowserRes/VodafoneUKBrowserRes.apk": {
+  "mode": 420
+ },
+ "package/VodafoneUK/system/vendor/overlay/VodafoneUKContactsRes/VodafoneUKContactsRes.apk": {
+  "mode": 420
+ },
+ "package/VodafoneUK/system/vendor/overlay/VodafoneUKDialerRes/VodafoneUKDialerRes.apk": {
+  "mode": 420
+ },
+ "package/VodafoneUK/system/vendor/overlay/VodafoneUKEmailRes/VodafoneUKEmailRes.apk": {
+  "mode": 420
+ },
+ "package/VodafoneUK/system/vendor/overlay/VodafoneUKFrameworksRes/VodafoneUKFrameworksRes.apk": {
+  "mode": 420
+ },
+ "package/VodafoneUK/system/vendor/overlay/VodafoneUKLatinIMERes/VodafoneUKLatinIMERes.apk": {
+  "mode": 420
+ },
+ "package/VodafoneUK/system/vendor/overlay/VodafoneUKMmsRes/VodafoneUKMmsRes.apk": {
+  "mode": 420
+ },
+ "package/VodafoneUK/system/vendor/overlay/VodafoneUKNetworkSettingRes/VodafoneUKNetworkSettingRes.apk": {
+  "mode": 420
+ },
+ "package/VodafoneUK/system/vendor/overlay/VodafoneUKOmaDownloadRes/VodafoneUKOmaDownloadRes.apk": {
+  "mode": 420
+ },
+ "package/VodafoneUK/system/vendor/overlay/VodafoneUKPhoneCommonRes/VodafoneUKPhoneCommonRes.apk": {
+  "mode": 420
+ },
+ "package/VodafoneUK/system/vendor/overlay/VodafoneUKSettingsProviderRes/VodafoneUKSettingsProviderRes.apk": {
+  "mode": 420
+ },
+ "package/VodafoneUK/system/vendor/overlay/VodafoneUKSettingsRes/VodafoneUKSettingsRes.apk": {
+  "mode": 420
+ },
+ "package/VodafoneUK/system/vendor/overlay/VodafoneUKSimContactsRes/VodafoneUKSimContactsRes.apk": {
+  "mode": 420
+ },
+ "package/VodafoneUK/system/vendor/overlay/VodafoneUKSystemUIRes/VodafoneUKSystemUIRes.apk": {
+  "mode": 420
+ },
+ "package/VodafoneUK/system/vendor/overlay/VodafoneUKTeleServiceRes/VodafoneUKTeleServiceRes.apk": {
+  "mode": 420
+ },
+ "package/VodafoneUK/system/vendor/vendor.prop": {
+  "mode": 420
+ },
+ "package/default.prop": {
+  "mode": 420
+ },
+ "radio/qcril_database/qcril.db": {
+  "mode": 420
+ },
+ "speccfg/switch_spec.sh": {
+  "mode": 420
+ },
+ "ueventd.rc": {
+  "mode": 420
+ }
+}

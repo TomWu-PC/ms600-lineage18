@@ -1,0 +1,25 @@
+# MS600 —— 允许 WebView/Chromium 使用「软件实现」的平台解码器（v98）
+#
+# 为什么需要：
+#   Android 11 的 Chromium/WebView 默认排除纯软件的 MediaCodec 解码器
+#   （media::kAllowMediaCodecSoftwareDecoder 默认关闭）。本设备 8.1 的 OMX 硬解
+#   在 A11 上不可用，媒体解码完全依赖 c2.android.* 软件解码器，于是 WebView 找不到
+#   任何可用解码器，网页视频一律:
+#     PipelineStatus::DECODER_ERROR_NOT_SUPPORTED ... kUnsupportedConfig
+#   实测加上本开关后，自建 <video> 测试页与抖音网页版(电脑版)均正常播放。
+#
+# 机制：
+#   WebView 每次加载会读取 /data/local/tmp/webview-command-line 作为额外命令行。
+#   开机阶段写入该文件（覆盖写、幂等）。
+
+on boot
+    mkdir /data/local/tmp 0771 shell shell
+    write /data/local/tmp/webview-command-line "_ --enable-features=AllowMediaCodecSoftwareDecoder"
+    chmod 0666 /data/local/tmp/webview-command-line
+    chown shell shell /data/local/tmp/webview-command-line
+
+# MS600 v103 —— GPU 提频：Adreno 506 的 msm-adreno-tz 在 UI 负载下只跑到 216MHz，
+# 导致滚动严重掉帧（实测 dumpsys gfxinfo Janky 62%）。把下限抬到 510MHz 后降到 1%，
+# 同时保留 governor 动态升到 600MHz。sysfs 不持久（重启回到 133MHz）故写在此处。
+on property:sys.boot_completed=1
+    write /sys/class/kgsl/kgsl-3d0/devfreq/min_freq 510000000

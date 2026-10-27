@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".ui.PlayerActivity">
+
+    <!-- ExoPlayer 视图 -->
+    <androidx.media3.ui.PlayerView
+        android:id="@+id/player_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:show_buffering="when_playing"
+        app:use_controller="true"
+        app:show_timeout="5000"
+        app:controller_layout_id="@layout/custom_player_control"
+        app:surface_type="surface_view" />
+
+    <!-- 镜像（Miracast / AirPlay）专用画面。不要复用 PlayerView 的 Surface，避免 ExoPlayer
+         shutter 黑色遮罩盖住 MediaCodec 输出。
+         用 SurfaceView 而不是 TextureView：SurfaceView 的帧缓冲直通解码器，少一层 GPU 合成、
+         不和别人抢缓冲，低端 SoC 上帧率更稳（TextureView 会额外合成一层，且 getBitmap 读帧
+         会干扰送显循环）。自动裁切需要的"画面流原始帧"改由影子解码器提供。 -->
+    <SurfaceView
+        android:id="@+id/airplay_mirror_surface"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <!-- 图片轮播视图 -->
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:background="#000000"
+        android:contentDescription="投屏图片"
+        android:scaleType="fitCenter"
+        android:visibility="gone" />
+
+    <!-- 顶部状态栏 -->
+    <LinearLayout
+        android:id="@+id/status_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="#80000000"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/connected"
+            android:textColor="@color/success"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_primary"
+            android:textSize="24sp"
+            tools:text="播放标题" />
+
+        <!-- 缓冲状态指示器 -->
+        <ProgressBar
+            android:id="@+id/buffering_indicator"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="12dp"
+            android:indeterminateTint="@color/accent"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <!-- 视频流信息面板（更多菜单或遥控 INFO 键切换） -->
+    <TextView
+        android:id="@+id/tv_stream_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/bg_stream_info"
+        android:fontFamily="monospace"
+        android:lineSpacingExtra="4dp"
+        android:padding="16dp"
+        android:textColor="@color/text_primary"
+        android:textSize="16sp"
+        android:visibility="gone"
+        tools:text="视频信息\n分辨率  1920x1080"
+        tools:visibility="visible" />
+
+    <!-- 加载指示器 -->
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/accent"
+        android:visibility="visible" />
+
+    <!-- 错误提示 -->
+    <TextView
+        android:id="@+id/tv_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="24dp"
+        android:textColor="@color/error"
+        android:textSize="28sp"
+        android:visibility="gone"
+        tools:text="播放错误" />
+
+    <!-- 投屏菜单 + 投屏信息：点击屏幕唤出。
+         v1.2.33：菜单可调项已经很少了，原来左侧那一栏显得空 —— 现在把菜单移到右侧，
+         和投屏信息合成同一列（菜单在上、信息在下），并去掉「投屏菜单 / 投屏信息」两个小标题，
+         中间用一条分隔线区分。
+         容器本身不拦截触摸（无背景、不可点），所以收起时不影响画面上的手势。 -->
+    <FrameLayout
+        android:id="@+id/panel_cast"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/cast_info_panel"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|top"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bg_cast_panel"
+            android:clickable="true"
+            android:focusable="false"
+            android:orientation="vertical"
+            android:paddingLeft="18dp"
+            android:paddingTop="14dp"
+            android:paddingRight="18dp"
+            android:paddingBottom="14dp">
+
+            <!-- 上：菜单行 -->
+            <LinearLayout
+                android:id="@+id/cast_menu_rows"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@color/divider" />
+
+            <!-- 下：投屏信息行 -->
+            <LinearLayout
+                android:id="@+id/cast_info_rows"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <!-- v1.2.32: 右下角「超级按钮」已移除 —— 现在点一下屏幕就能唤出/收起菜单 -->
+
+    <!-- v1.2.33：手势提示。左半屏上下滑调亮度、右半屏上下滑调音量时短暂显示 -->
+    <TextView
+        android:id="@+id/tv_gesture_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#CC000000"
+        android:paddingLeft="26dp"
+        android:paddingTop="16dp"
+        android:paddingRight="26dp"
+        android:paddingBottom="16dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+</FrameLayout>

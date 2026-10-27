@@ -1,0 +1,16 @@
+# MS600 —— WiFi/WCNSS 上电触发（v55）
+#
+# 为什么需要：A11 移植里没有任何组件触发 WCNSS 子系统上电
+#   （内核日志连一次 wcnss.mdt 请求都没有，state 恒为 OFFLINING），
+#   导致 /dev/wcnss_ctrl open 返回 EFAULT、wcnss_service 退出 255、
+#   prima(wlan) 模块 init 报 "WCNSS driver not ready"、最终没有 wlan0。
+#   实测：写 /dev/wcnss_wlan 即可拉起 WCNSS（Brought out of reset -> ONLINE）。
+#   固件侧由 v54（wcnss.*、adsp.*、venus.*）与 v55（wlan/prima/WCNSS_qcom_wlan_nv.bin、
+#   WCNSS_wlan_dictionary.dat）补齐。
+
+on early-init
+    chmod 0755 /vendor/bin/ms600_wcnss_boot.sh
+
+on boot
+    write /dev/wcnss_wlan 1
+    exec - root -- /vendor/bin/ms600_wcnss_boot.sh

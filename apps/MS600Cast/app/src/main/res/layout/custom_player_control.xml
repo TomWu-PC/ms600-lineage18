@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  极简两行控制条：进度行 + 传输控制行。
+  图标统一换成 Material 矢量图（原来是 Holo 时代的 @android:drawable/ic_media_* 与
+  ic_menu_revert —— 而且"上一个/下一个"误用了同一张图）。播放/暂停由
+  PlayerControlView 自己按状态切换 exo_icon_play / exo_icon_pause，这里不写死。
+  画质/播放速度/字幕/屏幕方向/视频信息都收进「更多」（btn_more），避免 OSD 在电视上
+  占掉近一半屏幕高度。
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="@drawable/bg_player_control_scrim"
+    android:orientation="vertical"
+    android:paddingLeft="28dp"
+    android:paddingTop="14dp"
+    android:paddingRight="28dp"
+    android:paddingBottom="14dp">
+
+    <!-- 进度条和时间 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/exo_position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:textColor="@color/text_primary"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <androidx.media3.ui.DefaultTimeBar
+            android:id="@+id/exo_progress"
+            android:layout_width="0dp"
+            android:layout_height="26dp"
+            android:layout_weight="1"
+            app:buffered_color="@color/text_secondary"
+            app:played_color="@color/accent"
+            app:scrubber_color="@color/accent"
+            app:scrubber_disabled_size="0dp"
+            app:scrubber_enabled_size="14dp"
+            app:unplayed_color="#40FFFFFF" />
+
+        <TextView
+            android:id="@+id/exo_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:textColor="@color/text_primary"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- 传输控制 + 更多 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/exo_prev"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="上一个"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_skip_previous" />
+
+        <ImageButton
+            android:id="@+id/exo_rew"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="后退"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_fast_rewind" />
+
+        <!-- 播放/暂停：图标由 PlayerControlView 随播放状态切换 -->
+        <ImageButton
+            android:id="@+id/exo_play_pause"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="播放/暂停"
+            android:padding="12dp"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:id="@+id/exo_ffwd"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="前进"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_fast_forward" />
+
+        <ImageButton
+            android:id="@+id/exo_next"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="下一个"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_skip_next" />
+    </LinearLayout>
+
+</LinearLayout>

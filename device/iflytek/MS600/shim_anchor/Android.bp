@@ -1,0 +1,14 @@
+// MS600: 见 anchor.cpp
+cc_library_shared {
+    name: "ms600_hidl_shim_anchor",
+    vendor: true,
+    proprietary: true,
+    srcs: ["anchor.cpp"],
+    shared_libs: [
+        "libhidltransport",
+        "libhwbinder",
+    ],
+    strip: {
+        none: true,
+    },
+}

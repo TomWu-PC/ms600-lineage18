@@ -1,0 +1,28 @@
+# MS600 18.1 — 非隔离 linker 配置（legacy，等价于 pre-O 行为）
+#
+# 【为什么需要它】
+#   1. AOSP 11 的 system/linkerconfig/Android.bp 只定义了 generate_recovery_linker_config，
+#      **不生成 system 版的 ld.config.txt** ⇒ 18.1 的 /system/etc/ 下原本什么都没有。
+#   2. 本设备的 vendor 内容全部来自原厂 Android 8.1（VNDK-SP minimal 形态）。
+#      原厂 8.1 时代是非隔离 linker：vendor HAL 服务的接口库
+#      （android.hardware.*@1.0.so）与 VNDK 基础库（libhidlbase 等）
+#      原本就在 /system/lib64 里，随 8.1 的非隔离配置直接可见。
+#   3. 到 18.1（Android 11）后若走默认 treble 隔离，vendor 进程只搜 /system/vendor/${LIB}，
+#      而 55 个 HAL 接口库 + 76 个基础库根本不在那里 ⇒ vendor HAL 全部 CANNOT LINK
+#      ⇒ framework 侧 XxxStateMachine 抛异常 ⇒ system_server 崩溃循环 ⇒ 卡开机动画。
+#      （这正是 15.1 当年踩过的坑，见 memory 2026-10-02）
+#
+# 【本配置做什么】
+#   让所有进程（含 /system/vendor/bin 下的 vendor HAL 服务）统一用 [legacy] 段，
+#   在 /system/${LIB} 与 /system/vendor/${LIB} 中搜索，等价于 pre-O 的非隔离行为。
+#   dir.legacy = /system 是前缀匹配，同时覆盖 /system/bin 与 /system/vendor/bin。
+#
+# 参考：AOSP system/core/rootdir/etc/ld.config.txt（legacy 模板）
+
+dir.legacy = /system
+dir.legacy = /sbin
+
+[legacy]
+namespace.default.isolated = false
+namespace.default.search.paths = /system/${LIB}:/system/vendor/${LIB}
+namespace.default.asan.search.paths = /data/asan/system/${LIB}:/system/${LIB}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MS600: 设置界面配色对齐系统原生（Theme.DeviceDefault.Light 的材质调色板），
+         不再使用自定义的蓝色 primary / 绿色 accent。 -->
+    <color name="primary">#F5F5F5</color>        <!-- material_grey_100：原生浅色主题的 colorPrimary -->
+    <color name="primary_dark">#757575</color>   <!-- material_grey_600 -->
+    <color name="switch_accent">#008577</color>  <!-- material_deep_teal_500：系统原生 accent（开关颜色） -->
+
+    <!-- 分栏列表（与「设备设置」App 观感一致） -->
+    <color name="list_bg">#F2F2F2</color>
+    <color name="row_bg">#FFFFFF</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="text_title">#212121</color>
+    <color name="text_summary">#757575</color>
+    <color name="icon_tint">#BDBDBD</color>
+
+    <!-- 播放/投屏页（深色全屏）。v1.2.32: 主题色由刺眼的 #00C853 绿
+         换成安卓原生的 Material Blue 500（#2196F3），与系统原生观感一致。 -->
+    <color name="accent">#2196F3</color>
+    <color name="background_dark">#0B0F19</color>
+    <color name="background_card">#1A1F2E</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B0BEC5</color>
+    <color name="success">#2196F3</color>
+    <color name="warning">#FFB300</color>
+    <color name="error">#F44336</color>
+    <!-- 卡片描边（旧样式保留，避免其它引用失效） -->
+    <color name="card_stroke">#1F000000</color>
+</resources>

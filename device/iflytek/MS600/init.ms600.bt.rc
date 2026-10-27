@@ -1,0 +1,23 @@
+# MS600 v76 --- 蓝牙芯片初始化服务
+#
+# 为什么需要：见 ms600_bt_init.sh 头部注释。
+# 1) 芯片初始化（hci_qcomm_init -d /dev/smd3，WCNSS SMD）
+# 2) 常驻以满足 QTI libbt-vendor 对 init.svc.hciattach 的轮询
+
+on early-init
+    chmod 0755 /system/bin/ms600_bt_init.sh
+    # 属性用 init 直接设（实测 PRODUCT_SYSTEM_PROPERTIES 在本 build 没落到任何 build.prop）
+    # 1) hci_qcomm_init 按此选传输：不设会退回 /dev/ttyHS0（本内核没有）
+    setprop ro.qualcomm.bt.hci_transport smd
+    # 2) A11 原生 HCI 启动定时器默认 2900ms（hci_layer.cc DEFAULT_STARTUP_TIMEOUT_MS），
+    #    而 QTI libbt-vendor 首轮要等 hciattach ~5s -> startup_timer_expired -> 栈启不来。
+    setprop bluetooth.enable_timeout_ms 15000
+
+on boot
+    start hciattach
+
+service hciattach /system/bin/ms600_bt_init.sh
+    class main
+    user root
+    group root system bluetooth net_bt_admin
+    disabled
